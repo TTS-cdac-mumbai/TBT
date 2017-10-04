@@ -1,0 +1,57 @@
+Pruning-On[250.0 150.0 6000.0]
+ WARNING [-7324]  StepBack: File splice_wav/text0705-015.mfc - bad data or over pruning
+ in HERest
+ WARNING [-7324]  StepBack: File splice_wav/text0705-035.mfc - bad data or over pruning
+ in HERest
+ WARNING [-7324]  StepBack: File splice_wav/text0706-009.mfc - bad data or over pruning
+ in HERest
+ WARNING [-2331]  UpdateModels: w[7] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ii[11] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uu[12] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: sx_end[14] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d_end[16] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: j_end[20] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w_end[21] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: jh_end[22] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: c_end[24] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-g[30] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: nx_end[44] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-ii_end[49] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: kh_end[54] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-aa[57] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-bh[58] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-ch[59] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-dh[60] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-lx[66] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-ph[68] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-sx[70] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-th[71] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: beg-uu[73] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: h_end[74] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: u_end[75] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uu_end[78] copied: only 1 egs
+ in HERest

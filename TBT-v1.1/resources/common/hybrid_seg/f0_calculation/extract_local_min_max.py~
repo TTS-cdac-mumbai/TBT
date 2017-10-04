@@ -1,0 +1,12 @@
+import scipy.io.wavfile as wv   
+#from scipy.io import wavfile as wv                                                                                              
+import numpy  as np
+import matplotlib.pyplot as plt
+import sys
+
+
+with open('list_f0_txtfiles') as infile:
+    for line in infile:
+	with open($line) as outfile:
+		for outline in outfile:
+        		print(outline.split())

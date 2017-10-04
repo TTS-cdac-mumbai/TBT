@@ -1,0 +1,22 @@
+#!/bin/tcsh -f
+
+if ($# != 1) then	
+       echo "   Argument1 --> wav_list"
+       exit(-1)
+endif
+
+rm -rf raw/
+mkdir raw
+
+set num_wave = `cat $1 | wc -l`
+
+set start = 1
+while ($start <= $num_wave)
+	set file = `cat $1 | head -$start | tail -1`
+	set file_name = `echo $file | cut -d "/" -f2 | cut -d "." -f1`
+	$ESTDIR/bin/ch_wave $file -itype riff -otype riff -F 48000 -o raw/temp.wav
+	$ESTDIR/bin/ch_wave raw/temp.wav -itype riff -otype raw -f 48000 -o raw/$file_name.raw
+	rm -f raw/temp.wav
+	@ start++
+end
+#echo ../../source_hybrid_seg/SIL_added_wav_48KHz/text6201.wav | cut -d "/" -f5 | cut -d "." -f1

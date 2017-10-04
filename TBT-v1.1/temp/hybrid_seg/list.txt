@@ -1,0 +1,10 @@
+wav_16KHz/text0700.wav
+wav_16KHz/text0701.wav
+wav_16KHz/text0702.wav
+wav_16KHz/text0703.wav
+wav_16KHz/text0704.wav
+wav_16KHz/text0705.wav
+wav_16KHz/text0706.wav
+wav_16KHz/text0707.wav
+wav_16KHz/text0708.wav
+wav_16KHz/text0709.wav

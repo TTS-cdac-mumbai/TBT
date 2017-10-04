@@ -1,0 +1,95 @@
+# *****************************************************************************************
+# Project:              Compute Feature
+# Subtree:              ./src
+# Filename:             Makefile for feature Extraction
+# Programmer:           Hema A Murthy
+# Host System:          Linux
+# Date Created:         11/Mar/99
+# Project:              Extract Features from a speech data file
+# *****************************************************************************************
+
+# makefile for generating codebook
+
+SRCDIR = ./src
+DSPLIB = ./src
+OBJDIR = ./obj
+BINDIR = ./bin
+CFLAGS = -g -c -Wall
+CC = gcc
+
+all :   $(BINDIR)/ComputeFeatureHTK 
+
+$(BINDIR)/ComputeFeatureHTK : $(OBJDIR)/ComputeFeatureHTK.o \
+	$(OBJDIR)/DspLibrary.o \
+	$(OBJDIR)/SphereInterface.o \
+	$(OBJDIR)/BatchProcessWaveform.o \
+	$(OBJDIR)/InitAsdf.o \
+        $(OBJDIR)/FeatureMappingToFunctions.o\
+        $(OBJDIR)/HashTable.o \
+	$(OBJDIR)/writehtk.o\
+	$(OBJDIR)/QuickSort.o
+	$(CC) -g -o $(BINDIR)/ComputeFeatureHTK \
+	-I$(DSPLIB)/fe \
+	-I$(NISTINC) \
+	-L$(NISTLIB) \
+	$(OBJDIR)/ComputeFeatureHTK.o \
+	$(OBJDIR)/DspLibrary.o \
+	$(OBJDIR)/SphereInterface.o \
+	$(OBJDIR)/BatchProcessWaveform.o \
+	$(OBJDIR)/InitAsdf.o \
+	$(OBJDIR)/HashTable.o \
+	$(OBJDIR)/QuickSort.o \
+        $(OBJDIR)/writehtk.o\
+        $(OBJDIR)/FeatureMappingToFunctions.o \
+	-lsp \
+	-lutil \
+	-lm
+
+$(OBJDIR)/ComputeFeatureHTK.o: $(SRCDIR)/ComputeFeatureHTK.c
+	$(CC) $(CFLAGS) -o $(OBJDIR)/ComputeFeatureHTK.o $(SRCDIR)/ComputeFeatureHTK.c \
+	-I$(NISTINC) \
+	-I$(DSPLIB)/fe 
+
+$(OBJDIR)/DspLibrary.o : $(DSPLIB)/DspLibrary.c 
+	$(CC) $(CFLAGS) -o $(OBJDIR)/DspLibrary.o $(DSPLIB)/DspLibrary.c \
+	-I$(NISTINC) \
+	-I$(DSPLIB)/fe 
+
+$(OBJDIR)/BatchProcessWaveform.o : $(DSPLIB)/BatchProcessWaveform.c 
+	$(CC) $(CFLAGS) -o $(OBJDIR)/BatchProcessWaveform.o $(DSPLIB)/BatchProcessWaveform.c \
+	-I$(NISTINC) \
+	-I$(DSPLIB)/fe
+
+$(OBJDIR)/SphereInterface.o : $(DSPLIB)/SphereInterface.c 
+	$(CC) $(CFLAGS) -o $(OBJDIR)/SphereInterface.o $(DSPLIB)/SphereInterface.c \
+	-I$(NISTINC) \
+	-I$(DSPLIB)/fe 
+
+$(OBJDIR)/InitAsdf.o : $(DSPLIB)/InitAsdf.c 
+	$(CC) $(CFLAGS) -o $(OBJDIR)/InitAsdf.o $(DSPLIB)/InitAsdf.c -I$(NISTINC) -I$(DSPLIB)/fe 
+
+$(OBJDIR)/HashTable.o : $(DSPLIB)/HashTable.c 
+	$(CC) $(CFLAGS) -o $(OBJDIR)/HashTable.o $(DSPLIB)/HashTable.c \
+	-I$(NISTINC) \
+	-I$(DSPLIB)/fe 
+
+$(OBJDIR)/FeatureMappingToFunctions.o : $(DSPLIB)/FeatureMappingToFunctions.c 
+	$(CC) $(CFLAGS) -o $(OBJDIR)/FeatureMappingToFunctions.o $(DSPLIB)/FeatureMappingToFunctions.c \
+	-I$(NISTINC) \
+	-I$(DSPLIB)/fe 
+
+
+$(OBJDIR)/QuickSort.o : $(DSPLIB)/QuickSort.c 
+	$(CC) $(CFLAGS) -o $(OBJDIR)/QuickSort.o $(DSPLIB)/QuickSort.c \
+	-I$(NISTINC) \
+	-I$(DSPLIB)/fe 
+
+$(OBJDIR)/writehtk.o : $(DSPLIB)/writehtk.c 
+	$(CC) $(CFLAGS) -o $(OBJDIR)/writehtk.o $(DSPLIB)/writehtk.c \
+	-I$(NISTINC) \
+	-I$(DSPLIB)/fe 
+
+clean: 
+	rm -fr $(BINDIR)/ComputeFeatureHTK $(OBJDIR)/DspLibrary.o $(OBJDIR)/BatchProcessWaveform.o $(OBJDIR)/InitAsdf.o $(OBJDIR)/HashTable.o $(OBJDIR)/FeatureMappingToFunctions $(OBJDIR)/SphereInterface.o $(OBJDIR)/ComputeFeatureHTK.o $(OBJDIR)/QuickSort.o $(OBJDIR)/writehtk.o
+
+

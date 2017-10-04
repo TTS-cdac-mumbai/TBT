@@ -1,0 +1,198 @@
+#zeroMean - 1 ==> zeroMean subtraction for the feature is enabled
+zeroMean int 0
+
+#featureVarNormalize -- 1 ==> normalize feature variance to 1 for
+# each utterance
+featureVarNormalize int 1
+#windowSize - size of frame of speech in samples
+windowSize int 80
+
+#frameAdvanceSamples - shift in samples for frame-based analysis
+frameAdvanceSamples int 20
+
+#winScaleFactor - used in segmentation of utterances into syllable like units
+winScaleFactor float 24.0
+#resGdWindowSize - window size used in LPResidualGDelay for computing the
+# the group delay function of residual - must be smaller than a pitch period
+resGdWindowSize int 32
+
+#waveType - type of the waveform 
+# 0 - Sphere PCM
+# 1 - Sphere Ulaw
+# 2 - plain sample - one short integer per line
+# 3 - RAW  - sequence of bytes - each sample 8-bit
+# 4 - RAW16 - two bytes/sample - Big Endian
+# 5 - RAW16 - two bytes/sample - Little Endian
+# 6 - Microsoft RIFF - standard wav format  
+waveType int 6
+
+#numCepstrum - number of cepstral coefficients - used wherever 
+# cepstra are generated.  Also used for smoothing log spectrum,
+# modified group delay spectrum, minimum phase group delay spectrum
+numCepstrum int 10
+
+#numFilters - number of filters for MFCC, Slope
+numFilters int 24
+
+#fftSize - size of the Fourier transform
+fftSize int 512
+
+#fftOrder - 2^fftOrder = fftSize
+fftOrder int 9
+
+#samplingRate - sampling rate of the given data
+samplingRate int 16000
+
+#bandwidthScale - must be nonzero to use Klatt Bandwidths for filterbank 
+#bandwidthScale = 0 ===> Standard bandwidths for filterbank
+bandwidthScale float 0.0 
+
+#minFrequency, maxFrequency - frequency range for processing
+minFrequency float 0
+maxFrequency float 8000
+
+#minPitch, maxPitch - range of pitch values for pitch extraction
+#in samples
+minPitch int 40
+maxPitch int 150
+
+#numFormants - number of formants expected in formant analysis
+numFormants int 5
+
+#deltaDeltaDifference and deltaDifference - used in computing
+#velocity and acceleration parameters for a feature given in number of frames
+deltaDifference int 1
+deltaDeltaDifference int 1
+
+#lpOrder - Linear Prediction order - used in both analysis and synthesis
+lpOrder int 14
+
+#filterOrder - order of the filter - required for filtering the waveform
+# frequency range is defined by minFrequency and maxFrequency
+#filterOrder int 20
+filterOrder int 0
+#trapezoidalRatio - shape of the filter - varies from triangle to rectangle
+# 0.0 - triangle, 1.0 - rectangle
+trapezoidalRatio float 0.0
+
+#warpConst - defines the warping of the frequency scale - used in
+# melfilters 0.0 ==> no warping 1.0 ==> fully warped
+warpConst float 0.33
+
+#preemphasis - signal is passed through a filter 1/(1 - preemphasis*z^preemphasisDelay)
+preemphasis float 0.0
+
+preemphasisDelay int 0
+
+#gamma - used to raise the power for 
+# minimum phase group delay, modified group delay, root cepstrum
+# short-term energy for segmentation
+gamma float 0.9
+
+#gdRemoveLPhase - removes linear phase from modified group delay
+#if set to 1
+gdRemoveLPhase int 0
+
+#removeMin - subtracts the minimum value from modified group delay
+#if set to 1
+removeMin int 0
+
+#gdSmthWinSize - window size for cepstral smoothing of magnitude spectrum
+#used in the computation of the modified group delay function
+gdSmthWinSize int 30
+#mgdNormalize - normalize the modGd spectrum with that of smoothed mag spectrum # required to control the spectral values within a range
+mgdNormalize int 0
+
+#gdSign - inverts to sign of modified group delay function
+gdSign int 0
+
+#medianOrder - 0 ==> no smoothing of modGdCepstrumNcN
+medianOrder int 5
+
+#gdPosScale, gdNegScale - used to raise the modified group delay function to
+# a power - positive and negative values are scaled differently
+gdPosScale float 0.4
+gdNegScale float 0.4
+
+#varianceNormalize - 1 ==> used Vector Quantization  if set to 1
+# uses Mahalanobis distance rather than Euclidean distance
+varianceNormalize int 1
+
+#ditherMean - this parameter was used in Vector Quantization to 
+#split a large cluster into two small clusters
+#it is not used anymore
+ditherMean float 0.5
+
+#numRegressCoeffts -- this parameter is used to compute the slope
+# of the FilterbankSlope feature
+numRegressCoeffts int 5
+
+#thresEnergy -- this parameter is used for voice activity detection
+# based on the energy in every frame.
+
+thresEnergy float 0.4
+
+#thresZero -- this parameter is used for voice activity detection
+# based on the zero crossing rate in every frame.
+
+thresZero float 0.0
+
+#thresSpecFlatnesss -- this parameter is used for voice activity detection
+# based on the spectral flatness  in every frame.
+
+thresSpecFlatness float 0.0
+
+#percentFrames -- this parameter is used for VAD, when set to 1, the
+# thres(Energy)(Zero)(SpecFlatness) removes thres*numFrames from the 
+# analysis
+
+percentFrames int 1
+
+#vad -- this parameter is used to remove unvoiced/noisy frames when set to 1
+
+vad int 0
+
+#perceptualFilterbank -- this parameter is used to emphasise regions of
+# filterbank energy corresponding to formants
+
+perceptualFilterbank int 0
+
+# This parameter is used for modGDPitch and also for perceptualfilterbank
+perceptNumCepstrum int 20
+
+
+minPitch int 30
+maxPitch int 150
+
+#This is required for cent histogram -- value of tonic is set here (frequency)
+
+tonic float 0
+
+#This is set to 1 if cent filterbank used.
+centOrFreq int 0
+
+# This sets the type and shape of window
+# M Hamming D Doublesided
+windowType int M
+windowShape int D
+
+# This parameter is set if processing should be pitch synchronous
+
+pitchSync int 0
+
+# This parameter sets the number of pitch cycles to be used for every 
+# frame
+numPitch int 0
+
+timeOrFreq int 0
+
+#This parameter is set for the Gaussian window width
+
+gausMin float 1.0
+
+#This parameter computes the spectral flux for every frame
+# The following normalizations are possible
+# 0 -- no normalization
+# 1 -- normalize by average of spectrum
+# 2 -- normalize by the peak of the spectrum
+normalizeSpectralFlux int 1

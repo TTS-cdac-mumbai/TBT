@@ -1,0 +1,43 @@
+#!/bin/sh
+
+ls ../wav_16KHz/*.wav > list.txt
+
+./pitchextract.sh list.txt
+
+ls ../wav_16KHz/*.f0 > list_of_f0
+
+
+##to take first value from f0 file#####to remove only 0 from .txt value file####
+
+for line in `cat list_of_f0`
+
+#do
+ #  name=$(basename "$line" ".f0")
+   #cut -d\. -f1 $line  
+    #cut -d\. -f1 $line | awk '{if($1==$1+0 && $1>80)print $1}' |awk '{if($1==$1+0 && $1<350)print $1}' | sort -n | sed '/^0/ d' > $name.txt
+   
+#done
+
+do
+    name=$(basename "$line" ".f0")
+    cut -d\. -f1 $line| sed '/^0/ d' | sort -n | uniq -c > $name.txt
+done
+
+
+
+#for w in `cat maxwell.txt`; do echo $w; done|sort|uniq -c
+
+##to remove f0 files###
+rm -rf ../wav_16KHz/*.f0
+
+rm -rf list.txt
+rm -rf list_of_f0
+
+
+
+
+
+
+
+
+

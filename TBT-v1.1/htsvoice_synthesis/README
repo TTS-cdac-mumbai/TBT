@@ -1,0 +1,12 @@
+Path to "festival's Dumpfeats" in "Data/Makefile" should be changed according to the location in user's system.
+
+The file "iitm_hindi_phone_phoneset.scm" in the directory "HTS_hindi_male/parser/festvox/" should be made the default phoneset of festival.
+
+"normalize-audio" should be installed.
+
+command to sythesize:
+
+perl synth_text.pl "<text>"
+
+
+

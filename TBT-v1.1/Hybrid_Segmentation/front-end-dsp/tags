@@ -1,0 +1,2056 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AFTER_ROW	nist/include/util/rpg.h	12;"	d
+ALL_ONES	nist/src/lib/sp/shpackio.c	65;"	d	file:
+ALPHA0	nist/src/lib/sp/poly.c	16;"	d	file:
+ALPHA1	nist/src/lib/sp/poly.c	17;"	d	file:
+AR	nist/src/lib/sp/Makefile	/^AR		= ar ru$/;"	m
+AR	nist/src/lib/util/Makefile	/^AR		= ar ru$/;"	m
+ASDF	src/fe/FrontEndTypes.h	/^} ASDF;$/;"	t	typeref:struct:__anon3
+ASTERISK	nist/include/util/chars.h	21;"	d
+AllocFVector	src/DspLibrary.c	/^F_VECTOR *AllocFVector(int npts) {$/;"	f
+AllocFloatArray	src/DspLibrary.c	/^float * AllocFloatArray(float *array, int npts)$/;"	f
+AllocIntArray	src/DspLibrary.c	/^int *AllocIntArray(int *array, int npts)$/;"	f
+AutoCorr	src/DspLibrary.c	/^float *AutoCorr (float *signal, int npts) {$/;"	f
+Average	src/DspLibrary.c	/^ float Average(float *signal, int npts)$/;"	f
+AverageSmoothArray	src/DspLibrary.c	/^float * AverageSmoothArray(float *inArray, int npts, int averageOrder, char windowType, float *smthArray)$/;"	f
+BATCH_PROCESS_WAVEFORM_H	src/fe/BatchProcessWaveform.h	2;"	d
+BEFORE_ROW	nist/include/util/rpg.h	11;"	d
+BIAS	nist/src/lib/sp/ulaw.c	24;"	d	file:
+BIN	nist/src/bin/Makefile	/^BIN	= $(PROJECT_ROOT)\/bin$/;"	m
+BINDIR	Makefile	/^BINDIR = .\/bin$/;"	m
+BINDIR	Segmentation/Makefile	/^BINDIR = .\/bin$/;"	m
+BITSHIFTSIZE	nist/include/sp/shorten/shorten.h	42;"	d
+BUFSIZ	nist/include/sp/shorten/shorten.h	98;"	d
+BUF_SAMPLES	nist/src/bin/w_edit.c	40;"	d	file:
+BUF_SAMPLES	nist/src/lib/sp/spseek.c	2;"	d	file:
+BUGFIX_RELEASE	nist/include/sp/shorten/shorten.h	21;"	d
+BYTE	nist/include/sp/wavpack/wavpack.h	8;"	d
+BandPassFilter	src/DspLibrary.c	/^float *BandPassFilter( float lowFrequency, float highFrequency, int samplingRate, int  numCoef)$/;"	f
+BartW	src/DspLibrary.c	/^float BartW(int i,int npts) {$/;"	f
+ButterWorthFilter	src/DspLibrary.c	/^void ButterWorthFilter( float minFrequency, float maxFrequency, int samplingRate, int filterOrder, float *numerator, float *denominator)$/;"	f
+CBUF_MASK	nist/src/lib/sp/shpackio.c	203;"	d	file:
+CBUF_SIZE	nist/src/lib/sp/shpackio.c	202;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CC	Segmentation/Makefile	/^CC = gcc$/;"	m
+CC	nist/src/bin/Makefile	/^CC	= gcc $/;"	m
+CC	nist/src/lib/sp/Makefile	/^CC	= gcc $(CFLAGS)$/;"	m
+CC	nist/src/lib/util/Makefile	/^CC	= gcc $(CFLAGS)$/;"	m
+CFG_2_SAMP	nist/include/util/cfg.h	75;"	d
+CFG_ALI_FILE	nist/include/util/cfg.h	94;"	d
+CFG_ALL_SENT	nist/include/util/cfg.h	96;"	d
+CFG_ALP_NUM	nist/include/util/cfg.h	20;"	d
+CFG_ANOVAR	nist/include/util/cfg.h	72;"	d
+CFG_ATIS3_FILES	nist/include/util/cfg.h	38;"	d
+CFG_ATIS_FILES	nist/include/util/cfg.h	37;"	d
+CFG_AVE_SEG	nist/include/util/cfg.h	71;"	d
+CFG_C	nist/include/util/cfg.h	110;"	d
+CFG_C2	nist/include/util/cfg.h	111;"	d
+CFG_CMRK_FILES	nist/include/util/cfg.h	57;"	d
+CFG_CODESET	nist/include/util/cfg.h	13;"	d
+CFG_COUNT	nist/include/util/cfg.h	69;"	d
+CFG_DIFF_SCORE	nist/include/util/cfg.h	98;"	d
+CFG_DIFF_SENT	nist/include/util/cfg.h	97;"	d
+CFG_DUMPARG	nist/include/util/cfg.h	93;"	d
+CFG_ERRORS	nist/include/util/cfg.h	99;"	d
+CFG_FILE	nist/include/util/cfg.h	21;"	d
+CFG_FRAG_RESCORE	nist/include/util/cfg.h	55;"	d
+CFG_HDR	nist/include/util/cfg.h	66;"	d
+CFG_HOMO	nist/include/util/cfg.h	15;"	d
+CFG_HOMO_ERROR	nist/include/util/cfg.h	34;"	d
+CFG_HYP_FILE	nist/include/util/cfg.h	95;"	d
+CFG_H_VERSION	nist/include/util/cfg.h	7;"	d
+CFG_LEX	nist/include/util/cfg.h	14;"	d
+CFG_LONG_SEG	nist/include/util/cfg.h	70;"	d
+CFG_LPR	nist/include/util/cfg.h	65;"	d
+CFG_LSUBS	nist/include/util/cfg.h	19;"	d
+CFG_MINGOOD	nist/include/util/cfg.h	79;"	d
+CFG_MONO	nist/include/util/cfg.h	18;"	d
+CFG_MRK_FILES	nist/include/util/cfg.h	56;"	d
+CFG_MTCHPR	nist/include/util/cfg.h	67;"	d
+CFG_NO_GR	nist/include/util/cfg.h	36;"	d
+CFG_NO_ID_FILES	nist/include/util/cfg.h	45;"	d
+CFG_NTYPE_FILES	nist/include/util/cfg.h	43;"	d
+CFG_ONE_TO_MANY	nist/include/util/cfg.h	52;"	d
+CFG_ONE_TO_ONE	nist/include/util/cfg.h	51;"	d
+CFG_OUT_DIR	nist/include/util/cfg.h	90;"	d
+CFG_OUT_FILE	nist/include/util/cfg.h	48;"	d
+CFG_OVR_DTL	nist/include/util/cfg.h	87;"	d
+CFG_OVR_RAW	nist/include/util/cfg.h	86;"	d
+CFG_OVR_SCR	nist/include/util/cfg.h	85;"	d
+CFG_PCT_FORMULA	nist/include/util/cfg.h	80;"	d
+CFG_PERMIT_OOCE	nist/include/util/cfg.h	60;"	d
+CFG_PHDIST_FILE	nist/include/util/cfg.h	47;"	d
+CFG_QSCR	nist/include/util/cfg.h	58;"	d
+CFG_QSCR_RAW	nist/include/util/cfg.h	59;"	d
+CFG_RANGE	nist/include/util/cfg.h	77;"	d
+CFG_REF	nist/include/util/cfg.h	16;"	d
+CFG_RM_FILES	nist/include/util/cfg.h	39;"	d
+CFG_ROOT	nist/include/util/cfg.h	12;"	d
+CFG_SENT_MCN	nist/include/util/cfg.h	68;"	d
+CFG_SENT_SCR	nist/include/util/cfg.h	89;"	d
+CFG_SHALP_NUM	nist/include/util/cfg.h	29;"	d
+CFG_SHCODESET	nist/include/util/cfg.h	27;"	d
+CFG_SHHOMO	nist/include/util/cfg.h	28;"	d
+CFG_SHLEX	nist/include/util/cfg.h	25;"	d
+CFG_SHLSUBS	nist/include/util/cfg.h	26;"	d
+CFG_SHMONO	nist/include/util/cfg.h	30;"	d
+CFG_SHSPLT_MRG	nist/include/util/cfg.h	31;"	d
+CFG_SIG	nist/include/util/cfg.h	76;"	d
+CFG_SIGNTEST	nist/include/util/cfg.h	73;"	d
+CFG_SM_FOM	nist/include/util/cfg.h	54;"	d
+CFG_SM_RESCORE	nist/include/util/cfg.h	53;"	d
+CFG_SPKR_SCR	nist/include/util/cfg.h	88;"	d
+CFG_SPLTMRG	nist/include/util/cfg.h	17;"	d
+CFG_SPUID_FILES	nist/include/util/cfg.h	44;"	d
+CFG_STR	nist/include/util/cfg.h	112;"	d
+CFG_STR_SIL	nist/include/util/cfg.h	35;"	d
+CFG_SWB_FILES	nist/include/util/cfg.h	41;"	d
+CFG_SYS_DESC	nist/include/util/cfg.h	50;"	d
+CFG_SYS_NAME	nist/include/util/cfg.h	49;"	d
+CFG_TESTNAME	nist/include/util/cfg.h	64;"	d
+CFG_TGL	nist/include/util/cfg.h	109;"	d
+CFG_TIMIT_FILES	nist/include/util/cfg.h	42;"	d
+CFG_TROFF	nist/include/util/cfg.h	78;"	d
+CFG_USE_PHONE	nist/include/util/cfg.h	46;"	d
+CFG_VERBOSE	nist/include/util/cfg.h	81;"	d
+CFG_VERSION	nist/src/lib/util/cfg.c	15;"	d	file:
+CFG_WILCOXON	nist/include/util/cfg.h	74;"	d
+CFG_WSJ_FILES	nist/include/util/cfg.h	40;"	d
+CFG_WWL_FILE	nist/include/util/cfg.h	22;"	d
+CFLAGS	Makefile	/^CFLAGS = -g -c -Wall  $/;"	m
+CFLAGS	Segmentation/Makefile	/^CFLAGS = -g -c -Wall  $/;"	m
+CFLAGS	nist/src/bin/Makefile	/^CFLAGS	= -I$(INCLUDE) -L$(LIBDIR) $(LOCAL_CFLAGS)$/;"	m
+CFLAGS	nist/src/lib/sp/Makefile	/^CFLAGS	= -I$(INCLUDE) $(LOCAL_CFLAGS)$/;"	m
+CFLAGS	nist/src/lib/util/Makefile	/^CFLAGS	= -I$(INCLUDE) $(LOCAL_CFLAGS)$/;"	m
+CHAN1	nist/include/sp/wavpack/wavpack.h	14;"	d
+CHANNELS	nist/include/sp/spfile.h	/^} CHANNELS;$/;"	t	typeref:struct:channel_struct
+CHANNELSNULL	nist/include/sp/spfile.h	101;"	d
+CHANNEL_COUNT_FIELD	nist/include/sp/sysparam.h	31;"	d
+CHANSIZE	nist/include/sp/shorten/shorten.h	40;"	d
+CHARS_H_VERSION	nist/include/util/chars.h	11;"	d
+CLIP	nist/src/lib/sp/ulaw.c	25;"	d	file:
+CNULL	nist/include/util/chars.h	40;"	d
+COMMENT_CHAR	nist/include/util/chars.h	28;"	d
+COMMENT_INFO_CHAR	nist/include/util/chars.h	29;"	d
+COMPRESS	nist/src/lib/sp/shpackio.c	61;"	d	file:
+CONFIG	nist/include/util/cfg.h	/^} CONFIG;$/;"	t	typeref:struct:config_struct
+CONFIG_REC	nist/include/util/cfg.h	/^} CONFIG_REC;$/;"	t	typeref:struct:config_record_struct
+CONFIG_elem_C	nist/src/lib/util/cfg.c	/^char * CONFIG_elem_C(CONFIG *cfg, char *str)$/;"	f
+CONFIG_elem_C2	nist/src/lib/util/cfg.c	/^char ** CONFIG_elem_C2(CONFIG *cfg, char *str)$/;"	f
+CONFIG_elem_STR	nist/src/lib/util/cfg.c	/^char * CONFIG_elem_STR(CONFIG *cfg, char *str)$/;"	f
+CONFIG_elem_TGL	nist/src/lib/util/cfg.c	/^int CONFIG_elem_TGL(CONFIG *cfg, char *str)$/;"	f
+CONFIG_elem_count	nist/src/lib/util/cfg.c	/^int CONFIG_elem_count(CONFIG *cfg, char *str)$/;"	f
+CONFIG_elem_present_C2	nist/src/lib/util/cfg.c	/^int CONFIG_elem_present_C2(CONFIG *cfg, char *str)$/;"	f
+CONSTANTS_H	src/fe/constants.h	2;"	d
+COPY	nist/src/bin/tsphere.c	129;"	d	file:
+CepSmooth	src/DspLibrary.c	/^void CepSmooth(float amag[], float smthAmag[], int mfft, int nfft,  $/;"	f
+Cfft	src/DspLibrary.c	/^void Cfft(a, b, m, n, nsign)$/;"	f
+ComputeAverage	src/DspLibrary.c	/^ void ComputeAverage(float *signal, int npts, float *ave)$/;"	f
+ComputeEnergy	src/DspLibrary.c	/^float ComputeEnergy (float *array, int frameSize, float gamma) {$/;"	f
+ComputeHistogram	src/DspLibrary.c	/^void ComputeHistogram (float *array, int numPts, float minValue, float maxValue, int numBins, float *hist) {$/;"	f
+ComputeSpectralFlatness	src/DspLibrary.c	/^float ComputeSpectralFlatness(float *array, float *residual, int order, int frameSize, int frameShift) { $/;"	f
+ComputeZeroCrossing	src/DspLibrary.c	/^float ComputeZeroCrossing(float *array, int frameSize) {$/;"	f
+ConvertCentToFreq	src/DspLibrary.c	/^float ConvertCentToFreq(float centFrequency, float tonic) $/;"	f
+ConvertFreqToCent	src/DspLibrary.c	/^float ConvertFreqToCent (float frequency, float tonic) $/;"	f
+Cstore	src/DspLibrary.c	/^ void Cstore(int n)$/;"	f
+DECREASING	nist/include/util/order.h	11;"	d
+DEFAULT_BLOCK_SIZE	nist/include/sp/shorten/shorten.h	26;"	d
+DEFAULT_CHANNEL_COUNT	nist/include/sp/header.h	12;"	d
+DEFAULT_HASH_TABLE_SIZE	src/fe/HashTable.h	5;"	d
+DEFAULT_MAXNLPC	nist/include/sp/shorten/shorten.h	29;"	d
+DEFAULT_MAXRESNSTR	nist/include/sp/shorten/shorten.h	35;"	d
+DEFAULT_MINSNR	nist/include/sp/shorten/shorten.h	34;"	d
+DEFAULT_MIN_NUM_GOOD	nist/include/util/statdist.h	137;"	d
+DEFAULT_NCHAN	nist/include/sp/shorten/shorten.h	30;"	d
+DEFAULT_NDISCARD	nist/include/sp/shorten/shorten.h	32;"	d
+DEFAULT_NSKIP	nist/include/sp/shorten/shorten.h	31;"	d
+DEFAULT_QUANTERROR	nist/include/sp/shorten/shorten.h	36;"	d
+DEFAULT_SAMPLE_BYTE_COUNT	nist/include/sp/header.h	14;"	d
+DEFAULT_SAMPLE_CODING	nist/include/sp/header.h	11;"	d
+DEFAULT_SAMPLE_RATE	nist/include/sp/header.h	13;"	d
+DEFAULT_V0NMEAN	nist/include/sp/shorten/shorten.h	27;"	d
+DEFAULT_V2NMEAN	nist/include/sp/shorten/shorten.h	28;"	d
+DEF_SELECT	nist/src/bin/h_read.c	24;"	d	file:
+DELTA	nist/src/lib/util/ds.c	/^static double SS, Spsi, Sphi, theta, *DELTA, *delta, (*S)(int *), rho;$/;"	v	file:
+DELTA_change	nist/src/lib/util/ds.c	/^static int *psi, DELTA_change;$/;"	v	file:
+DF1	nist/include/util/statdist.h	44;"	d
+DF10	nist/include/util/statdist.h	53;"	d
+DF11	nist/include/util/statdist.h	54;"	d
+DF12	nist/include/util/statdist.h	55;"	d
+DF13	nist/include/util/statdist.h	56;"	d
+DF14	nist/include/util/statdist.h	57;"	d
+DF15	nist/include/util/statdist.h	58;"	d
+DF16	nist/include/util/statdist.h	59;"	d
+DF17	nist/include/util/statdist.h	60;"	d
+DF18	nist/include/util/statdist.h	61;"	d
+DF19	nist/include/util/statdist.h	62;"	d
+DF2	nist/include/util/statdist.h	45;"	d
+DF20	nist/include/util/statdist.h	63;"	d
+DF21	nist/include/util/statdist.h	64;"	d
+DF22	nist/include/util/statdist.h	65;"	d
+DF23	nist/include/util/statdist.h	66;"	d
+DF24	nist/include/util/statdist.h	67;"	d
+DF25	nist/include/util/statdist.h	68;"	d
+DF26	nist/include/util/statdist.h	69;"	d
+DF27	nist/include/util/statdist.h	70;"	d
+DF28	nist/include/util/statdist.h	71;"	d
+DF29	nist/include/util/statdist.h	72;"	d
+DF3	nist/include/util/statdist.h	46;"	d
+DF30	nist/include/util/statdist.h	73;"	d
+DF4	nist/include/util/statdist.h	47;"	d
+DF5	nist/include/util/statdist.h	48;"	d
+DF6	nist/include/util/statdist.h	49;"	d
+DF7	nist/include/util/statdist.h	50;"	d
+DF8	nist/include/util/statdist.h	51;"	d
+DF9	nist/include/util/statdist.h	52;"	d
+DIFF	nist/include/sp/wavpack/wavpack.h	12;"	d
+DISKARR_HEADER	nist/include/util/diskarr.h	3;"	d
+DISK_T	nist/include/util/diskarr.h	/^typedef short DISK_T;$/;"	t
+DIV	nist/include/util/macros.h	44;"	d
+DOCDIR	nist/src/lib/sp/Makefile	/^DOCDIR		= $(PROJECT_ROOT)\/doc$/;"	m
+DOCDIR	nist/src/lib/util/Makefile	/^DOCDIR		= $(PROJECT_ROOT)\/doc$/;"	m
+DOUBLE1	nist/src/bin/h_test.c	23;"	d	file:
+DOUBLE_QUOTE	nist/include/util/chars.h	25;"	d
+DSPLIB	Makefile	/^DSPLIB = .\/src$/;"	m
+DSPLIB	Segmentation/Makefile	/^DSPLIB = ..\/src$/;"	m
+DSP_LIBRARY_H	src/fe/DspLibrary.h	2;"	d
+DS_C_VERSION	nist/src/lib/util/ds.c	32;"	d	file:
+DWORD	src/fe/SphereInterface.h	/^typedef int DWORD;$/;"	t
+Durbin	src/DspLibrary.c	/^void Durbin(float *autoCorr, int order, float *coef, float *refCoef, float *resEnergy){$/;"	f
+ENDSTR	nist/include/sp/sysparam.h	12;"	d
+ENERGYSIZE	nist/include/sp/shorten/shorten.h	41;"	d
+EQUALS	nist/include/util/chars.h	26;"	d
+ERROR_EXIT_STATUS	nist/include/sp/header.h	22;"	d
+ERROR_UTIL_MESSAGE_LEN	nist/src/lib/util/err_util.c	3;"	d	file:
+EX1_01	nist/src/bin/tsphere.c	/^char EX1_10[256], EX1_10_CORRUPT[256], EX1_01[256], EX1_10_WAVPACK[256];$/;"	v
+EX1_01_BASE	nist/src/bin/tsphere.c	16;"	d	file:
+EX1_01_SHORTEN	nist/src/bin/tsphere.c	/^char EX1_10_SHORTEN[256], EX1_01_WAVPACK[256], EX1_01_SHORTEN[256];$/;"	v
+EX1_01_SHORTEN_BASE	nist/src/bin/tsphere.c	22;"	d	file:
+EX1_01_SHORTPACK	nist/src/bin/tsphere.c	/^char EX1_10_SHORTPACK[256], EX1_01_SHORTPACK[256];$/;"	v
+EX1_01_SHORTPACK_BASE	nist/src/bin/tsphere.c	23;"	d	file:
+EX1_01_WAVPACK	nist/src/bin/tsphere.c	/^char EX1_10_SHORTEN[256], EX1_01_WAVPACK[256], EX1_01_SHORTEN[256];$/;"	v
+EX1_01_WAVPACK_BASE	nist/src/bin/tsphere.c	21;"	d	file:
+EX1_10	nist/src/bin/tsphere.c	/^char EX1_10[256], EX1_10_CORRUPT[256], EX1_01[256], EX1_10_WAVPACK[256];$/;"	v
+EX1_10_BASE	nist/src/bin/tsphere.c	14;"	d	file:
+EX1_10_CORRUPT	nist/src/bin/tsphere.c	/^char EX1_10[256], EX1_10_CORRUPT[256], EX1_01[256], EX1_10_WAVPACK[256];$/;"	v
+EX1_10_CORRUPT_BASE	nist/src/bin/tsphere.c	15;"	d	file:
+EX1_10_SHORTEN	nist/src/bin/tsphere.c	/^char EX1_10_SHORTEN[256], EX1_01_WAVPACK[256], EX1_01_SHORTEN[256];$/;"	v
+EX1_10_SHORTEN_BASE	nist/src/bin/tsphere.c	18;"	d	file:
+EX1_10_SHORTEN_CORRUPT	nist/src/bin/tsphere.c	/^char EX1_10_SHORTEN_CORRUPT[256];$/;"	v
+EX1_10_SHORTEN_CORRUPT_BASE	nist/src/bin/tsphere.c	19;"	d	file:
+EX1_10_SHORTPACK	nist/src/bin/tsphere.c	/^char EX1_10_SHORTPACK[256], EX1_01_SHORTPACK[256];$/;"	v
+EX1_10_SHORTPACK_BASE	nist/src/bin/tsphere.c	20;"	d	file:
+EX1_10_WAVPACK	nist/src/bin/tsphere.c	/^char EX1_10[256], EX1_10_CORRUPT[256], EX1_01[256], EX1_10_WAVPACK[256];$/;"	v
+EX1_10_WAVPACK_BASE	nist/src/bin/tsphere.c	17;"	d	file:
+EX2_01	nist/src/bin/tsphere.c	/^char EX2_10[256], EX2_01[256], EX2_10_WAVPACK[256];$/;"	v
+EX2_01_BASE	nist/src/bin/tsphere.c	27;"	d	file:
+EX2_01_SHORTEN	nist/src/bin/tsphere.c	/^char EX2_10_SHORTEN[256], EX2_01_WAVPACK[256], EX2_01_SHORTEN[256];$/;"	v
+EX2_01_SHORTEN_BASE	nist/src/bin/tsphere.c	31;"	d	file:
+EX2_01_WAVPACK	nist/src/bin/tsphere.c	/^char EX2_10_SHORTEN[256], EX2_01_WAVPACK[256], EX2_01_SHORTEN[256];$/;"	v
+EX2_01_WAVPACK_BASE	nist/src/bin/tsphere.c	30;"	d	file:
+EX2_10	nist/src/bin/tsphere.c	/^char EX2_10[256], EX2_01[256], EX2_10_WAVPACK[256];$/;"	v
+EX2_10_BASE	nist/src/bin/tsphere.c	25;"	d	file:
+EX2_10_BASE	nist/src/bin/tsphere.c	26;"	d	file:
+EX2_10_SHORTEN	nist/src/bin/tsphere.c	/^char EX2_10_SHORTEN[256], EX2_01_WAVPACK[256], EX2_01_SHORTEN[256];$/;"	v
+EX2_10_SHORTEN_BASE	nist/src/bin/tsphere.c	29;"	d	file:
+EX2_10_WAVPACK	nist/src/bin/tsphere.c	/^char EX2_10[256], EX2_01[256], EX2_10_WAVPACK[256];$/;"	v
+EX2_10_WAVPACK_BASE	nist/src/bin/tsphere.c	28;"	d	file:
+EX4_ULAW	nist/src/bin/tsphere.c	/^char EX4_ULAW[256], EX4_ULAW_10[256], EX4_ULAW_01[256];$/;"	v
+EX4_ULAW_01	nist/src/bin/tsphere.c	/^char EX4_ULAW[256], EX4_ULAW_10[256], EX4_ULAW_01[256];$/;"	v
+EX4_ULAW_01_BASE	nist/src/bin/tsphere.c	37;"	d	file:
+EX4_ULAW_10	nist/src/bin/tsphere.c	/^char EX4_ULAW[256], EX4_ULAW_10[256], EX4_ULAW_01[256];$/;"	v
+EX4_ULAW_10_BASE	nist/src/bin/tsphere.c	36;"	d	file:
+EX4_ULAW_BASE	nist/src/bin/tsphere.c	33;"	d	file:
+EX4_ULAW_SHORTEN	nist/src/bin/tsphere.c	/^char EX4_ULAW_SHORTEN[256], EX4_ULAW_WAVPACK[256];$/;"	v
+EX4_ULAW_SHORTEN_BASE	nist/src/bin/tsphere.c	35;"	d	file:
+EX4_ULAW_WAVPACK	nist/src/bin/tsphere.c	/^char EX4_ULAW_SHORTEN[256], EX4_ULAW_WAVPACK[256];$/;"	v
+EX4_ULAW_WAVPACK_BASE	nist/src/bin/tsphere.c	34;"	d	file:
+EX5_2CHAN	nist/src/bin/tsphere.c	/^char EX5_2CHAN[256], EX5_2CHAN_SHORTEN[256],  EX5_2CHAN_WAVPACK[256];$/;"	v
+EX5_2CHAN_PCM	nist/src/bin/tsphere.c	/^char EX5_2CHAN_PCM[256], EX5_CHAN1_PCM[256], EX5_CHAN2_PCM[256];$/;"	v
+EX5_2CHAN_PCM_01	nist/src/bin/tsphere.c	/^char EX5_CHAN12[256], EX5_CHAN12_PCM[256], EX5_2CHAN_PCM_01[256];$/;"	v
+EX5_2CHAN_PCM_SHORTEN	nist/src/bin/tsphere.c	/^char EX5_2CHAN_PCM_SHORTEN[256], EX5_2CHAN_PCM_WAVPACK[256];$/;"	v
+EX5_2CHAN_PCM_WAVPACK	nist/src/bin/tsphere.c	/^char EX5_2CHAN_PCM_SHORTEN[256], EX5_2CHAN_PCM_WAVPACK[256];$/;"	v
+EX5_2CHAN_SHORTEN	nist/src/bin/tsphere.c	/^char EX5_2CHAN[256], EX5_2CHAN_SHORTEN[256],  EX5_2CHAN_WAVPACK[256];$/;"	v
+EX5_2CHAN_WAVPACK	nist/src/bin/tsphere.c	/^char EX5_2CHAN[256], EX5_2CHAN_SHORTEN[256],  EX5_2CHAN_WAVPACK[256];$/;"	v
+EX5_CHAN1	nist/src/bin/tsphere.c	/^char EX5_CHAN1[256], EX5_CHAN2[256], EX5_CHAN1_BITREV[256];$/;"	v
+EX5_CHAN12	nist/src/bin/tsphere.c	/^char EX5_CHAN12[256], EX5_CHAN12_PCM[256], EX5_2CHAN_PCM_01[256];$/;"	v
+EX5_CHAN12_PCM	nist/src/bin/tsphere.c	/^char EX5_CHAN12[256], EX5_CHAN12_PCM[256], EX5_2CHAN_PCM_01[256];$/;"	v
+EX5_CHAN1_BITREV	nist/src/bin/tsphere.c	/^char EX5_CHAN1[256], EX5_CHAN2[256], EX5_CHAN1_BITREV[256];$/;"	v
+EX5_CHAN1_PCM	nist/src/bin/tsphere.c	/^char EX5_2CHAN_PCM[256], EX5_CHAN1_PCM[256], EX5_CHAN2_PCM[256];$/;"	v
+EX5_CHAN2	nist/src/bin/tsphere.c	/^char EX5_CHAN1[256], EX5_CHAN2[256], EX5_CHAN1_BITREV[256];$/;"	v
+EX5_CHAN2_BITREV	nist/src/bin/tsphere.c	/^char EX5_CHAN2_BITREV[256];$/;"	v
+EX5_CHAN2_PCM	nist/src/bin/tsphere.c	/^char EX5_2CHAN_PCM[256], EX5_CHAN1_PCM[256], EX5_CHAN2_PCM[256];$/;"	v
+EX5_ULAW_2CHAN_BASE	nist/src/bin/tsphere.c	39;"	d	file:
+EX5_ULAW_2CHAN_PCM_01_BASE	nist/src/bin/tsphere.c	41;"	d	file:
+EX5_ULAW_2CHAN_PCM_BASE	nist/src/bin/tsphere.c	40;"	d	file:
+EX5_ULAW_2CHAN_PCM_SHORTEN_BASE	nist/src/bin/tsphere.c	42;"	d	file:
+EX5_ULAW_2CHAN_PCM_WAVPACK_BASE	nist/src/bin/tsphere.c	43;"	d	file:
+EX5_ULAW_2CHAN_SHORTEN_BASE	nist/src/bin/tsphere.c	45;"	d	file:
+EX5_ULAW_2CHAN_WAVPACK_BASE	nist/src/bin/tsphere.c	44;"	d	file:
+EX5_ULAW_CHAN12_BASE	nist/src/bin/tsphere.c	52;"	d	file:
+EX5_ULAW_CHAN12_PCM_BASE	nist/src/bin/tsphere.c	53;"	d	file:
+EX5_ULAW_CHAN1_BASE	nist/src/bin/tsphere.c	46;"	d	file:
+EX5_ULAW_CHAN1_BITREV_BASE	nist/src/bin/tsphere.c	47;"	d	file:
+EX5_ULAW_CHAN1_PCM_BASE	nist/src/bin/tsphere.c	48;"	d	file:
+EX5_ULAW_CHAN2_BASE	nist/src/bin/tsphere.c	49;"	d	file:
+EX5_ULAW_CHAN2_BITREV_BASE	nist/src/bin/tsphere.c	50;"	d	file:
+EX5_ULAW_CHAN2_PCM_BASE	nist/src/bin/tsphere.c	51;"	d	file:
+EX6	nist/src/bin/tsphere.c	/^char EX6[256];$/;"	v
+EX6_BASE	nist/src/bin/tsphere.c	55;"	d	file:
+EX7_PCULAW	nist/src/bin/tsphere.c	/^char EX7_PCULAW[256], EX7_PCULAW_10[256], EX7_PCULAW_01[256];$/;"	v
+EX7_PCULAW_01	nist/src/bin/tsphere.c	/^char EX7_PCULAW[256], EX7_PCULAW_10[256], EX7_PCULAW_01[256];$/;"	v
+EX7_PCULAW_01_BASE	nist/src/bin/tsphere.c	61;"	d	file:
+EX7_PCULAW_10	nist/src/bin/tsphere.c	/^char EX7_PCULAW[256], EX7_PCULAW_10[256], EX7_PCULAW_01[256];$/;"	v
+EX7_PCULAW_10_BASE	nist/src/bin/tsphere.c	60;"	d	file:
+EX7_PCULAW_BASE	nist/src/bin/tsphere.c	57;"	d	file:
+EX7_PCULAW_SHORTEN	nist/src/bin/tsphere.c	/^char EX7_PCULAW_SHORTEN[256], EX7_PCULAW_WAVPACK[256];$/;"	v
+EX7_PCULAW_SHORTEN_BASE	nist/src/bin/tsphere.c	59;"	d	file:
+EX7_PCULAW_WAVPACK	nist/src/bin/tsphere.c	/^char EX7_PCULAW_SHORTEN[256], EX7_PCULAW_WAVPACK[256];$/;"	v
+EX7_PCULAW_WAVPACK_BASE	nist/src/bin/tsphere.c	58;"	d	file:
+EXECUTABLE	nist/src/bin/Makefile	/^EXECUTABLE	= h_add h_delete h_edit h_read h_strip h_test tsphere w_decode w_diff w_edit w_encode $/;"	m
+EXTENSION	nist/src/lib/sp/wavedit.c	12;"	d	file:
+E_BITS_PER_COEF	nist/src/lib/sp/lpc.c	18;"	d	file:
+E_proc	nist/src/lib/util/ds.c	/^static void E_proc(void){$/;"	f	file:
+F1_HIGH	src/fe/constants.h	14;"	d
+F1_LOW	src/fe/constants.h	13;"	d
+F2_HIGH	src/fe/constants.h	16;"	d
+F2_LOW	src/fe/constants.h	15;"	d
+F3_HIGH	src/fe/constants.h	18;"	d
+F3_LOW	src/fe/constants.h	17;"	d
+FAILURE	src/fe/SphereInterface.h	4;"	d
+FALSE	nist/include/util/chars.h	32;"	d
+FALSE	nist/src/lib/sp/shpackio.c	57;"	d	file:
+FALSE_STRING	nist/src/lib/util/t_or_f.c	/^char *TRUE_STRING="TRUE", *FALSE_STRING="FALSE";$/;"	v
+FFTReal	src/DspLibrary.c	/^void FFTReal(a, b, m, n, nsign)$/;"	f
+FILE	nist/src/lib/sp/wavpack.c	220;"	d	file:
+FILE	nist/src/lib/sp/wavpack.c	222;"	d	file:
+FILESUFFIX	nist/src/lib/sp/shorten.c	55;"	d	file:
+FLOAT_TYPE	src/fe/FrontEndTypes.h	/^typedef float FLOAT_TYPE;$/;"	t
+FMTS_LIB_H	src/fe/FmtsLibrary.h	2;"	d
+FNSIZE	nist/include/sp/shorten/shorten.h	45;"	d
+FNULL	nist/include/sp/header.h	7;"	d
+FN_BITSHIFT	nist/include/sp/shorten/shorten.h	52;"	d
+FN_BLOCKSIZE	nist/include/sp/shorten/shorten.h	51;"	d
+FN_DIFF0	nist/include/sp/shorten/shorten.h	46;"	d
+FN_DIFF1	nist/include/sp/shorten/shorten.h	47;"	d
+FN_DIFF2	nist/include/sp/shorten/shorten.h	48;"	d
+FN_DIFF3	nist/include/sp/shorten/shorten.h	49;"	d
+FN_QLPC	nist/include/sp/shorten/shorten.h	53;"	d
+FN_QUIT	nist/include/sp/shorten/shorten.h	50;"	d
+FN_ZERO	nist/include/sp/shorten/shorten.h	54;"	d
+FOB	nist/include/util/fob.h	/^} FOB;$/;"	t	typeref:struct:fob_t
+FOBPNULL	nist/include/util/fob.h	15;"	d
+FOB_BUF_GRAN	nist/include/util/fob.h	14;"	d
+FORMAT_VERSION	nist/include/sp/shorten/shorten.h	20;"	d
+FP	src/InitAsdf.c	/^typedef F_VECTOR* (*FP)(ASDF* ,int ,F_VECTOR* );$/;"	t	file:
+FPNULL	nist/include/util/chars.h	39;"	d
+FRONT_END_DEFS	src/fe/FrontEndDefs.h	22;"	d
+FRONT_END_TYPES	src/fe/FrontEndTypes.h	22;"	d
+FULL_SCREEN	nist/include/util/chars.h	36;"	d
+FUNCTION	nist/include/sp/sysparam.h	6;"	d
+FVNULL	nist/include/sp/header.h	8;"	d
+F_VECTOR	src/fe/FrontEndTypes.h	/^} F_VECTOR;$/;"	t	typeref:struct:__anon1
+FilterbankEnergyIntegration	src/DspLibrary.c	/^F_VECTOR *FilterbankEnergyIntegration(ASDF *asdf, float *Spectrum,$/;"	f
+FindIndex	src/DspLibrary.c	/^ int FindIndex(int *array, int npts, int index)$/;"	f
+FindMatch	src/DspLibrary.c	/^ int FindMatch(VECTOR_OF_F_VECTORS *vfv, int numVectors, int *array, int npts, int index)$/;"	f
+FindOnes	src/ComputeFeature.c	/^int FindOnes(int *randPhs, int deltaDifference, int index, int numPts) {$/;"	f
+FindOnes	src/ComputeFeatureHTK.c	/^int FindOnes(int *randPhs, int deltaDifference, int index, int numPts) {$/;"	f
+FindPeaks	src/DspLibrary.c	/^void FindPeaks(float *Spectrum, int *randPhs, int npts)$/;"	f
+FmtsCepstrum	src/FmtsLibrary.c	/^float 	*FmtsCepstrum(float *signal,int npts,int nfft,int mfft, int winlen,float *freq,int *num) {$/;"	f
+FmtsLpMag	src/FmtsLibrary.c	/^float	*FmtsLpMag(float *signal,int npts, int frameShift, int nfft,int mfft, $/;"	f
+FmtsLpPhase	src/FmtsLibrary.c	/^float	*FmtsLpPhase(float *signal,int npts, int frameShift, int nfft,int mfft, $/;"	f
+FmtsMinGd	src/FmtsLibrary.c	/^	float *FmtsMinGd(float *signal,int npts,int nfft,int mfft, $/;"	f
+FmtsModGd	src/FmtsLibrary.c	/^	float *FmtsModGd(float *signal,int npts,int nfft,int mfft, $/;"	f
+FmtsModGdLP	src/FmtsLibrary.c	/^	float *FmtsModGdLP(float *signal,int npts,int nfft,int mfft, $/;"	f
+FrameCompCepstrum	src/DspLibrary.c	/^float *FrameCompCepstrum(float *signal, int numPts, float *cepstrum, int numCepstrum, int mfft, int nfft)$/;"	f
+FrameComputeAugmentedFFTCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedFFTCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedFFTSpectrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedFFTSpectrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedFilterbankLogEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedFilterbankLogEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedLPCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedLPCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedLPCepstrumFFT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedLPCepstrumFFT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedMinGdCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedMinGdCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedModGdCepstrumDCT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedModGdCepstrumDCT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedModGdCepstrumLPDCT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedModGdCepstrumLPDCT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedModGdCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedModGdCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedModGdLogSmthCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedModGdLogSmthCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeAugmentedProductGdCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeAugmentedProductGdCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeCepstrumPitch	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeCepstrumPitch(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeDeltaDeltaEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaFFTCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaFFTCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaFFTSpectrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaFFTSpectrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaFilterbankLogEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaFilterbankLogEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaLPCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaLPCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaLPCepstrumFFT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaLPCepstrumFFT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaLogEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaLogEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaMinGdCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaMinGdCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaModGdCepstrumDCT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaModGdCepstrumDCT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaModGdCepstrumLPDCT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaModGdCepstrumLPDCT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaModGdCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaModGdCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaModGdLogSmthCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaModGdLogSmthCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaDeltaProductGdCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaDeltaProductGdCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaFFTCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaFFTCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaFFTSpectrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaFFTSpectrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaFilterbankLogEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaFilterbankLogEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaLPCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaLPCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaLPCepstrumFFT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaLPCepstrumFFT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaLogEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaLogEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaMinGdCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaMinGdCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaModGdCepstrumDCT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaModGdCepstrumDCT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaModGdCepstrumLPDCT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaModGdCepstrumLPDCT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaModGdCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaModGdCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaModGdLogSmthCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaModGdLogSmthCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeDeltaProductGdCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeDeltaProductGdCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeEnergy(ASDF *asdf, int frameIndex, F_VECTOR *energy) $/;"	f
+FrameComputeFFTCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFFTCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeFFTCepstrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeFFTCepstrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeFFTCepstrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFFTCepstrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *cepstrum) $/;"	f
+FrameComputeFFTCepstrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeFFTCepstrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeFFTSpectrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFFTSpectrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeFFTSpectrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeFFTSpectrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeFFTSpectrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFFTSpectrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *spectrum) $/;"	f
+FrameComputeFFTSpectrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeFFTSpectrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeFilterbankEnergy	src/BatchProcessWaveform.c	/^ F_VECTOR *FrameComputeFilterbankEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeFilterbankLogEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFilterbankLogEnergy(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeFilterbankLogEnergyMean	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFilterbankLogEnergyMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeFilterbankLogEnergyRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFilterbankLogEnergyRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeFilterbankLogEnergyVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeFilterbankLogEnergyVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeFlatSpectrumLogCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFlatSpectrumLogCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeFlatSpectrumRootCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeFlatSpectrumRootCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeHilbertEnvelopeResidualGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeHilbertEnvelopeResidualGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeLPCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLPCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeLPCepstrumFFT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLPCepstrumFFT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeLPCepstrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeLPCepstrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeLPCepstrumMeanFFT	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeLPCepstrumMeanFFT(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeLPCepstrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLPCepstrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeLPCepstrumRawFFT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLPCepstrumRawFFT(ASDF *asdf, int frameIndex, F_VECTOR *cepstrum) $/;"	f
+FrameComputeLPCepstrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeLPCepstrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeLPCepstrumVarianceFFT	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeLPCepstrumVarianceFFT(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeLPGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLPGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeLPModGdSource	src/BatchProcessWaveform.c	/^ F_VECTOR *FrameComputeLPModGdSource(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeLPResAutoCorrSource	src/BatchProcessWaveform.c	/^ F_VECTOR *FrameComputeLPResAutoCorrSource(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeLPSpectrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLPSpectrum(ASDF *asdf, int frameIndex, F_VECTOR *spectrum) $/;"	f
+FrameComputeLinearAugmentedCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLinearAugmentedCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeLinearCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLinearCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeLinearCepstrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeLinearCepstrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeLinearCepstrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLinearCepstrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *cepstrum) $/;"	f
+FrameComputeLinearCepstrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeLinearCepstrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeLinearDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLinearDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeLinearDeltaDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLinearDeltaDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeLogEnergy	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeLogEnergy(ASDF *asdf, int frameIndex, F_VECTOR *energy) $/;"	f
+FrameComputeMelAugmentedCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelAugmentedCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelAugmentedSlope	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelAugmentedSlope(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelCepstrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMelCepstrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMelCepstrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelCepstrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeMelCepstrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMelCepstrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMelDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelDeltaDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelDeltaDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelDeltaDeltaSlope	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelDeltaDeltaSlope(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelDeltaSlope	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelDeltaSlope(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelResGdAugmentedCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResGdAugmentedCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelResGdCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResGdCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelResGdCepstrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMelResGdCepstrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMelResGdCepstrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResGdCepstrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeMelResGdCepstrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMelResGdCepstrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMelResGdDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResGdDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelResGdDeltaDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResGdDeltaDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelResModGdAugmentedCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResModGdAugmentedCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelResModGdCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResModGdCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelResModGdCepstrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMelResModGdCepstrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMelResModGdCepstrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResModGdCepstrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeMelResModGdCepstrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMelResModGdCepstrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMelResModGdDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResModGdDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelResModGdDeltaDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelResModGdDeltaDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelRootAugmentedCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelRootAugmentedCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelRootCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelRootCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelRootCepstrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMelRootCepstrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMelRootCepstrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelRootCepstrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeMelRootCepstrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMelRootCepstrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMelRootDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelRootDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelRootDeltaDeltaCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelRootDeltaDeltaCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMelSlope	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMelSlope(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMinGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMinGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeMinGDelayMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMinGDelayMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMinGDelayPitch	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMinGDelayPitch(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeMinGdCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMinGdCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeMinGdCepstrumMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMinGdCepstrumMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMinGdCepstrumRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeMinGdCepstrumRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeMinGdCepstrumVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeMinGdCepstrumVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeMinGdSource	src/BatchProcessWaveform.c	/^ F_VECTOR *FrameComputeMinGdSource(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGDelayLP	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGDelayLP(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGDelayLPSmooth	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGDelayLPSmooth(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGDelayMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGDelayMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGDelayPitch	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGDelayPitch(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGDelaySmooth	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGDelaySmooth(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGdCepstrumDCT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGdCepstrumDCT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeModGdCepstrumDCTMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGdCepstrumDCTMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGdCepstrumDCTRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGdCepstrumDCTRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGdCepstrumDCTVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGdCepstrumDCTVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGdCepstrumLPDCT	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGdCepstrumLPDCT(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeModGdCepstrumLPDCTMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGdCepstrumLPDCTMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGdCepstrumLPDCTRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGdCepstrumLPDCTRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGdCepstrumLPDCTVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGdCepstrumLPDCTVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGdCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGdCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeModGdCepstrumNcNMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGdCepstrumNcNMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGdCepstrumNcNRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGdCepstrumNcNRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGdCepstrumNcNVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGdCepstrumNcNVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGdLogSmthCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGdLogSmthCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeModGdLogSmthCepstrumNcNMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGdLogSmthCepstrumNcNMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGdLogSmthCepstrumNcNRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeModGdLogSmthCepstrumNcNRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeModGdLogSmthCepstrumNcNVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeModGdLogSmthCepstrumNcNVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeModGdSource	src/BatchProcessWaveform.c	/^ F_VECTOR *FrameComputeModGdSource(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeProductGdCepstrumNcN	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeProductGdCepstrumNcN(ASDF *asdf, int frameIndex, F_VECTOR *fvect) $/;"	f
+FrameComputeProductGdCepstrumNcNMean	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeProductGdCepstrumNcNMean(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeProductGdCepstrumNcNRaw	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeProductGdCepstrumNcNRaw(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeProductGdCepstrumNcNVariance	src/BatchProcessWaveform.c	/^F_VECTOR * FrameComputeProductGdCepstrumNcNVariance(ASDF *asdf, int frameIndex, $/;"	f
+FrameComputeResidualGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeResidualGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeResidualModGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeResidualModGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeSignificantChange	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeSignificantChange(ASDF *asdf, int frameIndex, F_VECTOR *sigChange) $/;"	f
+FrameComputeSmthSpectrumLogCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeSmthSpectrumLogCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeSmthSpectrumRootCepstrum	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeSmthSpectrumRootCepstrum(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeSourceLPModGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeSourceLPModGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeSourceModGDelay	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeSourceModGDelay(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeSpectralFlatness	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeSpectralFlatness(ASDF *asdf, int frameIndex, F_VECTOR *spectralFlatness) $/;"	f
+FrameComputeSpectralFlux	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeSpectralFlux(ASDF *asdf, int frameIndex, F_VECTOR *specFlux) $/;"	f
+FrameComputeSpectralFluxUB	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeSpectralFluxUB(ASDF *asdf, int frameIndex, F_VECTOR *specFlux) $/;"	f
+FrameComputeStdCepstrumSource	src/BatchProcessWaveform.c	/^ F_VECTOR *FrameComputeStdCepstrumSource(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeWaveform	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeWaveform(ASDF *asdf, int frameIndex, F_VECTOR *fvect) {$/;"	f
+FrameComputeZeroCrossing	src/BatchProcessWaveform.c	/^F_VECTOR *FrameComputeZeroCrossing(ASDF *asdf, int frameIndex, F_VECTOR *zeroCrossing) $/;"	f
+GEN_X2_PER	nist/include/util/statdist.h	94;"	d
+GEN_Z_PER	nist/include/util/statdist.h	37;"	d
+GenerateCentNormFFTFilters	src/DspLibrary.c	/^void GenerateCentNormFFTFilters (ASDF *asdf)$/;"	f
+GenerateChromaFilters	src/DspLibrary.c	/^void GenerateChromaFilters (ASDF *asdf)$/;"	f
+GenerateMelFilters	src/DspLibrary.c	/^void GenerateMelFilters (ASDF *asdf)$/;"	f
+GenerateNonUniformCentFilters	src/DspLibrary.c	/^void GenerateNonUniformCentFilters (ASDF *asdf)$/;"	f
+GeneratePseudoDct	src/DspLibrary.c	/^VECTOR_OF_F_VECTORS  *GeneratePseudoDct (int offset, int numRows, int numColumns)$/;"	f
+GenerateUniformCentFilters	src/DspLibrary.c	/^void GenerateUniformCentFilters (ASDF *asdf)$/;"	f
+GetActualFrameIndex	src/DspLibrary.c	/^int GetActualFrameIndex (ASDF *asdf, int voicedFrameIndex) {$/;"	f
+GetFAttribute	src/InitAsdf.c	/^float GetFAttribute(ASDF *asdf, char *string) {$/;"	f
+GetHashElement	src/HashTable.c	/^ HashElement* GetHashElement(char* data,void* fnptr,int numFVectors)$/;"	f
+GetHashValue	src/HashTable.c	/^int GetHashValue(int table_size,char* str)$/;"	f
+GetIAttribute	src/InitAsdf.c	/^int GetIAttribute(ASDF *asdf, char *string) {$/;"	f
+GetPtrAttribute	src/InitAsdf.c	/^void *GetPtrAttribute(ASDF *asdf, char *string) {$/;"	f
+GradientFrames	src/DspLibrary.c	/^int GradientFrames(float *frame1, float *frame2, int numPts, int frameAdvanceSamples, $/;"	f
+GroupDelay	src/DspLibrary.c	/^float *GroupDelay(float *signal,int npts, int nfft, int mfft, int winlen,$/;"	f
+GroupDelayCepstrum	src/DspLibrary.c	/^float *GroupDelayCepstrum(float *signal,int npts, int nfft, int mfft, $/;"	f
+GsfClose	src/InitAsdf.c	/^void GsfClose(ASDF *asdf) {$/;"	f
+GsfOpen	src/InitAsdf.c	/^void GsfOpen(ASDF *asdf, char *filename) {$/;"	f
+GsfRead	src/InitAsdf.c	/^F_VECTOR *GsfRead(ASDF *asdf, int frameIndex, char *featureName) {$/;"	f
+HASHTABLE1_H	src/fe/HashTable.h	2;"	d
+HAVE_PTR_FMT	nist/include/util/utillib.h	33;"	d
+HAVE_STDARG_H	nist/include/sp/shorten/shorten.h	15;"	d
+HAVE_STDARG_H	nist/src/lib/sp/exit.c	12;"	d	file:
+HDRNULL	nist/include/sp/header.h	9;"	d
+HDR_ID_SIZE	nist/include/sp/sysparam.h	13;"	d
+HDR_SIZE_SIZE	nist/include/sp/sysparam.h	14;"	d
+HIST	nist/include/util/hist.h	/^     } HIST;$/;"	t	typeref:struct:hist
+HIST_C_VERSION	nist/src/lib/util/hist.c	16;"	d	file:
+HIST_H_VERSION	nist/include/util/hist.h	10;"	d
+HTKhdr	src/fe/writehtk.h	/^} HTKhdr;$/;"	t	typeref:struct:__anon6
+HYPHEN	nist/include/util/chars.h	13;"	d
+HamDw	src/DspLibrary.c	/^float HamDw(int i, int npts){ $/;"	f
+HamW	src/DspLibrary.c	/^float HamW(int i, int npts) {$/;"	f
+HanDw	src/DspLibrary.c	/^float HanDw(int i, int npts){ $/;"	f
+HanW	src/DspLibrary.c	/^float HanW(int i, int npts) { $/;"	f
+HashElement	src/fe/HashTable.h	/^typedef struct HashElement$/;"	s
+HashElement	src/fe/HashTable.h	/^}HashElement;$/;"	t	typeref:struct:HashElement
+INCLUDE	nist/src/bin/Makefile	/^INCLUDE = $(PROJECT_ROOT)\/include$/;"	m
+INCLUDE	nist/src/lib/sp/Makefile	/^INCLUDE = $(PROJECT_ROOT)\/include$/;"	m
+INCLUDE	nist/src/lib/util/Makefile	/^INCLUDE = $(PROJECT_ROOT)\/include$/;"	m
+INCREASING	nist/include/util/order.h	12;"	d
+INFO	nist/src/lib/sp/shpackio.c	63;"	d	file:
+INIT_ASDF_H	src/fe/InitAsdf.h	2;"	d
+INSTALL	nist/src/bin/Makefile	/^INSTALL	= install -s -m 755$/;"	m
+INT	nist/include/util/macros.h	41;"	d
+INT	src/fe/SphereInterface.h	/^typedef short int INT;$/;"	t
+INT_TYPE	src/fe/FrontEndTypes.h	/^typedef int INT_TYPE;$/;"	t
+INULL	nist/include/util/chars.h	41;"	d
+I_VECTOR	src/fe/FrontEndTypes.h	/^} I_VECTOR;$/;"	t	typeref:struct:__anon4
+Imax	src/DspLibrary.c	/^ int Imax(float sig[], int npts)$/;"	f
+Imax0	src/DspLibrary.c	/^ int Imax0(float sig[], int npts)$/;"	f
+Imax0Actual	src/DspLibrary.c	/^ int Imax0Actual(float sig[], int npts)$/;"	f
+ImaxActual	src/DspLibrary.c	/^ int ImaxActual(float sig[], int npts)$/;"	f
+ImaxShort0	src/DspLibrary.c	/^ int ImaxShort0(short sig[], int npts)$/;"	f
+Imin	src/DspLibrary.c	/^ int Imin(float sig[], int npts)$/;"	f
+Imin0	src/DspLibrary.c	/^ int Imin0(float sig[], int npts)$/;"	f
+Imin0Actual	src/DspLibrary.c	/^ int Imin0Actual(float sig[], int npts)$/;"	f
+IminActual	src/DspLibrary.c	/^ int IminActual(float sig[], int npts)$/;"	f
+IminShort0	src/DspLibrary.c	/^ int IminShort0(short sig[], int npts)$/;"	f
+InitFVector	src/DspLibrary.c	/^void InitFVector (F_VECTOR *fvect) {$/;"	f
+InitHashTable	src/HashTable.c	/^hashTable* InitHashTable(int size)$/;"	f
+InitializeASDF	src/InitAsdf.c	/^void InitializeASDF (ASDF *asdf) {$/;"	f
+InitializeStandardFrontEnd	src/InitAsdf.c	/^void InitializeStandardFrontEnd(ASDF *asdf,FILE *fp) {$/;"	f
+InsertFeaturesInfo	src/FeatureMappingToFunctions.c	/^void InsertFeaturesInfo(hashTable* ht,int numCepstrum,int numFilters,int numDFTCoefficients,int windowSize,int resGdWindowSize, int numPthCoefficients)$/;"	f
+InsertHE	src/HashTable.c	/^void InsertHE(hashTable* ht, char* data, void* fnptr,int numFVectors)$/;"	f
+K	nist/src/lib/util/ds.c	/^static int phi[30], phi_base[30], phi_cm[30], phi_map[30], K, k;$/;"	v	file:
+LEFT_PAREN	nist/include/util/chars.h	19;"	d
+LIBDIR	nist/src/bin/Makefile	/^LIBDIR	= $(LIBS)$/;"	m
+LIBDIR	nist/src/lib/sp/Makefile	/^LIBDIR		= $(PROJECT_ROOT)\/lib$/;"	m
+LIBDIR	nist/src/lib/util/Makefile	/^LIBDIR		= $(PROJECT_ROOT)\/lib$/;"	m
+LIBRARY	nist/src/lib/sp/Makefile	/^LIBRARY	= lib$(LIBRARY_ID).a$/;"	m
+LIBRARY	nist/src/lib/util/Makefile	/^LIBRARY	= lib$(LIBRARY_ID).a$/;"	m
+LIBRARY_ID	nist/src/lib/sp/Makefile	/^LIBRARY_ID = sp$/;"	m
+LIBRARY_ID	nist/src/lib/util/Makefile	/^LIBRARY_ID = util$/;"	m
+LIBRY	nist/src/lib/sp/Makefile	/^LIBRY	= $(LIBRARY)$/;"	m
+LIBRY	nist/src/lib/util/Makefile	/^LIBRY	= $(LIBRARY)$/;"	m
+LIBS	nist/src/bin/Makefile	/^LIBS	= $(PROJECT_ROOT)\/lib$/;"	m
+LINESIZE	nist/include/sp/sysparam.h	8;"	d
+LLIBS	nist/src/bin/Makefile	/^LLIBS	= -lsp -lutil  -lm$/;"	m
+LNULL	nist/include/util/chars.h	42;"	d
+LOCAL_CFLAGS	nist/src/bin/Makefile	/^LOCAL_CFLAGS	= -g -O2 -DNARCH_LINUX$/;"	m
+LOCAL_CFLAGS	nist/src/lib/sp/Makefile	/^LOCAL_CFLAGS	= -O2 -DNARCH_LINUX$/;"	m
+LOCAL_CFLAGS	nist/src/lib/util/Makefile	/^LOCAL_CFLAGS	= -O2 -DNARCH_LINUX$/;"	m
+LOG_ONE	src/fe/FrontEndDefs.h	74;"	d
+LOG_SMALL	src/fe/FrontEndDefs.h	75;"	d
+LOG_ZERO	src/fe/FrontEndDefs.h	73;"	d
+LONG1	nist/src/bin/h_test.c	21;"	d	file:
+LONG2	nist/src/bin/h_test.c	22;"	d	file:
+LPCQSIZE	nist/include/sp/shorten/shorten.h	58;"	d
+LPCQUANT	nist/include/sp/shorten/shorten.h	59;"	d
+LPCepstrum	src/DspLibrary.c	/^void LPCepstrum(a, order, cepstrum, numCepstrum, gain)$/;"	f
+LPGd	src/DspLibrary.c	/^float *LPGd(float *signal,int npts, int frameShift, int nfft, int mfft, $/;"	f
+LPResGroupDelay	src/DspLibrary.c	/^void LPResGroupDelay(float *signal,int npts, int frameShift, int nfft, int mfft,  $/;"	f
+LPSpectrum	src/DspLibrary.c	/^void LPSpectrum(a, order, mag, phase, nfft, mfft, gain)$/;"	f
+LinReg	src/DspLibrary.c	/^void LinReg (F_VECTOR *fvect, int startIdx, int numPts, float *intercept, float *slope)$/;"	f
+LinearTransformationOfFVector	src/DspLibrary.c	/^void LinearTransformationOfFVector (F_VECTOR *inVect, VECTOR_OF_F_VECTORS $/;"	f
+LinearVectorAddition	src/DspLibrary.c	/^void LinearVectorAddition (F_VECTOR *fvect1, F_VECTOR *fvect2, F_VECTOR *fvect) {$/;"	f
+LinearVectorDifference	src/DspLibrary.c	/^void LinearVectorDifference (F_VECTOR *fvect1, F_VECTOR *fvect2, F_VECTOR *fvect) {$/;"	f
+LinearVectorScalarDivide	src/DspLibrary.c	/^void LinearVectorScalarDivide (float scalar, F_VECTOR *fvect1, F_VECTOR *fvect) {$/;"	f
+LinearVectorScalarMultiply	src/DspLibrary.c	/^void LinearVectorScalarMultiply (float scalar, F_VECTOR *fvect1, F_VECTOR *fvect) {$/;"	f
+LogAdd	src/DspLibrary.c	/^float LogAdd(float x, float y)$/;"	f
+LogCepSmooth	src/DspLibrary.c	/^void LogCepSmooth(float amag[], float smthAmag[], int mfft, int nfft,  $/;"	f
+LogSpectrum	src/DspLibrary.c	/^void LogSpectrum(float Spectrum[],int npts)$/;"	f
+LpAnal	src/DspLibrary.c	/^void LpAnal(float *signal, float *resEnergy, int npts, int frameShift, $/;"	f
+MAGIC	nist/include/sp/shorten/shorten.h	19;"	d
+MAKEFILE	nist/src/bin/Makefile	/^MAKEFILE	= Makefile$/;"	m
+MAKEFILE	nist/src/lib/sp/Makefile	/^MAKEFILE	= Makefile$/;"	m
+MAKEFILE	nist/src/lib/util/Makefile	/^MAKEFILE	= Makefile$/;"	m
+MASKTABSIZE	nist/src/lib/sp/vario.c	39;"	d	file:
+MASignal	src/DspLibrary.c	/^void MASignal(float *residual,float *MASignal,int numSamples,$/;"	f
+MATRIX	src/fe/FrontEndTypes.h	/^} MATRIX;$/;"	t	typeref:struct:__anon5
+MAX	nist/include/sp/shorten/shorten.h	83;"	d
+MAX	nist/include/util/macros.h	47;"	d
+MAXFIELDS	nist/include/sp/header.h	5;"	d
+MAXFRAMES	src/fe/constants.h	9;"	d
+MAXFRAMESIZE	src/fe/constants.h	5;"	d
+MAXLPORDER	src/fe/constants.h	6;"	d
+MAXWAVESIZE	src/fe/constants.h	4;"	d
+MAX_BUFF_LEN	nist/include/util/chars.h	34;"	d
+MAX_CONFIG_LENGTH	nist/include/util/cfg.h	102;"	d
+MAX_CONFIG_REC	nist/include/util/cfg.h	101;"	d
+MAX_DF	nist/include/util/statdist.h	90;"	d
+MAX_FLAG_SIZE	nist/src/lib/sp/sphere.c	30;"	d	file:
+MAX_FLAG_SIZE	nist/src/lib/sp/sphere.c	82;"	d	file:
+MAX_HEADER_FIELD	nist/src/lib/sp/shpacki2.c	51;"	d	file:
+MAX_HEADER_FIELD	nist/src/lib/sp/shpackio.c	161;"	d	file:
+MAX_INTERNAL_WAVFORM	nist/include/sp/sysparam.h	9;"	d
+MAX_LPC_ORDER	nist/include/sp/shorten/shorten.h	39;"	d
+MAX_SEQUENCE_SIZE	nist/src/lib/sp/shpackio.c	162;"	d	file:
+MAX_SHORTEN_ARGC	nist/src/lib/sp/sphere.c	31;"	d	file:
+MAX_SUPPORTED_VERSION	nist/include/sp/shorten/shorten.h	23;"	d
+MAX_VERSION	nist/include/sp/shorten/shorten.h	24;"	d
+MAX_X2	nist/src/lib/util/statdist.c	18;"	d	file:
+MAX_X2_PER	nist/include/util/statdist.h	92;"	d
+MAX_Z	nist/src/lib/util/statdist.c	17;"	d	file:
+MAX_Z_PER	nist/include/util/statdist.h	35;"	d
+MC_BUFS	nist/src/bin/tsphere.c	1253;"	d	file:
+MC_CHAN	nist/src/bin/tsphere.c	1252;"	d	file:
+MEMORY_HEADER	nist/include/util/memory.h	13;"	d
+MEMORY_H_VERSION	nist/include/util/memory.h	23;"	d
+MIN	nist/include/sp/shorten/shorten.h	79;"	d
+MIN	nist/include/util/min.h	4;"	d
+MINBITRATE	nist/include/sp/shorten/shorten.h	37;"	d
+MINLOGARG	src/fe/FrontEndDefs.h	76;"	d
+MIN_DF	nist/include/util/statdist.h	91;"	d
+MIN_SUPPORTED_VERSION	nist/include/sp/shorten/shorten.h	22;"	d
+MIN_X2_PER	nist/include/util/statdist.h	93;"	d
+MIN_Z_PER	nist/include/util/statdist.h	36;"	d
+MOD	nist/include/util/macros.h	43;"	d
+MTRF_HEADER	nist/include/util/mtrf.h	3;"	d
+MTRF_ON	nist/include/sp/sphere.h	21;"	d
+M_LN2	nist/include/sp/shorten/shorten.h	93;"	d
+M_LOG10E	nist/include/util/macros.h	73;"	d
+M_PI	nist/src/bin/tsphere.c	126;"	d	file:
+M_PI	nist/src/lib/util/hist.c	19;"	d	file:
+MatchFVectors	src/DspLibrary.c	/^int MatchFVectors (F_VECTOR *fvect1, F_VECTOR *fvect2) {$/;"	f
+Median	src/DspLibrary.c	/^ float Median(float sig[], int npts)$/;"	f
+MedianShort	src/DspLibrary.c	/^ short MedianShort(short sig[], int npts)$/;"	f
+MedianSmoothArray	src/DspLibrary.c	/^float * MedianSmoothArray(float *inArray, int npts, int medianOrder, float *smthArray)$/;"	f
+MedianSmoothShortArray	src/DspLibrary.c	/^short *MedianSmoothShortArray(short *inArray, int npts, int medianOrder, short *smthArray)$/;"	f
+MergeFVectors	src/DspLibrary.c	/^F_VECTOR* MergeFVectors(F_VECTOR* fvect,F_VECTOR* temp)$/;"	f
+MinGd	src/DspLibrary.c	/^float *MinGd(float *signal,int npts, int nfft, int mfft, $/;"	f
+MinGdCepstrum	src/DspLibrary.c	/^float *MinGdCepstrum(float *signal,int npts, int nfft, int mfft, $/;"	f
+MinGdCepstrum_DCT	src/DspLibrary.c	/^float *MinGdCepstrum_DCT(float *signal,int npts, int nfft, int mfft, $/;"	f
+ModGdCepstrum	src/DspLibrary.c	/^float *ModGdCepstrum(float *signal,int npts,int nfft,int mfft, $/;"	f
+ModGdCepstrumFromGD	src/DspLibrary.c	/^float *ModGdCepstrumFromGD(float *modGd,int nfft,$/;"	f
+ModGdCepstrumFromStdCepstra	src/DspLibrary.c	/^float *ModGdCepstrumFromStdCepstra(float *inModGdCepstrum,int nfft, int mfft, $/;"	f
+ModGdCepstrumNcN	src/DspLibrary.c	/^float *ModGdCepstrumNcN(float *signal,int npts,int nfft,int mfft, $/;"	f
+ModGdCepstrum_DCT	src/DspLibrary.c	/^float *ModGdCepstrum_DCT(float *signal,int npts,int nfft,int mfft, $/;"	f
+ModGdCepstrum_LPDCT	src/DspLibrary.c	/^float *ModGdCepstrum_LPDCT(float *signal,int npts,int nfft,int mfft, $/;"	f
+ModGdLogSmthCepstrumNcN	src/DspLibrary.c	/^float *ModGdLogSmthCepstrumNcN(float *signal,int npts,int nfft,int mfft, $/;"	f
+ModGd_DCT	src/DspLibrary.c	/^float *ModGd_DCT(float *signal,int npts,int nfft,int mfft, $/;"	f
+NAMEWIDTH	nist/src/lib/sp/spoutput.c	15;"	d	file:
+NBITPERLONG	nist/include/sp/shorten/shorten.h	33;"	d
+NEGATIVE_ULAW_ZERO	nist/include/sp/shorten/shorten.h	76;"	d
+NEWLINE	nist/include/util/chars.h	15;"	d
+NISTLABEL	nist/include/sp/sysparam.h	11;"	d
+NOT_CONFIG_ID	nist/include/util/cfg.h	9;"	d
+NO_DIFF	nist/include/util/statdist.h	18;"	d
+NO_GRP	nist/include/util/cfg.h	114;"	d
+NSKIPSIZE	nist/include/sp/shorten/shorten.h	57;"	d
+NULL_CHAR	nist/include/util/chars.h	16;"	d
+NWRAP	nist/include/sp/shorten/shorten.h	43;"	d
+N_STDFIELDS	nist/include/sp/header.h	20;"	d
+Normalize	src/DspLibrary.c	/^ void Normalize(float *signal, int npts)$/;"	f
+NormalizeModGd	src/DspLibrary.c	/^void NormalizeModGd(float *modGd, float *cepAmag, float *ax, int nfft, int mfft) {$/;"	f
+OBJ	nist/src/bin/Makefile	/^OBJ		= $/;"	m
+OBJ	nist/src/lib/sp/Makefile	/^OBJ	= alaw.o array.o dif_wavf.o dupfinfo.o exit.o fixio.o h_fix.o license.o lpc.o nat_bord.o poly.o sdatamod.o shorten.o shpacki2.o shpackio.o shpack_s.o spalloc.o spchksum.o spclose.o speof.o sperror.o sphere.o sphio.o spinput.o sploadf.o sp_ntoh.o spopen.o spoutput.o spread.o sprewind.o sprstat.o spseek.o sptell.o sptemp.o sputils2.o sp_utils.o spvers.o spwrite.o stdfield.o ulaw.o vario.o verbose.o wavedit.o wavpack.o $/;"	m
+OBJ	nist/src/lib/util/Makefile	/^OBJ	= cfg.o comments.o ds.o err_util.o fobops.o hist.o hsgetopt.o itoa.o maldie.o mtrf.o order.o pad.o rsprintf.o sfgets.o statdist.o string.o str_srch.o t_or_f.o word.o $/;"	m
+OBJDIR	Makefile	/^OBJDIR = .\/obj$/;"	m
+OBJDIR	Segmentation/Makefile	/^OBJDIR = .\/obj$/;"	m
+OFFSET	nist/include/sp/wavpack/wavpack.h	11;"	d
+ORIGINATION_CHAN	nist/include/sp/spfile.h	/^} ORIGINATION_CHAN;$/;"	t	typeref:struct:origination_channel
+PAD_CHAR	nist/include/sp/sysparam.h	16;"	d
+PAD_MULT	nist/include/sp/sysparam.h	17;"	d
+PAD_NEWLINES	nist/include/sp/sysparam.h	15;"	d
+PCIND_SHORT	nist/include/util/chars.h	45;"	d
+PEAK	nist/include/util/hist.h	13;"	d
+PEAK_WIDTH	nist/include/util/hist.h	12;"	d
+PER90	nist/include/util/statdist.h	33;"	d
+PER91	nist/include/util/statdist.h	32;"	d
+PER92	nist/include/util/statdist.h	31;"	d
+PER93	nist/include/util/statdist.h	30;"	d
+PER94	nist/include/util/statdist.h	29;"	d
+PER95	nist/include/util/statdist.h	28;"	d
+PER96	nist/include/util/statdist.h	27;"	d
+PER97	nist/include/util/statdist.h	26;"	d
+PER98	nist/include/util/statdist.h	25;"	d
+PER99	nist/include/util/statdist.h	24;"	d
+PER99	nist/include/util/statdist.h	43;"	d
+PERIOD	nist/include/util/chars.h	22;"	d
+PI	src/fe/FrontEndDefs.h	23;"	d
+PI	src/fe/constants.h	7;"	d
+PI2	src/fe/constants.h	8;"	d
+POSITIVE_ULAW_ZERO	nist/include/sp/shorten/shorten.h	75;"	d
+PROJDIR	nist/Makefile	/^PROJDIR = \/data\/hybrid_segmentation\/front-end-dsp\/nist$/;"	m
+PROJECT_ROOT	nist/src/bin/Makefile	/^PROJECT_ROOT	= \/data\/hybrid_segmentation\/front-end-dsp\/nist$/;"	m
+PROJECT_ROOT	nist/src/lib/sp/Makefile	/^PROJECT_ROOT	= \/data\/hybrid_segmentation\/front-end-dsp\/nist$/;"	m
+PROJECT_ROOT	nist/src/lib/util/Makefile	/^PROJECT_ROOT	= \/data\/hybrid_segmentation\/front-end-dsp\/nist$/;"	m
+PROTO	nist/include/sp/shorten/shorten.h	121;"	d
+PROTO	nist/include/sp/shorten/shorten.h	124;"	d
+PROTO	nist/include/sp/shorten/shrt_sph.h	13;"	d
+PROTO	nist/include/sp/shorten/shrt_sph.h	15;"	d
+PROTO	nist/include/sp/shpack/shpk_sph.h	13;"	d
+PROTO	nist/include/sp/shpack/shpk_sph.h	15;"	d
+PROTO	nist/include/sp/sp.h	13;"	d
+PROTO	nist/include/sp/sp.h	15;"	d
+PROTO	nist/include/sp/sysfunc.h	20;"	d
+PROTO	nist/include/sp/sysfunc.h	22;"	d
+PROTO	nist/include/sp/wavpack/wavpack.h	21;"	d
+PROTO	nist/include/sp/wavpack/wavpack.h	23;"	d
+PROTO	nist/include/util/cfg.h	129;"	d
+PROTO	nist/include/util/cfg.h	131;"	d
+PROTO	nist/include/util/err_util.h	15;"	d
+PROTO	nist/include/util/err_util.h	17;"	d
+PROTO	nist/include/util/fob.h	18;"	d
+PROTO	nist/include/util/fob.h	20;"	d
+PROTO	nist/include/util/hist.h	46;"	d
+PROTO	nist/include/util/hist.h	48;"	d
+PROTO	nist/include/util/hsgetopt.h	5;"	d
+PROTO	nist/include/util/hsgetopt.h	7;"	d
+PROTO	nist/include/util/macros.h	80;"	d
+PROTO	nist/include/util/macros.h	82;"	d
+PROTO	nist/include/util/mtrf.h	7;"	d
+PROTO	nist/include/util/mtrf.h	9;"	d
+PROTO	nist/include/util/order.h	15;"	d
+PROTO	nist/include/util/order.h	17;"	d
+PROTO	nist/include/util/pmmlcg.h	11;"	d
+PROTO	nist/include/util/pmmlcg.h	9;"	d
+PROTO	nist/include/util/proto.h	7;"	d
+PROTO	nist/include/util/proto.h	9;"	d
+PROTO	nist/include/util/rpg.h	5;"	d
+PROTO	nist/include/util/rpg.h	7;"	d
+PROTO	nist/include/util/statdist.h	140;"	d
+PROTO	nist/include/util/statdist.h	142;"	d
+PROTO_HEADER	nist/include/util/proto.h	4;"	d
+PTH_LIBRARY_H	src/fe/PthLibrary.h	2;"	d
+PerceptualFilterbankEnergyIntegration	src/DspLibrary.c	/^F_VECTOR *PerceptualFilterbankEnergyIntegration(ASDF *asdf, float *Spectrum, float *modGd, int useLog, $/;"	f
+PitchAutoCorrLP	src/DspLibrary.c	/^float 	*PitchAutoCorrLP(float *signal, int npts, int frameShift, $/;"	f
+PitchCepstrum	src/PthLibrary.c	/^        float 	PitchCepstrum(float *signal,int npts,int nfft,int mfft, int pthLow, int pthHgh) {$/;"	f
+PitchCepstrumMinGd	src/DspLibrary.c	/^	float *PitchCepstrumMinGd(float *signal,int npts,int nfft,int mfft, $/;"	f
+PitchCepstrumModifiedGd	src/DspLibrary.c	/^	float *PitchCepstrumModifiedGd(float *signal,int npts,int nfft,int mfft, $/;"	f
+PitchCepstrumModifiedGdLP	src/DspLibrary.c	/^float *PitchCepstrumModifiedGdLP(float *signal,int npts,int nfft,int mfft, $/;"	f
+PitchCepstrumStd	src/DspLibrary.c	/^float 	*PitchCepstrumStd(float *signal,int npts,int nfft,int mfft, int pthLow, int pthHgh, float *pthCepstrum) {$/;"	f
+PitchLP	src/PthLibrary.c	/^float 	PitchLP(float *signal,int npts, int frameShift,int lpOrder, int pthLow, int pthHgh) {$/;"	f
+PitchMinGd	src/PthLibrary.c	/^	float PitchMinGd(float *signal,int npts,int nfft,int mfft, $/;"	f
+PitchModifiedGd	src/PthLibrary.c	/^	float PitchModifiedGd(float *signal,int npts,int nfft,int mfft, $/;"	f
+PitchModifiedGdLP	src/PthLibrary.c	/^float PitchModifiedGdLP(float *signal,int npts,int nfft,int mfft, $/;"	f
+PrintFrontEndParameters	src/InitAsdf.c	/^void PrintFrontEndParameters (ASDF *asdf) {$/;"	f
+PrintRIFFWaveFileInfo	src/SphereInterface.c	/^void PrintRIFFWaveFileInfo( FILE *oFile, RIFFWaveFile *riff )$/;"	f
+ProductGdCepstrumNcN	src/DspLibrary.c	/^float *ProductGdCepstrumNcN(float *signal,int npts,int nfft,int mfft, $/;"	f
+PutFAttribute	src/InitAsdf.c	/^void PutFAttribute(ASDF *asdf, char *attributeName, float attributeValue) {$/;"	f
+PutIAttribute	src/InitAsdf.c	/^void PutIAttribute(ASDF *asdf, char *attributeName, int attributeValue) {$/;"	f
+QUICKSORT_H	src/fe/QuickSort.h	2;"	d
+QuickSort	src/QuickSort.c	/^void QuickSort(float *v, int left, int right) {$/;"	f
+RANLIB	nist/src/lib/sp/Makefile	/^RANLIB		= ranlib$/;"	m
+RANLIB	nist/src/lib/util/Makefile	/^RANLIB		= ranlib$/;"	m
+READMODE	nist/include/sp/sysparam.h	33;"	d
+READMODE	nist/src/lib/sp/spopen.c	6;"	d	file:
+RETURN_TYPE_CHILD	nist/include/util/err_util.h	12;"	d
+RETURN_TYPE_ERROR	nist/include/util/err_util.h	9;"	d
+RETURN_TYPE_SUCCESS	nist/include/util/err_util.h	11;"	d
+RETURN_TYPE_WARNING	nist/include/util/err_util.h	10;"	d
+REV	nist/include/sp/wavpack/wavpack.h	10;"	d
+RIFFHeader	src/fe/SphereInterface.h	/^typedef struct RIFFHeader$/;"	s
+RIFFHeader	src/fe/SphereInterface.h	/^}RIFFHeader __attribute__((packed));	$/;"	t	typeref:struct:RIFFHeader
+RIFFWaveFile	src/fe/SphereInterface.h	/^typedef struct RIFFWaveFile$/;"	s
+RIFFWaveFile	src/fe/SphereInterface.h	/^}RIFFWaveFile;$/;"	t	typeref:struct:RIFFWaveFile
+RIGHT_PAREN	nist/include/util/chars.h	20;"	d
+ROUND	nist/include/util/macros.h	40;"	d
+ROUNDEDSHIFTDOWN	nist/include/sp/shorten/shorten.h	90;"	d
+RUNL	nist/include/sp/wavpack/wavpack.h	6;"	d
+ReadData	Segmentation/src/WordSegmentWithSilenceRemoval.c	/^float *ReadData (FILE *dataFile, int *nsamples) {$/;"	f
+ReadFloatText	src/SphereInterface.c	/^float *ReadFloatText(char *wavename, long *numSamples)$/;"	f
+ReadPitchValues	src/SphereInterface.c	/^short *ReadPitchValues(char *pthFileName, int timeOrFreq, long numFrames, int samplingRate)$/;"	f
+ReadRIFF	src/SphereInterface.c	/^short  *ReadRIFF( char *waveFileName, long *numSamples) $/;"	f
+ReadRaw	src/SphereInterface.c	/^short *ReadRaw(char *wavname, long *numSamples) {$/;"	f
+ReadRaw16Big	src/SphereInterface.c	/^short *ReadRaw16Big(char *wavname, long *numSamples) {$/;"	f
+ReadRaw16Little	src/SphereInterface.c	/^short *ReadRaw16Little(char *wavname, long *numSamples) {$/;"	f
+ReadSpherePcm	src/SphereInterface.c	/^short *ReadSpherePcm(char *wavname, long *numSamples) {$/;"	f
+ReadSphereUlaw	src/SphereInterface.c	/^short *ReadSphereUlaw(char *wavename,long *numSamples) {$/;"	f
+ReadText	src/SphereInterface.c	/^short *ReadText(char *wavename, long *numSamples, float scaleFactor)$/;"	f
+ReallocFVector	src/DspLibrary.c	/^F_VECTOR* ReallocFVector(F_VECTOR* fvect,int npts){$/;"	f
+RemoveAverage	src/DspLibrary.c	/^ void RemoveAverage(float *derv, int nfft, float *ave)$/;"	f
+Rfft	src/DspLibrary.c	/^void Rfft(sig, ax, ay, mfft, nfft, nsign)$/;"	f
+SAMPLE_BF_FIELD	nist/include/sp/sysparam.h	29;"	d
+SAMPLE_CHECKSUM_FIELD	nist/include/sp/sysparam.h	27;"	d
+SAMPLE_CODING_FIELD	nist/include/sp/sysparam.h	24;"	d
+SAMPLE_COUNT_FIELD	nist/include/sp/sysparam.h	25;"	d
+SAMPLE_N_BYTES_FIELD	nist/include/sp/sysparam.h	30;"	d
+SAMPLE_RATE_FIELD	nist/include/sp/sysparam.h	26;"	d
+SAMPLE_SIG_BITS_FIELD	nist/include/sp/sysparam.h	28;"	d
+SAMPLINGFREQ	src/fe/constants.h	3;"	d
+SCREEN_WIDTH	nist/include/util/chars.h	37;"	d
+SCRIPTS	nist/src/scripts/Makefile	/^SCRIPTS = gen_lord.sh gen_setv.sh h_header.sh raw2nist.sh $/;"	m
+SEEK_CUR	nist/include/util/fob.h	61;"	d
+SEEK_END	nist/include/util/fob.h	62;"	d
+SEEK_SET	nist/include/util/fob.h	60;"	d
+SELECT_ALL	nist/src/bin/h_read.c	21;"	d	file:
+SELECT_LISTED	nist/src/bin/h_read.c	23;"	d	file:
+SELECT_STD	nist/src/bin/h_read.c	22;"	d	file:
+SEMI_COLON	nist/include/util/chars.h	24;"	d
+SHELL	nist/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	nist/src/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	nist/src/bin/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	nist/src/lib/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	nist/src/lib/sp/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	nist/src/lib/util/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	nist/src/scripts/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHORT	nist/include/sp/wavpack/wavpack.h	9;"	d
+SILENT	nist/include/util/statdist.h	134;"	d
+SLASH	nist/include/util/chars.h	23;"	d
+SPACE	nist/include/util/chars.h	17;"	d
+SPHERE_DECLARE_VERSION	nist/src/lib/sp/spvers.c	3;"	d	file:
+SPHERE_INTERFACE_H	src/fe/SphereInterface.h	2;"	d
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/dif_wavf.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/h_fix.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/nat_bord.c	3;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/sdatamod.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/sp_ntoh.c	3;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/sp_utils.c	9;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/spalloc.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/spchksum.c	29;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/spclose.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/speof.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/sperror.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/sphio.c	3;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/spinput.c	12;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/spopen.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/spoutput.c	12;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/sprstat.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/sptemp.c	9;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/sputils2.c	11;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/spvers.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/spwrite.c	2;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/stdfield.c	8;"	d	file:
+SPHERE_LIBRARY_CODE	nist/src/lib/sp/verbose.c	3;"	d	file:
+SPHERE_PRE_2_2	nist/include/sp/sphere.h	46;"	d
+SPHERE_PRE_2_2	nist/src/bin/tsphere.c	4;"	d	file:
+SPHERE_PRE_2_2	nist/src/bin/w_edit.c	14;"	d	file:
+SPHERE_VERSION_STR	nist/include/sp/version.h	6;"	d
+SPIFR	nist/include/sp/spfile.h	/^} SPIFR;$/;"	t	typeref:struct:sphere_internal_file_rep_t
+SPIFRNULL	nist/include/sp/spfile.h	100;"	d
+SPNULL	nist/include/sp/spfile.h	99;"	d
+SPSTATUS	nist/include/sp/spfile.h	/^} SPSTATUS;$/;"	t	typeref:struct:spfile_status_t
+SPWAVEFORM	nist/include/sp/spfile.h	/^} SPWAVEFORM;$/;"	t	typeref:struct:waveform_t
+SP_CHECKSUM	nist/include/sp/spchksum.h	/^typedef unsigned short SP_CHECKSUM;$/;"	t
+SP_FILE	nist/include/sp/spfile.h	/^} SP_FILE;$/;"	t	typeref:struct:sphere_t
+SP_INTEGER	nist/include/sp/spfile.h	/^typedef long   SP_INTEGER;$/;"	t
+SP_REAL	nist/include/sp/spfile.h	/^typedef double SP_REAL;$/;"	t
+SP_STRING	nist/include/sp/spfile.h	/^typedef char * SP_STRING;$/;"	t
+SP_data_format	nist/include/sp/spfile.h	/^enum SP_data_format     { SP_df_null=500, SP_df_raw, SP_df_array };$/;"	g
+SP_df_array	nist/include/sp/spfile.h	/^enum SP_data_format     { SP_df_null=500, SP_df_raw, SP_df_array };$/;"	e	enum:SP_data_format
+SP_df_null	nist/include/sp/spfile.h	/^enum SP_data_format     { SP_df_null=500, SP_df_raw, SP_df_array };$/;"	e	enum:SP_data_format
+SP_df_raw	nist/include/sp/spfile.h	/^enum SP_data_format     { SP_df_null=500, SP_df_raw, SP_df_array };$/;"	e	enum:SP_data_format
+SP_file_open_mode	nist/include/sp/spfile.h	/^enum SP_file_open_mode  { SP_mode_null=100, SP_mode_read, SP_mode_write, $/;"	g
+SP_mode_null	nist/include/sp/spfile.h	/^enum SP_file_open_mode  { SP_mode_null=100, SP_mode_read, SP_mode_write, $/;"	e	enum:SP_file_open_mode
+SP_mode_read	nist/include/sp/spfile.h	/^enum SP_file_open_mode  { SP_mode_null=100, SP_mode_read, SP_mode_write, $/;"	e	enum:SP_file_open_mode
+SP_mode_update	nist/include/sp/spfile.h	/^			      SP_mode_update };$/;"	e	enum:SP_file_open_mode
+SP_mode_write	nist/include/sp/spfile.h	/^enum SP_file_open_mode  { SP_mode_null=100, SP_mode_read, SP_mode_write, $/;"	e	enum:SP_file_open_mode
+SP_sample_byte_fmt	nist/include/sp/spfile.h	/^enum SP_sample_byte_fmt { SP_sbf_null=200, SP_sbf_01, SP_sbf_10, SP_sbf_1,$/;"	g
+SP_sample_encoding	nist/include/sp/spfile.h	/^enum SP_sample_encoding { SP_se_null=300, SP_se_pcm2, SP_se_pcm1,$/;"	g
+SP_sbf_01	nist/include/sp/spfile.h	/^enum SP_sample_byte_fmt { SP_sbf_null=200, SP_sbf_01, SP_sbf_10, SP_sbf_1,$/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_0123	nist/include/sp/spfile.h	/^			      SP_sbf_0123, SP_sbf_1032, SP_sbf_2301, SP_sbf_3210, $/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_1	nist/include/sp/spfile.h	/^enum SP_sample_byte_fmt { SP_sbf_null=200, SP_sbf_01, SP_sbf_10, SP_sbf_1,$/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_10	nist/include/sp/spfile.h	/^enum SP_sample_byte_fmt { SP_sbf_null=200, SP_sbf_01, SP_sbf_10, SP_sbf_1,$/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_1032	nist/include/sp/spfile.h	/^			      SP_sbf_0123, SP_sbf_1032, SP_sbf_2301, SP_sbf_3210, $/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_2301	nist/include/sp/spfile.h	/^			      SP_sbf_0123, SP_sbf_1032, SP_sbf_2301, SP_sbf_3210, $/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_3210	nist/include/sp/spfile.h	/^			      SP_sbf_0123, SP_sbf_1032, SP_sbf_2301, SP_sbf_3210, $/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_N	nist/include/sp/spfile.h	/^			      SP_sbf_N, SP_sbf_orig};$/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_null	nist/include/sp/spfile.h	/^enum SP_sample_byte_fmt { SP_sbf_null=200, SP_sbf_01, SP_sbf_10, SP_sbf_1,$/;"	e	enum:SP_sample_byte_fmt
+SP_sbf_orig	nist/include/sp/spfile.h	/^			      SP_sbf_N, SP_sbf_orig};$/;"	e	enum:SP_sample_byte_fmt
+SP_se_alaw	nist/include/sp/spfile.h	/^			      SP_se_ulaw, SP_se_alaw, SP_se_pculaw, SP_se_raw};$/;"	e	enum:SP_sample_encoding
+SP_se_null	nist/include/sp/spfile.h	/^enum SP_sample_encoding { SP_se_null=300, SP_se_pcm2, SP_se_pcm1,$/;"	e	enum:SP_sample_encoding
+SP_se_pcm1	nist/include/sp/spfile.h	/^enum SP_sample_encoding { SP_se_null=300, SP_se_pcm2, SP_se_pcm1,$/;"	e	enum:SP_sample_encoding
+SP_se_pcm2	nist/include/sp/spfile.h	/^enum SP_sample_encoding { SP_se_null=300, SP_se_pcm2, SP_se_pcm1,$/;"	e	enum:SP_sample_encoding
+SP_se_pculaw	nist/include/sp/spfile.h	/^			      SP_se_ulaw, SP_se_alaw, SP_se_pculaw, SP_se_raw};$/;"	e	enum:SP_sample_encoding
+SP_se_raw	nist/include/sp/spfile.h	/^			      SP_se_ulaw, SP_se_alaw, SP_se_pculaw, SP_se_raw};$/;"	e	enum:SP_sample_encoding
+SP_se_ulaw	nist/include/sp/spfile.h	/^			      SP_se_ulaw, SP_se_alaw, SP_se_pculaw, SP_se_raw};$/;"	e	enum:SP_sample_encoding
+SP_waveform_comp	nist/include/sp/spfile.h	/^enum SP_waveform_comp   { SP_wc_null=400, SP_wc_shorten, SP_wc_wavpack,$/;"	g
+SP_wc_none	nist/include/sp/spfile.h	/^			      SP_wc_shortpack, SP_wc_none };$/;"	e	enum:SP_waveform_comp
+SP_wc_null	nist/include/sp/spfile.h	/^enum SP_waveform_comp   { SP_wc_null=400, SP_wc_shorten, SP_wc_wavpack,$/;"	e	enum:SP_waveform_comp
+SP_wc_shorten	nist/include/sp/spfile.h	/^enum SP_waveform_comp   { SP_wc_null=400, SP_wc_shorten, SP_wc_wavpack,$/;"	e	enum:SP_waveform_comp
+SP_wc_shortpack	nist/include/sp/spfile.h	/^			      SP_wc_shortpack, SP_wc_none };$/;"	e	enum:SP_waveform_comp
+SP_wc_wavpack	nist/include/sp/spfile.h	/^enum SP_waveform_comp   { SP_wc_null=400, SP_wc_shorten, SP_wc_wavpack,$/;"	e	enum:SP_waveform_comp
+SRC	nist/src/bin/Makefile	/^SRC		= h_add.c h_delete.c h_edit.c h_read.c h_strip.c h_test.c tsphere.c w_decode.c w_diff.c w_edit.c w_encode.c $/;"	m
+SRC	nist/src/lib/sp/Makefile	/^SRC	= alaw.c array.c dif_wavf.c dupfinfo.c exit.c fixio.c h_fix.c license.c lpc.c nat_bord.c poly.c sdatamod.c shorten.c shpacki2.c shpackio.c shpack_s.c spalloc.c spchksum.c spclose.c speof.c sperror.c sphere.c sphio.c spinput.c sploadf.c sp_ntoh.c spopen.c spoutput.c spread.c sprewind.c sprstat.c spseek.c sptell.c sptemp.c sputils2.c sp_utils.c spvers.c spwrite.c stdfield.c ulaw.c vario.c verbose.c wavedit.c wavpack.c $/;"	m
+SRC	nist/src/lib/util/Makefile	/^SRC	= cfg.c comments.c ds.c err_util.c fobops.c hist.c hsgetopt.c itoa.c maldie.c mtrf.c order.c pad.c rsprintf.c sfgets.c statdist.c string.c str_srch.c t_or_f.c word.c $/;"	m
+SRCDIR	Makefile	/^SRCDIR = .\/src$/;"	m
+SRCDIR	Segmentation/Makefile	/^SRCDIR = .\/src$/;"	m
+SS	nist/src/lib/util/ds.c	/^static double SS, Spsi, Sphi, theta, *DELTA, *delta, (*S)(int *), rho;$/;"	v	file:
+STEREO	nist/include/sp/wavpack/wavpack.h	13;"	d
+STR1	nist/src/bin/h_test.c	24;"	d	file:
+SUBS	nist/Makefile	/^SUBS = src$/;"	m
+SUBS	nist/src/Makefile	/^SUBS = lib bin scripts$/;"	m
+SUBS	nist/src/lib/Makefile	/^SUBS = util sp $/;"	m
+SUCCESS	src/fe/SphereInterface.h	3;"	d
+SWAP_BYTES	nist/src/lib/sp/shpack_s.c	15;"	d	file:
+SWAP_BYTES	nist/src/lib/sp/shpackio.c	64;"	d	file:
+Satof	nist/src/lib/sp/shorten.c	/^float Satof(string) char *string; {$/;"	f
+Scache	nist/src/lib/util/ds.c	/^static double *Scache;$/;"	v	file:
+SccsId	nist/src/lib/sp/shpackio.c	/^static char *SccsId = "@(#) %W% %D% MIT\/LCS\/SLS";$/;"	v	file:
+SearchHE	src/HashTable.c	/^HashElement* SearchHE(hashTable *ht,char* data)$/;"	f
+SmoothMagSpectrum	src/DspLibrary.c	/^float *SmoothMagSpectrum(float *signal, int npts, int nfft, int mfft, int smthWinSize,$/;"	f
+SpectrumComplex	src/DspLibrary.c	/^void SpectrumComplex(nfft, csig, amag, phase)$/;"	f
+SpectrumReal	src/DspLibrary.c	/^void SpectrumReal(nfft, ax, ay, amag, phase)$/;"	f
+Sphi	nist/src/lib/util/ds.c	/^static double SS, Spsi, Sphi, theta, *DELTA, *delta, (*S)(int *), rho;$/;"	v	file:
+Spsi	nist/src/lib/util/ds.c	/^static double SS, Spsi, Sphi, theta, *DELTA, *delta, (*S)(int *), rho;$/;"	v	file:
+StandardModGd	src/DspLibrary.c	/^float *StandardModGd(float *signal,int npts,int nfft,int mfft, int smthWinSize,$/;"	f
+StandardModGdLP	src/DspLibrary.c	/^float *StandardModGdLP(float *signal,int npts,int nfft,int mfft, int lpOrder,$/;"	f
+StdGroupDelay	src/DspLibrary.c	/^	void StdGroupDelay(float *signal,int npts, int nfft, int mfft, $/;"	f
+Swap	src/QuickSort.c	/^void Swap (float *a, float *b) {$/;"	f
+SwapInt32	src/writehtk.c	/^void SwapInt32(int32 *p)$/;"	f
+SwapShort	src/writehtk.c	/^void SwapShort(short *p)$/;"	f
+TAB	nist/include/util/chars.h	18;"	d
+TEMP_BASE_NAME	nist/include/sp/sysparam.h	21;"	d
+TEMP_DIR	nist/include/sp/sysparam.h	20;"	d
+TEST_DIFF	nist/include/util/statdist.h	17;"	d
+TMPEXT	nist/include/sp/sysparam.h	19;"	d
+TOGGLE_OFF	nist/include/util/cfg.h	104;"	d
+TOGGLE_OFF_CHR	nist/include/util/cfg.h	106;"	d
+TOGGLE_ON	nist/include/util/cfg.h	103;"	d
+TOGGLE_ON_CHR	nist/include/util/cfg.h	105;"	d
+TRANSLATION_LEN	nist/include/sp/spfile.h	102;"	d
+TROUGH	nist/include/util/hist.h	14;"	d
+TRUE	nist/include/util/chars.h	31;"	d
+TRUE	nist/src/lib/sp/shpackio.c	58;"	d	file:
+TRUE_STRING	nist/src/lib/util/t_or_f.c	/^char *TRUE_STRING="TRUE", *FALSE_STRING="FALSE";$/;"	v
+TRUNC	nist/include/util/macros.h	42;"	d
+TRUNCATE_UPDATEMODE	nist/include/sp/sysparam.h	36;"	d
+TYPESIZE	nist/include/sp/shorten/shorten.h	62;"	d
+TYPE_AU1	nist/include/sp/shorten/shorten.h	63;"	d
+TYPE_AU2	nist/include/sp/shorten/shorten.h	71;"	d
+TYPE_EOF	nist/include/sp/shorten/shorten.h	72;"	d
+TYPE_GENERIC_ULAW	nist/include/sp/shorten/shorten.h	73;"	d
+TYPE_S16HL	nist/include/sp/shorten/shorten.h	66;"	d
+TYPE_S16LH	nist/include/sp/shorten/shorten.h	68;"	d
+TYPE_S8	nist/include/sp/shorten/shorten.h	64;"	d
+TYPE_U16HL	nist/include/sp/shorten/shorten.h	67;"	d
+TYPE_U16LH	nist/include/sp/shorten/shorten.h	69;"	d
+TYPE_U8	nist/include/sp/shorten/shorten.h	65;"	d
+TYPE_ULAW	nist/include/sp/shorten/shorten.h	70;"	d
+T_INTEGER	nist/include/sp/header.h	16;"	d
+T_REAL	nist/include/sp/header.h	17;"	d
+T_STRING	nist/include/sp/header.h	18;"	d
+TrapeziumWindow	src/DspLibrary.c	/^ void TrapeziumWindow(float sig[], int npts, char taperWin, int winSep)$/;"	f
+TrapezoidalFilter	src/DspLibrary.c	/^ float TrapezoidalFilter(float startFreq, float endFreq, $/;"	f
+TrinomialMult	src/DspLibrary.c	/^double *TrinomialMult( int n, double *b, double *c )$/;"	f
+UCHAR	src/fe/SphereInterface.h	/^typedef unsigned char UCHAR;$/;"	t
+UINT_GET	nist/src/lib/sp/shorten.c	72;"	d	file:
+UINT_PUT	nist/src/lib/sp/shorten.c	68;"	d	file:
+ULONGSIZE	nist/include/sp/shorten/shorten.h	56;"	d
+UNCOMPRESS	nist/src/lib/sp/shpackio.c	62;"	d	file:
+UNDEFINED_UINT	nist/include/sp/shorten/shorten.h	25;"	d
+UND_SCR	nist/include/util/chars.h	14;"	d
+UNWAV	nist/include/sp/wavpack/wavpack.h	17;"	d
+UPDATEMODE	nist/include/sp/sysparam.h	34;"	d
+UPDATEMODE	nist/src/lib/sp/spopen.c	7;"	d	file:
+UTILLIB_HEADER	nist/include/util/utillib.h	4;"	d
+UnloadHashTable	src/HashTable.c	/^void UnloadHashTable(hashTable* ht)$/;"	f
+Usage	Segmentation/src/SegmentationFlux.c	/^void Usage() {$/;"	f
+Usage	Segmentation/src/WordSegmentWithSilenceRemoval.c	/^void Usage() {$/;"	f
+Usage	Segmentation/src/WordsWithSilenceRemoval.c	/^void Usage() {$/;"	f
+Usage	src/ComputeFeature.c	/^void Usage () {$/;"	f
+Usage	src/ComputeFeatureHTK.c	/^void Usage () {$/;"	f
+Usage	src/FFTSpectralFlux.c	/^void Usage() {$/;"	f
+V2LPCQOFFSET	nist/src/lib/sp/shorten.c	66;"	d	file:
+VAR_PUT	nist/src/lib/sp/shorten.c	75;"	d	file:
+VECTOR_OF_F_VECTORS	src/fe/FrontEndTypes.h	/^typedef F_VECTOR* VECTOR_OF_F_VECTORS;$/;"	t
+VECTOR_OF_I_VECTORS	src/fe/FrontEndTypes.h	/^typedef I_VECTOR* VECTOR_OF_I_VECTORS;$/;"	t
+VERBOSE	nist/include/util/statdist.h	135;"	d
+VoicedUnvoiced	src/DspLibrary.c	/^void VoicedUnvoiced(short *waveform, long samples, short *vU, $/;"	f
+WAV	nist/include/sp/wavpack/wavpack.h	16;"	d
+WAVPACK_MAGIC	nist/include/sp/wavpack/wavpack.h	4;"	d
+WCAT	nist/include/sp/wavpack/wavpack.h	18;"	d
+WORD_C_VERSION	nist/src/lib/util/word.c	14;"	d	file:
+WRITEMODE	nist/include/sp/sysparam.h	35;"	d
+WRITEMODE	nist/src/lib/sp/spopen.c	8;"	d	file:
+WRITE_HTK	src/fe/writehtk.h	2;"	d
+Warp	src/DspLibrary.c	/^float Warp (float fin, float minFrequency, float maxFrequency, $/;"	f
+Window	src/DspLibrary.c	/^ void Window(float *sig, int npts, char hw, char sw, float gausmin)$/;"	f
+WriteFloat	src/writehtk.c	/^void WriteFloat (FILE *f, float *x, int n)$/;"	f
+WriteHTKHeader	src/writehtk.c	/^void WriteHTKHeader(FILE *f, long nSamp, long sampP, short sampS, $/;"	f
+WriteRIFF	src/SphereInterface.c	/^int WriteRIFF( char *waveFileName, short *waveform, long  numsamples, long samplingRate, int bytesPerSample)$/;"	f
+WriteRIFFWaveFile	src/SphereInterface.c	/^int WriteRIFFWaveFile( RIFFWaveFile *riff, int size, FILE *file)$/;"	f
+WriteToFile	src/writehtk.c	/^void WriteToFile (char *fileName, F_VECTOR **vfv, long numVectors,$/;"	f
+X2	nist/src/lib/util/statdist.c	/^X2_STRUCT X2 = {$/;"	v
+X2PER1	nist/include/util/statdist.h	87;"	d
+X2PER10	nist/include/util/statdist.h	84;"	d
+X2PER2	nist/include/util/statdist.h	86;"	d
+X2PER20	nist/include/util/statdist.h	83;"	d
+X2PER30	nist/include/util/statdist.h	82;"	d
+X2PER5	nist/include/util/statdist.h	85;"	d
+X2PER50	nist/include/util/statdist.h	81;"	d
+X2PER70	nist/include/util/statdist.h	80;"	d
+X2PER80	nist/include/util/statdist.h	79;"	d
+X2PER90	nist/include/util/statdist.h	78;"	d
+X2PER95	nist/include/util/statdist.h	77;"	d
+X2PER98	nist/include/util/statdist.h	76;"	d
+X2PER99	nist/include/util/statdist.h	75;"	d
+X2PER_1	nist/include/util/statdist.h	88;"	d
+X2_DF	nist/include/util/statdist.h	/^} X2_DF;$/;"	t	typeref:struct:X2_df
+X2_STRUCT	nist/include/util/statdist.h	/^} X2_STRUCT;$/;"	t	typeref:struct:X2_struct
+X2_df	nist/include/util/statdist.h	/^typedef struct X2_df{$/;"	s
+X2_df	nist/include/util/statdist.h	126;"	d
+X2_df_str	nist/include/util/statdist.h	127;"	d
+X2_neg_pct_str	nist/include/util/statdist.h	125;"	d
+X2_pct_str	nist/include/util/statdist.h	124;"	d
+X2_score	nist/include/util/statdist.h	128;"	d
+X2_struct	nist/include/util/statdist.h	/^typedef struct X2_struct{$/;"	s
+XBYTESIZE	nist/include/sp/shorten/shorten.h	60;"	d
+Z1tail	nist/src/lib/util/statdist.c	/^Z_STRUCT Z1tail[MAX_Z] = {$/;"	v
+Z2tail	nist/src/lib/util/statdist.c	/^Z_STRUCT Z2tail[MAX_Z] = {$/;"	v
+ZEROTRAP	nist/src/lib/sp/ulaw.c	22;"	d	file:
+ZEROTRAP	nist/src/lib/sp/ulaw.c	23;"	d	file:
+Z_STRUCT	nist/include/util/statdist.h	/^} Z_STRUCT;$/;"	t	typeref:struct:Z_struct
+Z_ext_str	nist/include/util/statdist.h	120;"	d
+Z_exter	nist/include/util/statdist.h	122;"	d
+Z_inter	nist/include/util/statdist.h	121;"	d
+Z_pass	nist/src/lib/util/statdist.c	/^int Z_pass(double Z_stat)$/;"	f
+Z_score	nist/include/util/statdist.h	118;"	d
+Z_str	nist/include/util/statdist.h	119;"	d
+Z_struct	nist/include/util/statdist.h	/^typedef struct Z_struct{$/;"	s
+ZeroFVector	src/DspLibrary.c	/^int ZeroFVector (F_VECTOR *fvect) {$/;"	f
+_ALAW_H_	nist/include/sp/alaw.h	2;"	d
+_HEADER_H	nist/include/sp/header.h	3;"	d
+_SHORTEN_H_	nist/include/sp/shorten/shorten.h	10;"	d
+_SHPK_SPH_	nist/include/sp/shpack/shpk_sph.h	9;"	d
+_SHRT_SPH_H_	nist/include/sp/shorten/shrt_sph.h	10;"	d
+_SPCHKSUM_H_	nist/include/sp/spchksum.h	8;"	d
+_SPFILE_H_	nist/include/sp/spfile.h	6;"	d
+_SPHERE_H_	nist/include/sp/sphere.h	15;"	d
+_SP_H_	nist/include/sp/sp.h	4;"	d
+_SYSFUNC_H_	nist/include/sp/sysfunc.h	4;"	d
+_SYSPARAM_H_	nist/include/sp/sysparam.h	4;"	d
+_ULAW_H_	nist/include/sp/ulaw.h	2;"	d
+_VERSION_H_	nist/include/sp/version.h	4;"	d
+_WAVPACK_H_	nist/include/sp/wavpack/wavpack.h	2;"	d
+actime	nist/src/lib/sp/dupfinfo.c	/^  time_t  actime;  \/* set the access time *\/$/;"	m	struct:utimbuf	file:
+add_checksum_to_file	nist/src/lib/sp/wavedit.c	/^int add_checksum_to_file(char *f2, char *prog){ $/;"	f
+add_to_cache	nist/src/lib/util/ds.c	/^static void add_to_cache(double Snew, int *phi_new){$/;"	f	file:
+add_to_singarr	nist/include/util/memory.h	88;"	d
+alaw2linear	nist/src/lib/sp/alaw.c	/^int alaw2linear(unsigned char alawbyte)$/;"	f
+alaw2linear_01_sbf_lut	nist/include/sp/alaw.h	/^static short int alaw2linear_01_sbf_lut[256] = $/;"	v
+alaw2linear_10_sbf_lut	nist/include/sp/alaw.h	/^static short int alaw2linear_10_sbf_lut[256] = $/;"	v
+alaw2pcm2	nist/src/lib/sp/spwrite.c	/^void alaw2pcm2(unsigned char *alaw_data, short *pcm_data, enum SP_sample_encoding pcm_sbf, SP_INTEGER samples){$/;"	f
+alloc_2dimZ	nist/include/util/memory.h	43;"	d
+alloc_2dimarr	nist/include/util/memory.h	29;"	d
+alloc_3dimZ	nist/include/util/memory.h	50;"	d
+alloc_CHANNELS	nist/src/lib/sp/spalloc.c	/^CHANNELS *alloc_CHANNELS(int num_chan, int max_chan_add){$/;"	f
+alloc_CONFIG	nist/src/lib/util/cfg.c	/^void alloc_CONFIG(CONFIG *cfg)$/;"	f
+alloc_SPIFR	nist/src/lib/sp/spalloc.c	/^SPIFR *alloc_SPIFR(void)$/;"	f
+alloc_char_2dimarr	nist/include/util/memory.h	58;"	d
+alloc_char_singarr	nist/include/util/memory.h	57;"	d
+alloc_int_2dimarr	nist/include/util/memory.h	67;"	d
+alloc_int_singarr	nist/include/util/memory.h	66;"	d
+alloc_int_singarr_zero	nist/include/util/memory.h	69;"	d
+alloc_short_2dimarr	nist/include/util/memory.h	62;"	d
+alloc_short_2dimarr_zero	nist/include/util/memory.h	63;"	d
+alloc_short_singarr	nist/include/util/memory.h	60;"	d
+alloc_short_singarr_zero	nist/include/util/memory.h	61;"	d
+alloc_singZ	nist/include/util/memory.h	36;"	d
+alloc_singarr	nist/include/util/memory.h	25;"	d
+argv0	nist/src/lib/sp/shorten.c	/^char	*argv0 = "shorten";$/;"	v
+array	nist/src/lib/sp/shpack_s.c	/^    short array[1024];$/;"	v
+array	src/fe/FrontEndTypes.h	/^  float **array;$/;"	m	struct:__anon5
+array	src/fe/FrontEndTypes.h	/^  float *array;$/;"	m	struct:__anon1
+array	src/fe/FrontEndTypes.h	/^  int *array;$/;"	m	struct:__anon4
+array2interleaved	nist/src/lib/sp/spwrite.c	/^static void array2interleaved(char **arr_buff, SP_INTEGER arr_offset, char *inter_buff, SP_INTEGER chcnt, SP_INTEGER snb, SP_INTEGER samples){$/;"	f	file:
+array_access_tests	nist/src/bin/tsphere.c	/^void array_access_tests(int test){$/;"	f
+averageBytesPerSecond	src/fe/SphereInterface.h	/^	DWORD averageBytesPerSecond;	\/\/0x1C$/;"	m	struct:RIFFHeader
+average_hieght_hist	nist/src/lib/util/hist.c	/^int average_hieght_hist(HIST **hist, int num_bins, int center, int window)$/;"	f
+b0b	nist/src/lib/sp/wavpack.c	/^static float bm,b0b,b1b,b0s,b1s,b0so,b1so;		\/* bests for pruning *\/$/;"	v	file:
+b0s	nist/src/lib/sp/wavpack.c	/^static float bm,b0b,b1b,b0s,b1s,b0so,b1so;		\/* bests for pruning *\/$/;"	v	file:
+b0so	nist/src/lib/sp/wavpack.c	/^static float bm,b0b,b1b,b0s,b1s,b0so,b1so;		\/* bests for pruning *\/$/;"	v	file:
+b1b	nist/src/lib/sp/wavpack.c	/^static float bm,b0b,b1b,b0s,b1s,b0so,b1so;		\/* bests for pruning *\/$/;"	v	file:
+b1s	nist/src/lib/sp/wavpack.c	/^static float bm,b0b,b1b,b0s,b1s,b0so,b1so;		\/* bests for pruning *\/$/;"	v	file:
+b1so	nist/src/lib/sp/wavpack.c	/^static float bm,b0b,b1b,b0s,b1s,b0so,b1so;		\/* bests for pruning *\/$/;"	v	file:
+bandwidthScale	src/fe/FrontEndTypes.h	/^  float bandwidthScale;$/;"	m	struct:__anon3
+basic_exit	nist/src/lib/sp/exit.c	/^void basic_exit(exitcode) int exitcode; {$/;"	f
+better_to_chop_here_and_use_fewer_bits_for_future	nist/src/lib/sp/shpackio.c	/^int better_to_chop_here_and_use_fewer_bits_for_future(int bits_for_element, int bits_for_chunk, short int *buffer, short int *bits_for_element_cache, int cache_start, int start, int end, int mask)$/;"	f
+better_to_chop_here_vs_using_more_bits	nist/src/lib/sp/shpackio.c	/^int better_to_chop_here_vs_using_more_bits(int bits_for_element, int bits_for_chunk, int num_in_chunk)$/;"	f
+blockAlign	src/fe/SphereInterface.h	/^	INT blockAlign;			\/\/0x20$/;"	m	struct:RIFFHeader
+bm	nist/src/lib/sp/wavpack.c	/^static float bm,b0b,b1b,b0s,b1s,b0so,b1so;		\/* bests for pruning *\/$/;"	v	file:
+body_insert_hist	nist/include/util/hist.h	29;"	d
+buf	nist/include/util/fob.h	/^	char * buf;		\/* allocated buffer pointer *\/$/;"	m	struct:fob_t
+buf_swap	nist/include/util/fob.h	/^	char * buf_swap;        \/* if the write operation requries byte*\/$/;"	m	struct:fob_t
+buffer_swap_bytes	nist/src/lib/util/fobops.c	/^void buffer_swap_bytes(char *mem, int blen)$/;"	f
+bufsize	nist/include/util/fob.h	/^	int bufsize;		\/* allocated buffer size *\/$/;"	m	struct:fob_t
+build_example_file_names	nist/src/bin/tsphere.c	/^void build_example_file_names(char *sphere_lib_dir)$/;"	f
+build_normal_hist	nist/src/lib/util/hist.c	/^void build_normal_hist(HIST **hist, int num_bins, double mean, double variance, double total_area)$/;"	f
+byteflg	nist/src/lib/sp/wavpack.c	/^static int byteflg = 0;		\/* byte data only *\/$/;"	v	file:
+byteswap_buffer	nist/include/sp/spfile.h	/^    void *byteswap_buffer;$/;"	m	struct:waveform_t
+byteswap_buffer_len	nist/include/sp/spfile.h	/^    int byteswap_buffer_len;$/;"	m	struct:waveform_t
+cabs	src/fe/FrontEndDefs.h	70;"	d
+cabs2	src/fe/FrontEndDefs.h	72;"	d
+cache	nist/src/lib/util/ds.c	/^static int num_cache=400, **cache, last_cache = (-1), cache_count = 0;$/;"	v	file:
+cache_count	nist/src/lib/util/ds.c	/^static int num_cache=400, **cache, last_cache = (-1), cache_count = 0;$/;"	v	file:
+cadd	src/fe/FrontEndDefs.h	36;"	d
+calc_mean_var_std_dev_Zstat	nist/src/lib/util/statdist.c	/^void calc_mean_var_std_dev_Zstat(int *Z_list, int num_Z, double *mean, double *variance, double *std_dev, double *Z_stat)$/;"	f
+calc_mean_var_std_dev_Zstat_double	nist/src/lib/util/statdist.c	/^void calc_mean_var_std_dev_Zstat_double(double *Z_list, int num_Z, double *mean, double *variance, double *std_dev, double *Z_stat)$/;"	f
+calc_two_sample_z_test_double	nist/src/lib/util/statdist.c	/^void calc_two_sample_z_test_double(double *l1, double *l2, int num_l1, int num_l2, double *Z)$/;"	f
+cdiv	src/fe/FrontEndDefs.h	63;"	d
+centOrFreq	src/fe/FrontEndTypes.h	/^   int centOrFreq;$/;"	m	struct:__anon3
+cfg_dbg	nist/src/lib/util/cfg.c	/^static int cfg_dbg=FALSE;$/;"	v	file:
+cfg_get_args	nist/src/lib/util/cfg.c	/^void cfg_get_args(CONFIG *cfg, int argc, char **argv, char *setup_config)$/;"	f
+chan_0	nist/src/lib/sp/wavpack.c	/^static unsigned short chan_0[RUNL];		\/* byte\/short chan 0 *\/$/;"	v	file:
+chan_1	nist/src/lib/sp/wavpack.c	/^	int chan_1;	\/* if chan0, stereo pair (chan1) *\/$/;"	m	struct:strat_eval	file:
+chan_1	nist/src/lib/sp/wavpack.c	/^static unsigned short chan_1[RUNL];		\/* byte\/short chan 1 *\/$/;"	v	file:
+channel_struct	nist/include/sp/spfile.h	/^typedef struct channel_struct {$/;"	s
+channels	nist/include/sp/spfile.h	/^    CHANNELS *channels;$/;"	m	struct:spfile_status_t
+char2char	nist/include/util/macros.h	22;"	d
+check_alphanum	nist/src/bin/h_read.c	/^int check_alphanum = FALSE;$/;"	v
+check_byte_order	nist/src/bin/h_read.c	/^int check_byte_order = FALSE;		\/* not implemented *\/$/;"	v
+check_std_fields	nist/src/bin/h_read.c	/^int check_std_fields = FALSE;$/;"	v
+checkf	nist/src/bin/h_read.c	/^char *checkf[MAXFIELDS];$/;"	v
+checksum	nist/include/sp/spfile.h	/^    SP_CHECKSUM checksum;    \/* cumulative checksum of read\/written data *\/$/;"	m	struct:waveform_t
+checksum_pre_post_verification	nist/src/bin/tsphere.c	/^void checksum_pre_post_verification(int test) $/;"	f
+chromaFB	src/fe/FrontEndTypes.h	/^   int chromaFB;$/;"	m	struct:__anon3
+chromaOverlapFB	src/fe/FrontEndTypes.h	/^   int chromaOverlapFB;$/;"	m	struct:__anon3
+clear_2dim	nist/include/util/memory.h	82;"	d
+clear_char_2dimarr	nist/include/util/memory.h	93;"	d
+clear_int_2dimarr	nist/include/util/memory.h	92;"	d
+clear_sing	nist/include/util/memory.h	76;"	d
+cmplx	src/fe/FrontEndDefs.h	/^ typedef struct cmplx { float re,im ; }complex;$/;"	s
+cmul	src/fe/FrontEndDefs.h	56;"	d
+comment	nist/include/sp/header.h	/^	char *comment;$/;"	m	struct:field_t
+comp	nist/src/lib/util/hist.c	/^int comp(const void *a, const void *b)$/;"	f
+complement_selection	nist/src/bin/h_read.c	/^int complement_selection = FALSE;$/;"	v
+complex	src/fe/FrontEndDefs.h	/^ typedef struct cmplx { float re,im ; }complex;$/;"	t	typeref:struct:cmplx
+compressionCode	src/fe/SphereInterface.h	/^	INT compressionCode;		\/\/0x14$/;"	m	struct:RIFFHeader
+compute_acc_binomial	nist/src/lib/util/statdist.c	/^double compute_acc_binomial(int R, int n, double p)$/;"	f
+compute_checksum	nist/src/lib/sp/shpacki2.c	/^compute_checksum(short int *wav, int len)$/;"	f
+compute_compression_percent	nist/src/bin/w_encode.c	/^double compute_compression_percent(char *file){$/;"	f
+condition_data	nist/src/lib/sp/wavpack.c	/^static int condition_data(int flags)$/;"	f	file:
+config_record_struct	nist/include/util/cfg.h	/^typedef struct config_record_struct{$/;"	s
+config_struct	nist/include/util/cfg.h	/^typedef struct config_struct{$/;"	s
+conjg	src/fe/FrontEndDefs.h	43;"	d
+convert_file	nist/src/lib/sp/sputils2.c	/^int convert_file(char *filein, char *fileout, char *format_conversion, $/;"	f
+converted_buffer	nist/include/sp/spfile.h	/^    void *converted_buffer;$/;"	m	struct:waveform_t
+converted_buffer_len	nist/include/sp/spfile.h	/^    int converted_buffer_len;$/;"	m	struct:waveform_t
+converted_read_check	nist/src/bin/tsphere.c	/^void converted_read_check(char *file1, char *file2, char *conv)$/;"	f
+copy_buffer_swap_bytes	nist/src/lib/util/fobops.c	/^void copy_buffer_swap_bytes(char *to, char *from, int blen)$/;"	f
+copyright	nist/src/lib/sp/wavpack.c	/^    static char copyright[]=$/;"	v	file:
+correct_out_of_date_headers	nist/src/lib/sp/h_fix.c	/^int correct_out_of_date_headers(SP_FILE *sp)$/;"	f
+count	nist/include/util/hist.h	/^       int count;$/;"	m	struct:hist
+count	nist/src/lib/sp/wavpack.c	/^	int count;	\/* nr samples *\/$/;"	m	struct:strat_eval	file:
+count	nist/src/lib/sp/wavpack.c	/^	unsigned char count;		\/* nr samples -1 *\/$/;"	m	struct:hdr	file:
+csub	src/fe/FrontEndDefs.h	49;"	d
+current_file	nist/src/bin/h_read.c	/^char *prog, *current_file;$/;"	v
+data	nist/include/sp/header.h	/^	char *data;$/;"	m	struct:field_t
+data	src/fe/HashTable.h	/^	char* data;$/;"	m	struct:HashElement
+data	src/fe/SphereInterface.h	/^  short int *data __attribute__((packed));	\/\/0x2C to dataSize$/;"	m	struct:RIFFWaveFile
+dataChunkDataSize	src/fe/SphereInterface.h	/^	DWORD dataChunkDataSize;	\/\/0x28$/;"	m	struct:RIFFHeader
+dataChunkID	src/fe/SphereInterface.h	/^	UCHAR dataChunkID[4]; 		\/\/0x24$/;"	m	struct:RIFFHeader
+datalen	nist/include/sp/header.h	/^	int datalen;$/;"	m	struct:field_t
+db_RMS_hist	nist/src/lib/util/hist.c	/^double db_RMS_hist(HIST **hist, int num_bins)$/;"	f
+dbase	nist/src/lib/sp/wavpack.c	/^	unsigned short dbase;		\/* (opt) diff base, byte\/short *\/$/;"	m	struct:hdr	file:
+debug	nist/src/lib/util/ds.c	/^static int debug, x;$/;"	v	file:
+decode_data	nist/src/lib/sp/wavpack.c	/^static decode_data(struct hdr *hp, unsigned char *ibuf, register short unsigned int *sobuf, int *nsobuf)$/;"	f	file:
+decompress_waveform	nist/src/lib/sp/spread.c	/^static int decompress_waveform(SP_FILE *sp)$/;"	f	file:
+delim	nist/src/bin/h_read.c	/^char *delim = " ";$/;"	v
+delta	nist/src/lib/util/ds.c	/^static double SS, Spsi, Sphi, theta, *DELTA, *delta, (*S)(int *), rho;$/;"	v	file:
+deltaDeltaDifference	src/fe/FrontEndTypes.h	/^   int deltaDeltaDifference;$/;"	m	struct:__anon3
+deltaDifference	src/fe/FrontEndTypes.h	/^   int deltaDifference;$/;"	m	struct:__anon3
+df	nist/include/util/statdist.h	/^    X2_DF df[MAX_DF+1];$/;"	m	struct:X2_struct
+dftIndices	src/fe/FrontEndTypes.h	/^  int *dftIndices;$/;"	m	struct:__anon3
+die	nist/include/util/macros.h	65;"	d
+diff_SP_FILE_waveforms	nist/src/lib/sp/dif_wavf.c	/^int diff_SP_FILE_waveforms(SP_FILE *sp1, SP_FILE *sp2, char *file1, char *file2, int verbose, FILE *fp)$/;"	f
+diff_data	nist/src/lib/sp/dif_wavf.c	/^int diff_data(char *file1, char *file2, int verbose, FILE *fp)$/;"	f
+diff_files	nist/src/lib/sp/dif_wavf.c	/^int diff_files(char *file1, char *file2)$/;"	f
+diff_header	nist/src/lib/sp/dif_wavf.c	/^int diff_header(char *file1, char *file2, int *chg, int *ins, int *del, $/;"	f
+diff_hist	nist/src/lib/util/hist.c	/^void diff_hist(HIST **h1, HIST **h2, HIST **hd, int num_bins)$/;"	f
+diff_waveforms	nist/src/lib/sp/dif_wavf.c	/^int diff_waveforms(char *file1, char *file2,$/;"	f
+direct_search	nist/src/lib/util/ds.c	/^void direct_search(int *IN_psi, int IN_K, double *IN_DELTA, double IN_rho, double *IN_delta, double (*IN_S) ( int *), int IN_full_search)$/;"	f
+do_hist	nist/src/lib/util/hist.c	/^void do_hist(HIST **hist, int num_bins, double *arr, int arr_cnt)$/;"	f
+do_large_file_conversion	nist/src/bin/tsphere.c	/^void do_large_file_conversion(char *modified, char *control, char *mode)$/;"	f
+do_least_squares	nist/src/lib/util/hist.c	/^double do_least_squares(HIST **noise, HIST **normal, int num_bins)$/;"	f
+do_selective_read_test	nist/src/bin/tsphere.c	/^int do_selective_read_test(char *f1, char *f2, char *conv1, char *conv2,int v){$/;"	f
+do_sp_compute_checksum_test	nist/src/bin/tsphere.c	/^void do_sp_compute_checksum_test(char *file, int with_checksum, int corrupt, int test_seek){$/;"	f
+do_sp_tell_check	nist/src/bin/tsphere.c	/^int do_sp_tell_check(SP_FILE *sp, char *file){$/;"	f
+do_update	nist/src/lib/sp/sputils2.c	/^int do_update(char *filein, char *format_conversion, char *prog_name)$/;"	f
+doc_example_2_test	nist/src/bin/tsphere.c	/^void doc_example_2_test(int test)$/;"	f
+doc_example_4_test	nist/src/bin/tsphere.c	/^void doc_example_4_test(int test)$/;"	f
+dump_2dimarr	nist/include/util/memory.h	106;"	d
+dump_CONFIG	nist/src/lib/util/cfg.c	/^void dump_CONFIG(CONFIG *cfg)$/;"	f
+dump_X2_table	nist/src/lib/util/statdist.c	/^void dump_X2_table(void)$/;"	f
+dump_esps_hist	nist/src/lib/util/hist.c	/^void dump_esps_hist(HIST **hist, int num_bins, char *fname)$/;"	f
+dump_gnuplot_2hist	nist/src/lib/util/hist.c	/^void dump_gnuplot_2hist(HIST **hist1, HIST **hist2, int num_bins, char *fname)$/;"	f
+dump_gnuplot_hist	nist/src/lib/util/hist.c	/^void dump_gnuplot_hist(HIST **hist, int num_bins, char *fname)$/;"	f
+dump_hist	nist/src/lib/util/hist.c	/^void dump_hist(HIST **hist, int num_bins, FILE *fp)$/;"	f
+dump_singarr	nist/include/util/memory.h	99;"	d
+dupfileinfo	nist/src/lib/sp/dupfinfo.c	/^int dupfileinfo(path0, path1) char *path0, *path1; {$/;"	f
+element	src/fe/HashTable.h	/^        struct HashElement** element;$/;"	m	struct:hashTable	typeref:struct:hashTable::HashElement
+end_insert_hist	nist/include/util/hist.h	39;"	d
+enum_str_SP_data_format	nist/src/lib/sp/sputils2.c	/^char *enum_str_SP_data_format(enum SP_data_format id)$/;"	f
+enum_str_SP_file_open_mode	nist/src/lib/sp/sputils2.c	/^char *enum_str_SP_file_open_mode(enum SP_file_open_mode id)$/;"	f
+enum_str_SP_sample_byte_fmt	nist/src/lib/sp/sputils2.c	/^char *enum_str_SP_sample_byte_fmt(enum SP_sample_byte_fmt id)$/;"	f
+enum_str_SP_sample_encoding	nist/src/lib/sp/sputils2.c	/^char *enum_str_SP_sample_encoding(enum SP_sample_encoding id)$/;"	f
+enum_str_SP_waveform_comp	nist/src/lib/sp/sputils2.c	/^char *enum_str_SP_waveform_comp(enum SP_waveform_comp id)$/;"	f
+erase_hist	nist/src/lib/util/hist.c	/^void erase_hist(HIST **hist, int num_bins)$/;"	f
+err_util_dbg	nist/src/lib/util/err_util.c	/^static int err_util_dbg = 0;$/;"	v	file:
+errors	nist/src/bin/h_read.c	/^int errors = 0;$/;"	v
+evaluate_chan	nist/src/lib/sp/wavpack.c	/^static evaluate_chan(int flags, struct strat_eval *f)		\/* evaluate channel n *\/$/;"	f	file:
+evaluate_strat	nist/src/lib/sp/wavpack.c	/^static evaluate_strat(int flags)$/;"	f	file:
+exitenv	nist/src/lib/sp/exit.c	/^jmp_buf	exitenv;$/;"	v
+exitmessage	nist/src/lib/sp/exit.c	/^char	*exitmessage;$/;"	v
+expand_1dim	nist/include/util/memory.h	151;"	d
+expand_1dimZ	nist/include/util/memory.h	162;"	d
+expand_2dimZ	nist/include/util/memory.h	172;"	d
+expand_singarr	nist/include/util/memory.h	140;"	d
+exterior_str	nist/include/util/statdist.h	/^    char *exterior_str;$/;"	m	struct:Z_struct
+external_filename	nist/include/sp/spfile.h	/^    char *external_filename;$/;"	m	struct:spfile_status_t
+extra_checksum_verify	nist/include/sp/spfile.h	/^    int extra_checksum_verify;$/;"	m	struct:spfile_status_t
+f0b	nist/src/lib/sp/wavpack.c	/^static struct strat_eval f0b[RUNL+1],f1b[RUNL+1];	\/* for mixed strat stereo *\/$/;"	v	typeref:struct:strat_eval	file:
+f0s	nist/src/lib/sp/wavpack.c	/^static struct strat_eval f0s[RUNL+1],f1s[RUNL+1];			$/;"	v	typeref:struct:strat_eval	file:
+f0so	nist/src/lib/sp/wavpack.c	/^static struct strat_eval f0so[RUNL+1],f1so[RUNL+1];			$/;"	v	typeref:struct:strat_eval	file:
+f1b	nist/src/lib/sp/wavpack.c	/^static struct strat_eval f0b[RUNL+1],f1b[RUNL+1];	\/* for mixed strat stereo *\/$/;"	v	typeref:struct:	file:
+f1s	nist/src/lib/sp/wavpack.c	/^static struct strat_eval f0s[RUNL+1],f1s[RUNL+1];			$/;"	v	typeref:struct:	file:
+f1so	nist/src/lib/sp/wavpack.c	/^static struct strat_eval f0so[RUNL+1],f1so[RUNL+1];			$/;"	v	typeref:struct:	file:
+failed_checksum	nist/include/sp/spfile.h	/^    int failed_checksum;$/;"	m	struct:waveform_t
+farray	nist/src/lib/sp/spinput.c	/^struct field_t *farray[MAXFIELDS];$/;"	v	typeref:struct:field_t
+farray_fields	nist/src/lib/sp/spinput.c	/^int farray_fields;$/;"	v
+fbuf	nist/src/lib/sp/lpc.c	/^static float *fbuf = NULL;$/;"	v	file:
+fc	nist/include/sp/header.h	/^	int fc;$/;"	m	struct:header_t
+fclose	nist/src/lib/sp/shorten.c	43;"	d	file:
+fclose	nist/src/lib/sp/shorten.c	45;"	d	file:
+featureVarNormalize	src/fe/FrontEndTypes.h	/^   int featureVarNormalize;$/;"	m	struct:__anon3
+featuresHT	src/InitAsdf.c	/^hashTable* featuresHT = NULL;$/;"	v
+ferror	nist/src/lib/sp/wavpack.c	235;"	d	file:
+ferror	nist/src/lib/sp/wavpack.c	237;"	d	file:
+fftOrder	src/fe/FrontEndTypes.h	/^   int fftOrder;$/;"	m	struct:__anon3
+fftScale	src/fe/FrontEndTypes.h	/^  int fftScale;$/;"	m	struct:__anon3
+fftSize	src/fe/FrontEndTypes.h	/^   int fftSize;$/;"	m	struct:__anon3
+fgetc	nist/src/lib/sp/shpacki2.c	38;"	d	file:
+fgetc	nist/src/lib/sp/shpacki2.c	40;"	d	file:
+fgetc	nist/src/lib/sp/shpackio.c	40;"	d	file:
+fgetc	nist/src/lib/sp/shpackio.c	42;"	d	file:
+field	nist/src/bin/h_read.c	/^void field(register struct header_t *h, char *name)$/;"	f
+field_set_occured_flag	nist/include/sp/spfile.h	/^    int field_set_occured_flag;$/;"	m	struct:spfile_status_t
+field_t	nist/include/sp/header.h	/^struct field_t {$/;"	s
+fieldno	nist/src/bin/h_read.c	/^int fieldno, total_fields;$/;"	v
+fileChanged	src/fe/FrontEndTypes.h	/^  int fileChanged;$/;"	m	struct:__anon3
+file_channel_count	nist/include/sp/spfile.h	/^    int user_channel_count, file_channel_count;$/;"	m	struct:spfile_status_t
+file_checksum	nist/include/sp/spfile.h	/^    SP_CHECKSUM file_checksum;     \/* original file checksums, set for a file*\/$/;"	m	struct:spfile_status_t
+file_compress	nist/include/sp/spfile.h	/^    enum SP_waveform_comp      user_compress, file_compress;$/;"	m	struct:spfile_status_t	typeref:enum:spfile_status_t::
+file_data_buffer	nist/include/sp/spfile.h	/^    void *file_data_buffer;$/;"	m	struct:waveform_t
+file_data_buffer_len	nist/include/sp/spfile.h	/^    int file_data_buffer_len;$/;"	m	struct:waveform_t
+file_encoding	nist/include/sp/spfile.h	/^    enum SP_sample_encoding    user_encoding, file_encoding;$/;"	m	struct:spfile_status_t	typeref:enum:spfile_status_t::
+file_header	nist/include/sp/spfile.h	/^    struct header_t *file_header;$/;"	m	struct:spfile_status_t	typeref:struct:spfile_status_t::header_t
+file_sample_count	nist/include/sp/spfile.h	/^    int user_sample_count, file_sample_count;$/;"	m	struct:spfile_status_t
+file_sample_n_bytes	nist/include/sp/spfile.h	/^    int user_sample_n_bytes, file_sample_n_bytes;$/;"	m	struct:spfile_status_t
+file_sample_rate	nist/include/sp/spfile.h	/^    int user_sample_rate, file_sample_rate;$/;"	m	struct:spfile_status_t
+file_sbf	nist/include/sp/spfile.h	/^    enum SP_sample_byte_fmt    user_sbf, file_sbf;$/;"	m	struct:spfile_status_t	typeref:enum:spfile_status_t::
+fileheader_fixed	nist/include/sp/sysparam.h	/^struct fileheader_fixed {$/;"	s
+filenameo	nist/src/lib/sp/shorten.c	/^char	*filenameo = NULL;$/;"	v
+fileo	nist/src/lib/sp/shorten.c	/^FOB	*fileo = NULL;$/;"	v
+filesize	nist/src/lib/sp/shpack_s.c	/^    int filesize;$/;"	v
+filterOrder	src/fe/FrontEndTypes.h	/^   int filterOrder;$/;"	m	struct:__anon3
+filterbankWeights	src/fe/FrontEndTypes.h	/^  VECTOR_OF_F_VECTORS *filterbankWeights;$/;"	m	struct:__anon3
+find_bits_needed	nist/src/lib/sp/shpackio.c	/^find_bits_needed(short int num)$/;"	f
+find_bitshift	nist/src/lib/sp/fixio.c	/^int find_bitshift(data, nitem, ftype) long *data; int nitem, ftype; {$/;"	f
+find_end_of_word	nist/include/util/macros.h	34;"	d
+find_next_chunk_to_compress	nist/src/lib/sp/shpackio.c	/^int find_next_chunk_to_compress(short int *buffer, int start, int num_elements, int *pbits, int mask)$/;"	f
+find_next_word	nist/src/lib/util/word.c	/^void find_next_word(char **ptr)$/;"	f
+fix_bitshift	nist/src/lib/sp/fixio.c	/^void fix_bitshift(buffer, nitem, bitshift, ftype) long *buffer; int nitem,$/;"	f
+flag_group	nist/include/util/cfg.h	/^    int flag_group;$/;"	m	struct:config_record_struct
+flags	nist/src/lib/sp/wavpack.c	/^{	unsigned char flags;		\/* strategy and channel info *\/$/;"	m	struct:hdr	file:
+fmtChunkDataSize	src/fe/SphereInterface.h	/^	DWORD fmtChunkDataSize;		\/\/0x10$/;"	m	struct:RIFFHeader
+fmtChunkID	src/fe/SphereInterface.h	/^	UCHAR fmtChunkID[4];		\/\/0x0C$/;"	m	struct:RIFFHeader
+fnptr	src/fe/HashTable.h	/^	void* fnptr;$/;"	m	struct:HashElement
+fob_bufcleanup	nist/src/lib/util/fobops.c	/^int fob_bufcleanup(FOB *f, char **buf, int *len)$/;"	f
+fob_bufget	nist/src/lib/util/fobops.c	/^int fob_bufget(FOB *fobp, char *p, int len)$/;"	f
+fob_bufinit	nist/src/lib/util/fobops.c	/^void fob_bufinit(FOB *f, char *buf, int len)$/;"	f
+fob_bufput	nist/src/lib/util/fobops.c	/^int fob_bufput(FOB *fobp, char *p, int len)$/;"	f
+fob_char_checksum	nist/src/lib/sp/spread.c	/^static int fob_char_checksum(FOB *f, SP_CHECKSUM *checksum,  $/;"	f	file:
+fob_create	nist/src/lib/util/fobops.c	/^FOB * fob_create(FILE *fp)$/;"	f
+fob_create2	nist/src/lib/util/fobops.c	/^int fob_create2(FILE *fpin, FILE *fpout, FOB **fobpin, FOB **fobpout)$/;"	f
+fob_destroy	nist/src/lib/util/fobops.c	/^int fob_destroy(FOB *fobp)$/;"	f
+fob_destroy2	nist/src/lib/util/fobops.c	/^int fob_destroy2(FOB *fobpin, FOB *fobpout)$/;"	f
+fob_fclose	nist/src/lib/util/fobops.c	/^int fob_fclose(FOB *fob){$/;"	f
+fob_feof	nist/src/lib/util/fobops.c	/^int fob_feof(FOB *fobp)$/;"	f
+fob_ferror	nist/src/lib/util/fobops.c	/^int fob_ferror(FOB *fobp)$/;"	f
+fob_fflush	nist/src/lib/util/fobops.c	/^int fob_fflush(FOB *fobp)$/;"	f
+fob_flush_to_fp	nist/src/lib/util/fobops.c	/^int fob_flush_to_fp(FOB *f, FILE *fp)$/;"	f
+fob_fopen	nist/src/lib/util/fobops.c	/^FOB *fob_fopen(char *name, char *mode){$/;"	f
+fob_fread	nist/src/lib/util/fobops.c	/^int fob_fread(char *p, int size, int nitems, FOB *fobp)$/;"	f
+fob_fseek	nist/src/lib/util/fobops.c	/^int fob_fseek(FOB *f, long len, int offset)$/;"	f
+fob_ftell	nist/src/lib/util/fobops.c	/^int fob_ftell(FOB *f)$/;"	f
+fob_fwrite	nist/src/lib/util/fobops.c	/^int fob_fwrite(char *p, int size, int nitems, FOB *fobp)$/;"	f
+fob_getc	nist/src/lib/util/fobops.c	/^int fob_getc(FOB *fobp)$/;"	f
+fob_getw	nist/src/lib/util/fobops.c	/^int fob_getw(FOB *fobp)$/;"	f
+fob_is_fp	nist/src/lib/util/fobops.c	/^int fob_is_fp(FOB *f)$/;"	f
+fob_putc	nist/src/lib/util/fobops.c	/^int fob_putc(char c, FOB *fobp)$/;"	f
+fob_read_byte_natural	nist/src/lib/util/fobops.c	/^void fob_read_byte_natural(FOB *f)$/;"	f
+fob_read_byte_swap	nist/src/lib/util/fobops.c	/^void fob_read_byte_swap(FOB *f)$/;"	f
+fob_rewind	nist/src/lib/util/fobops.c	/^void fob_rewind(FOB *f)$/;"	f
+fob_short_checksum	nist/src/lib/sp/spread.c	/^static int fob_short_checksum(FOB *f, SP_CHECKSUM *checksum, int do_byte_swap, $/;"	f	file:
+fob_t	nist/include/util/fob.h	/^typedef struct fob_t {$/;"	s
+fob_write_byte_natural	nist/src/lib/util/fobops.c	/^void fob_write_byte_natural(FOB *f)$/;"	f
+fob_write_byte_swap	nist/src/lib/util/fobops.c	/^void fob_write_byte_swap(FOB *f)$/;"	f
+fopen	nist/src/lib/sp/shorten.c	48;"	d	file:
+fopen	nist/src/lib/sp/shorten.c	50;"	d	file:
+form_feed	nist/include/util/macros.h	62;"	d
+fp	nist/include/util/fob.h	/^	FILE * fp;		\/* if not NULL, use stdio.h functions *\/$/;"	m	struct:fob_t
+fputc	nist/src/lib/sp/shpackio.c	50;"	d	file:
+fputc	nist/src/lib/sp/shpackio.c	52;"	d	file:
+frameAdvanceSamples	src/fe/FrontEndTypes.h	/^   int frameAdvanceSamples;$/;"	m	struct:__anon3
+fread	nist/src/lib/sp/fixio.c	17;"	d	file:
+fread	nist/src/lib/sp/fixio.c	19;"	d	file:
+fread	nist/src/lib/sp/shorten.c	23;"	d	file:
+fread	nist/src/lib/sp/shorten.c	25;"	d	file:
+fread	nist/src/lib/sp/shpacki2.c	18;"	d	file:
+fread	nist/src/lib/sp/shpacki2.c	20;"	d	file:
+fread	nist/src/lib/sp/shpackio.c	20;"	d	file:
+fread	nist/src/lib/sp/shpackio.c	22;"	d	file:
+fread	nist/src/lib/sp/vario.c	18;"	d	file:
+fread	nist/src/lib/sp/vario.c	20;"	d	file:
+fread	nist/src/lib/sp/wavpack.c	225;"	d	file:
+fread	nist/src/lib/sp/wavpack.c	227;"	d	file:
+fread_type	nist/src/lib/sp/fixio.c	/^int fread_type(data, ftype, nchan, nitem, stream) long **data; int ftype,$/;"	f
+fread_type_init	nist/src/lib/sp/fixio.c	/^void fread_type_init() {$/;"	f
+fread_type_quit	nist/src/lib/sp/fixio.c	/^void fread_type_quit() {$/;"	f
+free	nist/include/util/mtrf.h	33;"	d
+free	nist/include/util/mtrf.h	35;"	d
+free_2dimarr	nist/include/util/memory.h	123;"	d
+free_3dimarr	nist/include/util/memory.h	130;"	d
+free_CHANNELS	nist/src/lib/sp/spalloc.c	/^int free_CHANNELS(SPIFR *spifr){$/;"	f
+free_SPIFR	nist/src/lib/sp/spalloc.c	/^int free_SPIFR(SPIFR *spifr)$/;"	f
+free_SPIFR_waveform_buffers	nist/src/lib/sp/spalloc.c	/^void free_SPIFR_waveform_buffers(SPIFR *spifr)$/;"	f
+free_hist	nist/src/lib/util/hist.c	/^void free_hist(HIST ***hist, int num_bins)$/;"	f
+free_singarr	nist/include/util/memory.h	118;"	d
+free_sphere_t	nist/src/lib/sp/spalloc.c	/^int free_sphere_t(SP_FILE *sp)$/;"	f
+from	nist/include/util/hist.h	/^       double from, to;$/;"	m	struct:hist
+full_cosine_hist	nist/src/lib/util/hist.c	/^void full_cosine_hist(HIST **hist, int num_bins, int begin_bin, int end_bin, int height)$/;"	f
+full_search	nist/src/lib/util/ds.c	/^static int full_search = 0;$/;"	v	file:
+fv	nist/include/sp/header.h	/^	struct field_t **fv;$/;"	m	struct:header_t	typeref:struct:header_t::field_t
+fval	src/fe/FrontEndTypes.h	/^      float fval;$/;"	m	union:__anon2
+fwrite	nist/src/lib/sp/fixio.c	22;"	d	file:
+fwrite	nist/src/lib/sp/fixio.c	24;"	d	file:
+fwrite	nist/src/lib/sp/shorten.c	28;"	d	file:
+fwrite	nist/src/lib/sp/shorten.c	30;"	d	file:
+fwrite	nist/src/lib/sp/shpacki2.c	23;"	d	file:
+fwrite	nist/src/lib/sp/shpacki2.c	25;"	d	file:
+fwrite	nist/src/lib/sp/shpackio.c	25;"	d	file:
+fwrite	nist/src/lib/sp/shpackio.c	27;"	d	file:
+fwrite	nist/src/lib/sp/vario.c	23;"	d	file:
+fwrite	nist/src/lib/sp/vario.c	25;"	d	file:
+fwrite	nist/src/lib/sp/wavpack.c	230;"	d	file:
+fwrite	nist/src/lib/sp/wavpack.c	232;"	d	file:
+fwrite_type	nist/src/lib/sp/fixio.c	/^void fwrite_type(data, ftype, nchan, nitem, stream) long **data; int ftype,$/;"	f
+fwrite_type_init	nist/src/lib/sp/fixio.c	/^void fwrite_type_init() {$/;"	f
+fwrite_type_quit	nist/src/lib/sp/fixio.c	/^void fwrite_type_quit() {$/;"	f
+gamma	src/fe/FrontEndTypes.h	/^  float gamma;$/;"	m	struct:__anon3
+gausMin	src/fe/FrontEndTypes.h	/^  float gausMin;$/;"	m	struct:__anon3
+gbuffer	nist/src/lib/sp/vario.c	/^static ulong  gbuffer;$/;"	v	file:
+gdLifterWinSize	src/fe/FrontEndTypes.h	/^   int gdLifterWinSize;$/;"	m	struct:__anon3
+gdNegScale	src/fe/FrontEndTypes.h	/^  float gdNegScale;$/;"	m	struct:__anon3
+gdPosScale	src/fe/FrontEndTypes.h	/^  float gdPosScale;$/;"	m	struct:__anon3
+gdRemoveLPhase	src/fe/FrontEndTypes.h	/^   int gdRemoveLPhase;$/;"	m	struct:__anon3
+gdSign	src/fe/FrontEndTypes.h	/^   int gdSign;$/;"	m	struct:__anon3
+gdSmthWinSize	src/fe/FrontEndTypes.h	/^   int gdSmthWinSize;$/;"	m	struct:__anon3
+get_natural_byte_order	nist/src/lib/sp/sputils2.c	/^char *get_natural_byte_order(int bps)$/;"	f
+get_natural_sbf	nist/src/lib/sp/nat_bord.c	/^enum SP_sample_byte_fmt get_natural_sbf(int sample_size)$/;"	f
+get_return_status_message	nist/src/lib/util/err_util.c	/^char *get_return_status_message(void){$/;"	f
+get_subordinated_message	nist/src/lib/util/err_util.c	/^char *get_subordinated_message(void){$/;"	f
+getbuf	nist/src/lib/sp/vario.c	/^static uchar *getbuf;$/;"	v	file:
+getbufp	nist/src/lib/sp/vario.c	/^static uchar *getbufp;$/;"	v	file:
+getc	nist/src/lib/sp/fixio.c	32;"	d	file:
+getc	nist/src/lib/sp/fixio.c	34;"	d	file:
+getc	nist/src/lib/sp/shorten.c	38;"	d	file:
+getc	nist/src/lib/sp/shorten.c	40;"	d	file:
+getc	nist/src/lib/sp/shpacki2.c	33;"	d	file:
+getc	nist/src/lib/sp/shpacki2.c	35;"	d	file:
+getc	nist/src/lib/sp/shpackio.c	35;"	d	file:
+getc	nist/src/lib/sp/shpackio.c	37;"	d	file:
+getc	nist/src/lib/sp/vario.c	33;"	d	file:
+getc	nist/src/lib/sp/vario.c	35;"	d	file:
+getc_exit	nist/include/sp/shorten/shorten.h	108;"	d
+getc_exit_val	nist/src/lib/sp/shorten.c	/^int	getc_exit_val;$/;"	v
+getw	nist/src/lib/sp/shpacki2.c	43;"	d	file:
+getw	nist/src/lib/sp/shpacki2.c	45;"	d	file:
+getw	nist/src/lib/sp/shpackio.c	45;"	d	file:
+getw	nist/src/lib/sp/shpackio.c	47;"	d	file:
+global_header	nist/src/lib/sp/sdatamod.c	/^struct header_t *global_header;$/;"	v	typeref:struct:header_t
+h_delete_field	nist/src/lib/sp/sphio.c	/^int h_delete_field(struct header_t *header, char *field)$/;"	f
+h_get_field	nist/src/lib/sp/sphio.c	/^int h_get_field(struct header_t *header, char *field, int ftype,$/;"	f
+h_set_field	nist/src/lib/sp/sphio.c	/^int h_set_field(struct header_t *header, char *field, int ftype, void *value)$/;"	f
+half_cosine_hist	nist/src/lib/util/hist.c	/^void half_cosine_hist(HIST **hist, int num_bins, int begin_bin, int end_bin, int height)$/;"	f
+hashTable	src/fe/HashTable.h	/^typedef struct hashTable$/;"	s
+hashTable	src/fe/HashTable.h	/^}hashTable;$/;"	t	typeref:struct:hashTable
+hdr	nist/src/lib/sp/wavpack.c	/^struct hdr			\/* compressed data header *\/$/;"	s	file:
+hdr	nist/src/lib/sp/wavpack.c	/^{	struct hdr hdr;$/;"	m	struct:strat_eval	typeref:struct:strat_eval::hdr	file:
+head_insert_hist	nist/include/util/hist.h	21;"	d
+header	nist/include/sp/spfile.h	/^    struct header_t *header;$/;"	m	struct:sphere_internal_file_rep_t	typeref:struct:sphere_internal_file_rep_t::header_t
+header	nist/src/lib/sp/spinput.c	/^char *header = CNULL;$/;"	v
+header	src/fe/SphereInterface.h	/^	RIFFHeader *header;				\/\/0x00 to 0x2B$/;"	m	struct:RIFFWaveFile
+header_data_size	nist/include/sp/spfile.h	/^    long header_data_size;$/;"	m	struct:waveform_t
+header_id	nist/include/sp/sysparam.h	/^	char header_id[HDR_ID_SIZE];$/;"	m	struct:fileheader_fixed
+header_size	nist/include/sp/sysparam.h	/^	char header_size[HDR_SIZE_SIZE];$/;"	m	struct:fileheader_fixed
+header_str_SP_sample_byte_fmt	nist/src/lib/sp/sputils2.c	/^char *header_str_SP_sample_byte_fmt(enum SP_sample_byte_fmt id)$/;"	f
+header_t	nist/include/sp/header.h	/^struct header_t {$/;"	s
+header_t	nist/src/lib/sp/shpacki2.c	/^typedef struct header_t header_t;$/;"	t	typeref:struct:header_t	file:
+header_test	nist/src/bin/tsphere.c	/^void header_test(int test)$/;"	f
+header_update	nist/src/bin/tsphere.c	/^void header_update(char *file, int expand)$/;"	f
+hist	nist/include/util/hist.h	/^typedef struct hist{$/;"	s
+hist_area	nist/src/lib/util/hist.c	/^int hist_area(HIST **hist, int num_bins)$/;"	f
+hist_character	nist/src/lib/util/hist.c	/^void hist_character(HIST **hist, int num_bins, double *mean, double *vari, int *area)$/;"	f
+hist_copy	nist/src/lib/util/hist.c	/^void hist_copy(HIST **from, HIST **to, int num_bins, int start, int end)$/;"	f
+hist_slope	nist/src/lib/util/hist.c	/^int hist_slope(HIST **hist, int num_bins, int center, int factor)$/;"	f
+hs_getopt	nist/src/lib/util/hsgetopt.c	/^hs_getopt(register int argc, register char **argv, char *optstring)$/;"	f
+hs_optarg	nist/src/lib/util/hsgetopt.c	/^char	*hs_optarg;	\/* Global argument pointer. *\/$/;"	v
+hs_optind	nist/src/lib/util/hsgetopt.c	/^int	hs_optind;		\/* Global argv index. *\/$/;"	v
+hs_resetopt	nist/src/lib/util/hsgetopt.c	/^hs_resetopt(void) {$/;"	f
+iBit	src/DspLibrary.c	/^static     int *iBit=NULL;$/;"	v	file:
+ibytes	nist/src/lib/sp/wavpack.c	/^	int ibytes;	\/* input bytes consumed *\/$/;"	m	struct:strat_eval	file:
+ieee_order	nist/src/lib/sp/shpackio.c	/^static char ieee_order = -1; \/*-1 means not set yet*\/$/;"	v	file:
+ignore_checksum	nist/include/sp/spfile.h	/^    int ignore_checksum;           \/* TRUE iff a checksum is in the header*\/$/;"	m	struct:spfile_status_t
+im	src/fe/FrontEndDefs.h	/^ typedef struct cmplx { float re,im ; }complex;$/;"	m	struct:cmplx
+im_a	src/fe/FrontEndDefs.h	/^ float  rp_a,im_a,rp_b,im_b;$/;"	v
+im_b	src/fe/FrontEndDefs.h	/^ float  rp_a,im_a,rp_b,im_b;$/;"	v
+in_cache	nist/src/lib/util/ds.c	/^static int in_cache(double *Snew, int *phi_new){$/;"	f	file:
+in_list	nist/src/bin/h_read.c	/^int in_list(char *name, int n, char **f)$/;"	f
+init_hist	nist/src/lib/util/hist.c	/^void init_hist(HIST ***hist, int num_bins, double from, double to)$/;"	f
+init_offset	nist/src/lib/sp/shorten.c	/^void init_offset(offset, nchan, nblock, ftype) long **offset; int nchan,$/;"	f
+init_pad_util	nist/src/lib/util/pad.c	/^void init_pad_util(int pr_width)$/;"	f
+init_sizeof_sample	nist/src/lib/sp/fixio.c	/^void init_sizeof_sample() {$/;"	f
+init_val	nist/include/util/diskarr.h	7;"	d
+input	nist/src/lib/sp/wavpack.c	/^static unsigned char input[4*RUNL+5];		\/* raw input *\/$/;"	v	file:
+int32	src/fe/writehtk.h	/^typedef int int32;$/;"	t
+interleave_buffer	nist/include/sp/spfile.h	/^    void *interleave_buffer;$/;"	m	struct:waveform_t
+interleave_buffer_len	nist/include/sp/spfile.h	/^    int interleave_buffer_len;$/;"	m	struct:waveform_t
+intern_id	nist/include/util/cfg.h	/^    char *intern_id;$/;"	m	struct:config_record_struct
+is_CONFIG_group_set	nist/src/lib/util/cfg.c	/^int is_CONFIG_group_set(CONFIG *cfg, int grp_ind, int verbose)$/;"	f
+is_CONFIG_id	nist/src/lib/util/cfg.c	/^int is_CONFIG_id(CONFIG *cfg, char *id)$/;"	f
+is_CONFIG_ind_set	nist/src/lib/util/cfg.c	/^int is_CONFIG_ind_set(CONFIG *cfg, int ind, int verbose)$/;"	f
+is_CONFIG_set	nist/src/lib/util/cfg.c	/^int is_CONFIG_set(CONFIG *cfg, char *str, int verbose)$/;"	f
+is_comment	nist/src/lib/util/comments.c	/^int is_comment(char *str)$/;"	f
+is_comment_info	nist/src/lib/util/comments.c	/^int is_comment_info(char *str)$/;"	f
+is_disk_file	nist/include/sp/spfile.h	/^    int is_disk_file;$/;"	m	struct:spfile_status_t
+is_empty	nist/src/lib/util/string.c	/^int is_empty(char *str)$/;"	f
+is_integer	nist/src/lib/util/string.c	/^int is_integer(char *str)$/;"	f
+is_number	nist/src/lib/util/string.c	/^int is_number(char *str)$/;"	f
+is_temp_file	nist/include/sp/spfile.h	/^    int is_temp_file;$/;"	m	struct:spfile_status_t
+ival	src/fe/FrontEndTypes.h	/^      int ival;$/;"	m	union:__anon2
+k	nist/src/lib/util/ds.c	/^static int phi[30], phi_base[30], phi_cm[30], phi_map[30], K, k;$/;"	v	file:
+labs	nist/include/sp/shorten/shorten.h	87;"	d
+large_file_test	nist/src/bin/tsphere.c	/^void large_file_test(int test)$/;"	f
+last_cache	nist/src/lib/util/ds.c	/^static int num_cache=400, **cache, last_cache = (-1), cache_count = 0;$/;"	v	file:
+length	nist/include/util/fob.h	/^	int length;		\/* #bytes read or written *\/$/;"	m	struct:fob_t
+level	nist/include/util/statdist.h	/^    double  level[MAX_X2_PER+1];$/;"	m	struct:X2_df
+license	nist/src/lib/sp/license.c	/^void license() {$/;"	f
+linear2alaw	nist/src/lib/sp/alaw.c	/^unsigned char linear2alaw(int sample)$/;"	f
+linear2ulaw	nist/src/lib/sp/ulaw.c	/^unsigned char linear2ulaw(sample) long sample; {$/;"	f
+load_CONFIG	nist/src/lib/util/cfg.c	/^void load_CONFIG(CONFIG *cfg, char *file, int silent)$/;"	f
+load_com_line_CONFIG	nist/src/lib/util/cfg.c	/^void load_com_line_CONFIG(CONFIG *cfg, int argc, char **argv, int silent)$/;"	f
+locate_extremum	nist/src/lib/util/hist.c	/^int locate_extremum(HIST **h, int from, int to, int type)$/;"	f
+log2s	nist/src/lib/sp/shpackio.c	/^static short log2s[] = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024,$/;"	v	file:
+long2d	nist/src/lib/sp/array.c	/^long **long2d(n0, n1) ulong n0, n1; {$/;"	f
+lpOrder	src/fe/FrontEndTypes.h	/^   int lpOrder;$/;"	m	struct:__anon3
+magic	nist/src/lib/sp/wavpack.c	/^static char magic[] = WAVPACK_MAGIC;	\/* magic string to identify wavpack files *\/$/;"	v	file:
+main	Segmentation/src/SegmentationFlux.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	Segmentation/src/WordSegmentWithSilenceRemoval.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	Segmentation/src/WordsWithSilenceRemoval.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	nist/src/bin/h_add.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/bin/h_delete.c	/^int main (int argc, char **argv){$/;"	f
+main	nist/src/bin/h_edit.c	/^int main (int argc, char **argv){$/;"	f
+main	nist/src/bin/h_read.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/bin/h_strip.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/bin/h_test.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/bin/tsphere.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/bin/w_decode.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/bin/w_diff.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/bin/w_edit.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/bin/w_encode.c	/^int main(int argc, char **argv)$/;"	f
+main	nist/src/lib/sp/dupfinfo.c	/^int main(int argc, char **argv) {$/;"	f
+main	src/ComputeFeature.c	/^  int main(int argc, char *argv[])$/;"	f
+main	src/ComputeFeatureHTK.c	/^  int main(int argc, char *argv[])$/;"	f
+main	src/FFTSpectralFlux.c	/^int  main (int argc, char *argv[])$/;"	f
+make_test_file	nist/src/bin/tsphere.c	/^void make_test_file(char *name, int size, char *conversion)$/;"	f
+malloc	nist/include/util/mtrf.h	23;"	d
+malloc	nist/include/util/mtrf.h	25;"	d
+malloc_died	nist/src/lib/util/maldie.c	/^void malloc_died(int len)$/;"	f
+masktab	nist/src/lib/sp/vario.c	/^ulong masktab[MASKTABSIZE];$/;"	v
+max	nist/src/lib/sp/wavpack.c	/^	int min, max;	\/* min and max of data *\/$/;"	m	struct:strat_eval	file:
+maxFrequency	src/fe/FrontEndTypes.h	/^  float minFrequency, maxFrequency;$/;"	m	struct:__anon3
+maxPitch	src/fe/FrontEndTypes.h	/^   int maxPitch;$/;"	m	struct:__anon3
+max_chan_add	nist/include/sp/spfile.h	/^    SP_INTEGER max_chan_add;$/;"	m	struct:channel_struct
+max_hist	nist/src/lib/util/hist.c	/^int max_hist(HIST **hist, int num_bins)$/;"	f
+max_num_chan	nist/include/sp/spfile.h	/^    SP_INTEGER max_num_chan;$/;"	m	struct:channel_struct
+medianOrder	src/fe/FrontEndTypes.h	/^   int medianOrder;$/;"	m	struct:__anon3
+median_filter	nist/src/lib/util/hist.c	/^void median_filter(HIST **h, HIST **out, int num_bins, int size)  \/* size must be ODD *\/$/;"	f
+melCepstrumCosineTransform	src/fe/FrontEndTypes.h	/^  VECTOR_OF_F_VECTORS *melCepstrumCosineTransform;$/;"	m	struct:__anon3
+mgdNormalize	src/fe/FrontEndTypes.h	/^   int mgdNormalize;$/;"	m	struct:__anon3
+min	nist/src/lib/sp/wavpack.c	/^	int min, max;	\/* min and max of data *\/$/;"	m	struct:strat_eval	file:
+minFrequency	src/fe/FrontEndTypes.h	/^  float minFrequency, maxFrequency;$/;"	m	struct:__anon3
+minPitch	src/fe/FrontEndTypes.h	/^   int minPitch;$/;"	m	struct:__anon3
+mk_fname	nist/include/util/macros.h	70;"	d
+mkmasktab	nist/src/lib/sp/vario.c	/^void mkmasktab() {$/;"	f
+mod	nist/src/lib/sp/wavpack.c	142;"	d	file:
+modgd	src/fe/FrontEndTypes.h	/^  F_VECTOR *modgd;$/;"	m	struct:__anon3
+modtime	nist/src/lib/sp/dupfinfo.c	/^  time_t  modtime; \/* set the modification time *\/$/;"	m	struct:utimbuf	file:
+monoflg	nist/src/lib/sp/wavpack.c	/^static int monoflg = 0;		\/* mono data only *\/$/;"	v	file:
+move_to_null	nist/include/util/macros.h	58;"	d
+mtrf_dealloc	nist/src/lib/util/mtrf.c	/^static int mtrf_dealloc = 1;$/;"	v	file:
+mtrf_free	nist/src/lib/util/mtrf.c	/^int mtrf_free(char *p)$/;"	f
+mtrf_get_dealloc	nist/src/lib/util/mtrf.c	/^int mtrf_get_dealloc(void)$/;"	f
+mtrf_get_verbose	nist/src/lib/util/mtrf.c	/^int mtrf_get_verbose(void)$/;"	f
+mtrf_malloc	nist/src/lib/util/mtrf.c	/^char *mtrf_malloc(int bytes)$/;"	f
+mtrf_realloc	nist/src/lib/util/mtrf.c	/^char *mtrf_realloc(char *ptr, int bytes)$/;"	f
+mtrf_set_dealloc	nist/src/lib/util/mtrf.c	/^void mtrf_set_dealloc(int n)$/;"	f
+mtrf_set_verbose	nist/src/lib/util/mtrf.c	/^void mtrf_set_verbose(int n)$/;"	f
+mtrf_strdup	nist/src/lib/util/mtrf.c	/^char *mtrf_strdup(char *p)$/;"	f
+mtrf_verbose	nist/src/lib/util/mtrf.c	/^static int mtrf_verbose = 0;$/;"	v	file:
+mult_channel_raw_data_test	nist/src/bin/tsphere.c	/^void mult_channel_raw_data_test(int test){$/;"	f
+nSamples	src/fe/writehtk.h	/^   int32 nSamples;$/;"	m	struct:__anon6
+n_CHOOSE_r	nist/src/lib/util/statdist.c	/^double n_CHOOSE_r(int n, int r)$/;"	f
+name	nist/include/sp/header.h	/^	char *name;$/;"	m	struct:field_t
+natural_sbf	nist/include/sp/spfile.h	/^    enum SP_sample_byte_fmt    natural_sbf;$/;"	m	struct:spfile_status_t	typeref:enum:spfile_status_t::SP_sample_byte_fmt
+nbitget	nist/src/lib/sp/vario.c	/^static int    nbitget;$/;"	v	file:
+nbitput	nist/src/lib/sp/vario.c	/^static int    nbitput;$/;"	v	file:
+nbits	nist/src/lib/sp/wavpack.c	/^	unsigned char nbits;		\/* nr pcm bits *\/$/;"	m	struct:hdr	file:
+nbyteget	nist/src/lib/sp/vario.c	/^static int    nbyteget;$/;"	v	file:
+ncheckf	nist/src/bin/h_read.c	/^int ncheckf = 0;$/;"	v
+neg_per_str	nist/include/util/statdist.h	/^    char *neg_per_str[MAX_X2_PER+1];$/;"	m	struct:X2_struct
+next	src/fe/FrontEndTypes.h	/^      union uTag *next;$/;"	m	union:__anon2	typeref:union:__anon2::uTag
+next	src/fe/HashTable.h	/^	struct HashElement* next;$/;"	m	struct:HashElement	typeref:struct:HashElement::HashElement
+nfbuf	nist/src/lib/sp/lpc.c	/^static int nflpc = 0, nfbuf = 0;$/;"	v	file:
+nfields_expected	nist/src/bin/h_read.c	/^int nfields_expected = -1;$/;"	v
+nflpc	nist/src/lib/sp/lpc.c	/^static int nflpc = 0, nfbuf = 0;$/;"	v	file:
+ninput	nist/src/lib/sp/wavpack.c	/^static int ninput;$/;"	v	file:
+nist_itoa	nist/src/lib/util/itoa.c	/^void nist_itoa(int val, char *buff, int max_len)$/;"	f
+normalizeSpecFlux	src/fe/FrontEndTypes.h	/^  int   normalizeSpecFlux;$/;"	m	struct:__anon3
+nprf	nist/src/bin/h_read.c	/^int nprf = 0;$/;"	v
+nreadbuf	nist/src/lib/sp/fixio.c	/^static int  nreadbuf;$/;"	v	file:
+nsam	nist/src/lib/sp/wavpack.c	/^	int nsam;	\/* samples available (from condition_data) *\/$/;"	m	struct:strat_eval	file:
+nstrat	nist/src/lib/sp/wavpack.c	/^static int nstrat;$/;"	v	file:
+numAntiFormants	src/fe/FrontEndTypes.h	/^   int numAntiFormants;$/;"	m	struct:__anon3
+numCepstrum	src/fe/FrontEndTypes.h	/^   int numCepstrum;$/;"	m	struct:__anon3
+numColumns	src/fe/FrontEndTypes.h	/^  int numColumns;$/;"	m	struct:__anon5
+numDFTCoefficients	src/fe/FrontEndTypes.h	/^  int numDFTCoefficients;$/;"	m	struct:__anon3
+numElements	src/fe/FrontEndTypes.h	/^  int numElements;$/;"	m	struct:__anon1
+numElements	src/fe/FrontEndTypes.h	/^  int numElements;$/;"	m	struct:__anon4
+numFVectors	src/fe/HashTable.h	/^	int numFVectors;$/;"	m	struct:HashElement
+numFilters	src/fe/FrontEndTypes.h	/^   int numFilters;$/;"	m	struct:__anon3
+numFormants	src/fe/FrontEndTypes.h	/^   int numFormants;$/;"	m	struct:__anon3
+numFrames	src/fe/FrontEndTypes.h	/^   int numFrames;$/;"	m	struct:__anon3
+numPitch	src/fe/FrontEndTypes.h	/^   int numPitch;$/;"	m	struct:__anon3
+numRegressCoeffts	src/fe/FrontEndTypes.h	/^   int numRegressCoeffts;$/;"	m	struct:__anon3
+numRows	src/fe/FrontEndTypes.h	/^  int numRows;$/;"	m	struct:__anon5
+numSamples	src/fe/FrontEndTypes.h	/^   long numSamples;$/;"	m	struct:__anon3
+numVoicedFrames	src/fe/FrontEndTypes.h	/^   int numVoicedFrames;$/;"	m	struct:__anon3
+num_cache	nist/src/lib/util/ds.c	/^static int num_cache=400, **cache, last_cache = (-1), cache_count = 0;$/;"	v	file:
+num_chan	nist/include/sp/spfile.h	/^    SP_INTEGER num_chan;$/;"	m	struct:channel_struct
+num_elem	nist/include/util/cfg.h	/^    int num_elem;$/;"	m	struct:config_record_struct
+num_in_chunk	nist/src/lib/sp/shpack_s.c	/^    int pos, num_in_chunk, written;$/;"	v
+num_origin	nist/include/sp/spfile.h	/^    int num_origin;$/;"	m	struct:origination_channel
+numberOfChannel	src/fe/SphereInterface.h	/^	INT numberOfChannel;		\/\/0x16$/;"	m	struct:RIFFHeader
+number_from_zero	nist/src/bin/h_read.c	/^int number_from_zero = FALSE;$/;"	v
+nwritebuf	nist/src/lib/sp/fixio.c	/^static int  nwritebuf;$/;"	v	file:
+obpib	nist/src/lib/sp/wavpack.c	/^	float obpib;	\/* output bytes per input byte *\/$/;"	m	struct:strat_eval	file:
+obytes	nist/src/lib/sp/wavpack.c	/^	int obytes;	\/* total output bytes (including header) *\/$/;"	m	struct:strat_eval	file:
+ochan	nist/include/sp/spfile.h	/^    ORIGINATION_CHAN *ochan;$/;"	m	struct:channel_struct
+odd	nist/src/bin/h_read.c	/^char *odd = CNULL;$/;"	v
+offset	src/fe/FrontEndTypes.h	/^   int offset;$/;"	m	struct:__anon3
+offset_byte	nist/src/lib/sp/wavpack.c	/^	unsigned char offset_byte;	\/* (opt) offst byte *\/$/;"	m	struct:hdr	file:
+oflg	nist/src/lib/sp/wavpack.c	/^static int oflg = 0;		\/* if non-zero, unlink(oname) on error *\/$/;"	v	file:
+oname	nist/src/lib/sp/wavpack.c	/^static char *oname = (char *) NULL;$/;"	v	file:
+open_mode	nist/include/sp/spfile.h	/^    enum SP_file_open_mode open_mode;$/;"	m	struct:sphere_t	typeref:enum:sphere_t::SP_file_open_mode
+orig_channel	nist/include/sp/spfile.h	/^    int *orig_channel;$/;"	m	struct:origination_channel
+origination_channel	nist/include/sp/spfile.h	/^typedef struct origination_channel{$/;"	s
+output_chan	nist/src/lib/sp/wavpack.c	/^static output_chan(int flags, FILE *ofile)$/;"	f	file:
+output_strat	nist/src/lib/sp/wavpack.c	/^static output_strat(int flags, FILE *ofile)$/;"	f	file:
+pack_and_write_chunk_to_file	nist/src/lib/sp/shpackio.c	/^void pack_and_write_chunk_to_file(short int *buffer, int start, int num, int bits, FOB *fp, int mask)$/;"	f
+pack_short_array_into_buffer	nist/src/lib/sp/shpackio.c	/^int pack_short_array_into_buffer(short int *buffer, int start, int num, int bits, int mask, short int *compressed_data)$/;"	f
+pad_pr_width	nist/src/lib/util/pad.c	/^int pad_pr_width(void)$/;"	f
+pad_print_out_width	nist/src/lib/util/pad.c	/^static int pad_print_out_width=SCREEN_WIDTH;$/;"	v	file:
+parseList	nist/src/lib/sp/shorten.c	/^float* parseList(maxresnstr, nchan) char *maxresnstr; int nchan; {$/;"	f
+parse_channel_selection	nist/src/lib/sp/sdatamod.c	/^int parse_channel_selection(char *desc, SP_FILE *sp){$/;"	f
+parse_header	nist/src/lib/sp/spinput.c	/^static int parse_header(register char *p, int hsize, int *fields,$/;"	f	file:
+parse_line	nist/src/lib/sp/spinput.c	/^static char *parse_line(char *h, char *t, char *v, char **error)$/;"	f	file:
+parse_sample_byte_format	nist/src/lib/sp/spopen.c	/^int parse_sample_byte_format(char *str, enum SP_sample_byte_fmt *sbf)$/;"	f
+parse_sample_coding	nist/src/lib/sp/spopen.c	/^int parse_sample_coding(char *str, int sample_n_bytes,$/;"	f
+pbase	nist/src/lib/sp/wavpack.c	/^	unsigned short pbase;		\/* (opt) pcm base, byte\/short *\/$/;"	m	struct:hdr	file:
+pbuffer	nist/src/lib/sp/vario.c	/^static ulong  pbuffer;$/;"	v	file:
+pcm22alaw	nist/src/lib/sp/spwrite.c	/^void pcm22alaw(short *pcm_data, enum SP_sample_encoding pcm_sbf, unsigned char *alaw_data, SP_INTEGER samples){$/;"	f
+pcm22pculaw	nist/src/lib/sp/spwrite.c	/^void pcm22pculaw(short *pcm_data, enum SP_sample_encoding pcm_sbf, unsigned char *pculaw_data, SP_INTEGER samples){$/;"	f
+pcm22ulaw	nist/src/lib/sp/spwrite.c	/^void pcm22ulaw(short *pcm_data, enum SP_sample_encoding pcm_sbf, unsigned char *ulaw_data, SP_INTEGER samples){$/;"	f
+pct	nist/include/util/macros.h	39;"	d
+pculaw2pcm2	nist/src/lib/sp/spwrite.c	/^void pculaw2pcm2(unsigned char *pculaw_data, short *pcm_data, enum SP_sample_encoding pcm_sbf, SP_INTEGER samples){$/;"	f
+pculaw_test	nist/src/bin/tsphere.c	/^void pculaw_test(int test)$/;"	f
+per_str	nist/include/util/statdist.h	/^    char *per_str[MAX_X2_PER+1];$/;"	m	struct:X2_struct
+perc_interior	nist/include/util/statdist.h	/^    double perc_interior;$/;"	m	struct:Z_struct
+percentFrames	src/fe/FrontEndTypes.h	/^   int percentFrames;$/;"	m	struct:__anon3
+percentage_left_hist	nist/src/lib/util/hist.c	/^double percentage_left_hist(HIST **hist, int num_bins, double value)$/;"	f
+percentile_hist	nist/src/lib/util/hist.c	/^double percentile_hist(HIST **hist, int num_bins, double percentile)$/;"	f
+perceptNumCepstrum	src/fe/FrontEndTypes.h	/^   int perceptNumCepstrum;$/;"	m	struct:__anon3
+perceptualFilterbank	src/fe/FrontEndTypes.h	/^   int perceptualFilterbank;$/;"	m	struct:__anon3
+perform_2_channel_read_test	nist/src/bin/tsphere.c	/^int perform_2_channel_read_test(char *combined_wav, char *conversion,$/;"	f
+perform_2_channel_write_test	nist/src/bin/tsphere.c	/^int perform_2_channel_write_test(char *combined_wav, char *conversion,$/;"	f
+perform_seek_test	nist/src/bin/tsphere.c	/^void perform_seek_test(char *file){$/;"	f
+perr	nist/src/lib/sp/wavpack.c	/^perr(s)$/;"	f
+perr	nist/src/lib/sp/wavpack.c	145;"	d	file:
+perror_exit	nist/src/lib/sp/exit.c	/^void perror_exit(char* fmt, ...) {$/;"	f
+phi	nist/src/lib/util/ds.c	/^static int phi[30], phi_base[30], phi_cm[30], phi_map[30], K, k;$/;"	v	file:
+phi_base	nist/src/lib/util/ds.c	/^static int phi[30], phi_base[30], phi_cm[30], phi_map[30], K, k;$/;"	v	file:
+phi_cm	nist/src/lib/util/ds.c	/^static int phi[30], phi_base[30], phi_cm[30], phi_map[30], K, k;$/;"	v	file:
+phi_map	nist/src/lib/util/ds.c	/^static int phi[30], phi_base[30], phi_cm[30], phi_map[30], K, k;$/;"	v	file:
+pitchSync	src/fe/FrontEndTypes.h	/^   int pitchSync;$/;"	m	struct:__anon3
+pmalloc	nist/src/lib/sp/array.c	/^void *pmalloc(size) ulong size; {$/;"	f
+pos	nist/include/util/fob.h	/^	char * pos;		\/* current position in buffer *\/$/;"	m	struct:fob_t
+pos	nist/src/lib/sp/shpack_s.c	/^    int pos, num_in_chunk, written;$/;"	v
+post_write_check	nist/src/bin/tsphere.c	/^void post_write_check(char *file)$/;"	f
+pr_data_flag	nist/src/bin/h_read.c	/^int pr_data_flag = TRUE;$/;"	v
+pr_error	nist/src/bin/h_read.c	/^void pr_error(char *s)$/;"	f
+pr_field_numbers	nist/src/bin/h_read.c	/^int pr_field_numbers = FALSE;$/;"	v
+pr_fieldname_flag	nist/src/bin/h_read.c	/^int pr_fieldname_flag = TRUE;$/;"	v
+pr_filename_first	nist/src/bin/h_read.c	/^int pr_filename_first = FALSE;$/;"	v
+pr_filename_with_fields	nist/src/bin/h_read.c	/^int pr_filename_with_fields = FALSE;$/;"	v
+pr_int	nist/src/bin/h_read.c	/^int pr_str=TRUE, pr_int=TRUE, pr_real=TRUE;$/;"	v
+pr_quote_flag	nist/src/bin/h_read.c	/^int pr_quote_flag = FALSE;$/;"	v
+pr_real	nist/src/bin/h_read.c	/^int pr_str=TRUE, pr_int=TRUE, pr_real=TRUE;$/;"	v
+pr_str	nist/src/bin/h_read.c	/^int pr_str=TRUE, pr_int=TRUE, pr_real=TRUE;$/;"	v
+pr_total_field_numbers	nist/src/bin/h_read.c	/^int pr_total_field_numbers = FALSE;$/;"	v
+pr_type_flag	nist/src/bin/h_read.c	/^int pr_type_flag = FALSE;$/;"	v
+pre_read_check	nist/src/bin/tsphere.c	/^void pre_read_check(char *file, int corrupt)$/;"	f
+pre_verify_checksum	nist/src/lib/sp/spread.c	/^static int pre_verify_checksum(SP_FILE *sp){$/;"	f	file:
+preemphasis	src/fe/FrontEndTypes.h	/^  float preemphasis;$/;"	m	struct:__anon3
+preemphasisDelay	src/fe/FrontEndTypes.h	/^   int preemphasisDelay;$/;"	m	struct:__anon3
+prf	nist/src/bin/h_read.c	/^char *prf[MAXFIELDS];$/;"	v
+print_Z_analysis	nist/src/lib/util/statdist.c	/^int print_Z_analysis(double Z_stat)$/;"	f
+print_return_status	nist/src/lib/util/err_util.c	/^void print_return_status(FILE *fp)$/;"	f
+print_usage	nist/src/bin/tsphere.c	/^void print_usage(void) {$/;"	f
+print_usage	nist/src/bin/w_diff.c	/^void print_usage(void) {$/;"	f
+print_usage_CONFIG	nist/src/lib/util/cfg.c	/^void print_usage_CONFIG(CONFIG *cfg, char *prog_name)$/;"	f
+printstrat	nist/src/lib/sp/wavpack.c	/^static printstrat(int x)$/;"	f	file:
+probScaleFactor	src/fe/FrontEndTypes.h	/^  float probScaleFactor;$/;"	m	struct:__anon3
+prog	nist/src/bin/h_read.c	/^char *prog, *current_file;$/;"	v
+prog	nist/src/bin/w_decode.c	/^char * prog;$/;"	v
+prog	nist/src/bin/w_edit.c	/^char * prog;$/;"	v
+prog	nist/src/bin/w_encode.c	/^char * prog;$/;"	v
+progname	nist/src/lib/sp/wavpack.c	/^static char *progname = (char *) NULL;$/;"	v	file:
+psi	nist/src/lib/util/ds.c	/^static int *psi, DELTA_change;$/;"	v	file:
+putbuf	nist/src/lib/sp/vario.c	/^static uchar *putbuf;$/;"	v	file:
+putbufp	nist/src/lib/sp/vario.c	/^static uchar *putbufp;$/;"	v	file:
+putc	nist/src/lib/sp/fixio.c	27;"	d	file:
+putc	nist/src/lib/sp/fixio.c	29;"	d	file:
+putc	nist/src/lib/sp/shorten.c	33;"	d	file:
+putc	nist/src/lib/sp/shorten.c	35;"	d	file:
+putc	nist/src/lib/sp/shpacki2.c	28;"	d	file:
+putc	nist/src/lib/sp/shpacki2.c	30;"	d	file:
+putc	nist/src/lib/sp/shpackio.c	30;"	d	file:
+putc	nist/src/lib/sp/shpackio.c	32;"	d	file:
+putc	nist/src/lib/sp/vario.c	28;"	d	file:
+putc	nist/src/lib/sp/vario.c	30;"	d	file:
+putc_exit	nist/include/sp/shorten/shorten.h	101;"	d
+pwr2	nist/src/lib/sp/wavpack.c	/^static int pwr2[17]={1,2,4,8,16,32,64,128,256,$/;"	v	file:
+range	nist/src/lib/sp/wavpack.c	/^	int range;	\/* range of data *\/$/;"	m	struct:strat_eval	file:
+rank_double_arr	nist/src/lib/util/order.c	/^void rank_double_arr(double *arr, int num, int *ptr_arr, double *rank_arr, int order)$/;"	f
+rank_int_arr	nist/src/lib/util/order.c	/^void rank_int_arr(int *arr, int num, int *ptr_arr, double *rank_arr, int order)$/;"	f
+rcsid	nist/src/lib/sp/wavpack.c	/^    static char rcsid[] = "$Header: \/home\/beldar\/stan\/sphere\/RCS\/wavpack.c,v 1.10 1993\/03\/25 00:20:51 stan Exp stan $";$/;"	v	file:
+re	src/fe/FrontEndDefs.h	/^ typedef struct cmplx { float re,im ; }complex;$/;"	m	struct:cmplx
+read_byte_swap	nist/include/util/fob.h	/^        int read_byte_swap;     \/* if true, swap after read *\/$/;"	m	struct:fob_t
+read_data_in	nist/src/lib/sp/spread.c	/^static int read_data_in(void *buffer, size_t num_sample, SP_FILE *sp){ $/;"	f	file:
+read_esps_hist	nist/src/lib/util/hist.c	/^void read_esps_hist(HIST ***hist, int *num_bins, char *fname)$/;"	f
+read_file	nist/src/bin/h_read.c	/^void read_file(char *file)$/;"	f
+read_occured_flag	nist/include/sp/spfile.h	/^    int read_occured_flag;$/;"	m	struct:spfile_status_t
+read_premature_eof	nist/include/sp/spfile.h	/^    int read_premature_eof;$/;"	m	struct:waveform_t
+read_shortpack_chunk_from_file	nist/src/lib/sp/shpackio.c	/^read_shortpack_chunk_from_file(FOB *fp, short int *buffer, int start, int max_elements, int mask)$/;"	f
+read_shortpack_header	nist/src/lib/sp/shpack_s.c	/^read_shortpack_header(FOB *ifp, int arg, int *pfilesize, int *pswap)$/;"	f
+read_shortpack_writing_to_file	nist/src/lib/sp/shpackio.c	/^void read_shortpack_writing_to_file(FOB *ifp, FOB *ofp, int swap)$/;"	f
+read_shortpacked_data	nist/src/lib/sp/shpackio.c	/^int read_shortpacked_data(short int *array, int num_elements, FOB *fp)$/;"	f
+read_spifr	nist/include/sp/spfile.h	/^    SPIFR *read_spifr;$/;"	m	struct:sphere_t
+read_wav_data	nist/src/lib/sp/shpacki2.c	/^read_wav_data(FOB *fp, short int **pwaveform, header_t *header, int check_checksum)$/;"	f
+readbuf	nist/src/lib/sp/fixio.c	/^static char *readbuf, *readfub;$/;"	v	file:
+readchan	nist/src/lib/sp/wavpack.c	/^static int readchan(FILE *ifile, struct hdr *hp, unsigned char *ibuf)$/;"	f	file:
+readfub	nist/src/lib/sp/fixio.c	/^static char *readbuf, *readfub;$/;"	v	file:
+readmode	nist/src/lib/sp/shorten.c	/^char *readmode = "r";$/;"	v
+readmode	nist/src/lib/sp/shorten.c	/^char *readmode = "rb";$/;"	v
+realloc	nist/include/util/mtrf.h	28;"	d
+realloc	nist/include/util/mtrf.h	30;"	d
+rec_list	nist/include/util/cfg.h	/^    CONFIG_REC rec_list[MAX_CONFIG_REC];$/;"	m	struct:config_struct
+removeMin	src/fe/FrontEndTypes.h	/^   int removeMin;$/;"	m	struct:__anon3
+resGdWindowSize	src/fe/FrontEndTypes.h	/^  int resGdWindowSize;$/;"	m	struct:__anon3
+reset_group	nist/src/lib/util/cfg.c	/^void reset_group(CONFIG *cfg, int cfg_ind)$/;"	f
+return_child	nist/include/util/err_util.h	38;"	d
+return_err	nist/include/util/err_util.h	28;"	d
+return_status	nist/src/lib/util/err_util.c	/^int return_status(void)$/;"	f
+return_success	nist/include/util/err_util.h	31;"	d
+return_type	nist/src/lib/util/err_util.c	/^int return_type(void)$/;"	f
+return_warn	nist/include/util/err_util.h	34;"	d
+rewind_file_compare	nist/src/bin/tsphere.c	/^void rewind_file_compare(char *file1, char *file2, char *conv2, char *file3, char *conv3)$/;"	f
+rewind_file_multi_channel	nist/src/bin/tsphere.c	/^void rewind_file_multi_channel(char *file1, char *conv, char *file2, char *file3)$/;"	f
+rewind_tests	nist/src/bin/tsphere.c	/^void rewind_tests(int test)$/;"	f
+rho	nist/src/lib/util/ds.c	/^static double SS, Spsi, Sphi, theta, *DELTA, *delta, (*S)(int *), rho;$/;"	v	file:
+riffChunkDataSize	src/fe/SphereInterface.h	/^	DWORD riffChunkDataSize;	\/\/0x04$/;"	m	struct:RIFFHeader
+riffChunkID	src/fe/SphereInterface.h	/^	UCHAR riffChunkID[4];		\/\/0x00	 	$/;"	m	struct:RIFFHeader
+riffType	src/fe/SphereInterface.h	/^	UCHAR riffType[4];		\/\/0x08$/;"	m	struct:RIFFHeader
+rp_a	src/fe/FrontEndDefs.h	/^ float  rp_a,im_a,rp_b,im_b;$/;"	v
+rp_b	src/fe/FrontEndDefs.h	/^ float  rp_a,im_a,rp_b,im_b;$/;"	v
+rsprintf	nist/src/lib/util/rsprintf.c	/^char *rsprintf(char *format , ...)$/;"	f
+runl	nist/src/lib/sp/wavpack.c	/^static int runl=128;		\/* max run length *\/$/;"	v	file:
+safe_fgets	nist/src/lib/util/sfgets.c	/^char *safe_fgets(char *arr, int len, FILE *fp)$/;"	f
+safe_fgets_C_VERSION	nist/src/lib/util/sfgets.c	14;"	d	file:
+sampKind	src/fe/writehtk.h	/^   short sampKind;$/;"	m	struct:__anon6
+sampPeriod	src/fe/writehtk.h	/^   int32 sampPeriod;$/;"	m	struct:__anon6
+sampSize	src/fe/writehtk.h	/^   short sampSize;$/;"	m	struct:__anon6
+sampleRate	src/fe/SphereInterface.h	/^	DWORD sampleRate;		\/\/0x18$/;"	m	struct:RIFFHeader
+samples_read	nist/include/sp/spfile.h	/^    int samples_read;$/;"	m	struct:waveform_t
+samples_written	nist/include/sp/spfile.h	/^    int samples_written;$/;"	m	struct:waveform_t
+samplingRate	src/fe/FrontEndTypes.h	/^   int samplingRate;$/;"	m	struct:__anon3
+scan	nist/src/lib/util/hsgetopt.c	/^static char *scan;	\/* Private scan pointer. *\/$/;"	v	file:
+schar	nist/include/sp/shorten/shorten.h	/^typedef char		schar;$/;"	t
+schar	nist/include/sp/shorten/shorten.h	/^typedef signed char	schar;$/;"	t
+search_back_for_char	nist/src/lib/util/string.c	/^void search_back_for_char(char *beg_ptr, char **ptr, char chr)$/;"	f
+search_for_char	nist/src/lib/util/string.c	/^void search_for_char(char **ptr, char chr)$/;"	f
+seed	src/fe/FrontEndTypes.h	/^   int seed;$/;"	m	struct:__anon3
+seek_test	nist/src/bin/tsphere.c	/^void seek_test(int test)$/;"	f
+select_channel	src/fe/InitAsdf.h	/^int select_channel;$/;"	v
+selection	nist/src/bin/h_read.c	/^int selection = DEF_SELECT;$/;"	v
+selective_channel_test	nist/src/bin/tsphere.c	/^void selective_channel_test(int test){$/;"	f
+seq_mult	nist/src/lib/util/statdist.c	/^double seq_mult(int f, int t)$/;"	f
+set_CONFIG_elem_C	nist/src/lib/util/cfg.c	/^void set_CONFIG_elem_C(CONFIG *cfg, char *str, char *value)$/;"	f
+set_CONFIG_elem_STR	nist/src/lib/util/cfg.c	/^void set_CONFIG_elem_STR(CONFIG *cfg, char *str, char *value)$/;"	f
+set_CONFIG_elem_TGL	nist/src/lib/util/cfg.c	/^void set_CONFIG_elem_TGL(CONFIG *cfg, char *str, int value)$/;"	f
+set_cfg_debug	nist/src/lib/util/cfg.c	/^void set_cfg_debug(int value)$/;"	f
+set_data_mode_occured_flag	nist/include/sp/spfile.h	/^    int set_data_mode_occured_flag;$/;"	m	struct:spfile_status_t
+set_error_util_debug	nist/src/lib/util/err_util.c	/^void set_error_util_debug(int n)$/;"	f
+set_pad	nist/src/lib/util/pad.c	/^void set_pad(char *pad, char *str)$/;"	f
+set_pad_cent_n	nist/src/lib/util/pad.c	/^void set_pad_cent_n(char *pad, int len)$/;"	f
+set_pad_n	nist/src/lib/util/pad.c	/^void set_pad_n(char *pad, int n)$/;"	f
+set_return_util	nist/src/lib/util/err_util.c	/^void set_return_util(char *proc_name, int return_code, char *mesg, int type)$/;"	f
+sflg	nist/src/lib/sp/wavpack.c	/^static int sflg= -1;$/;"	v	file:
+shorten	nist/src/lib/sp/shorten.c	/^int shorten(stdi, stdo, argc, argv) FOB *stdi, *stdo; int argc; char **argv; {$/;"	f
+shorten_argc	nist/src/lib/sp/sphere.c	/^int   shorten_argc = 1;$/;"	v
+shorten_argv	nist/src/lib/sp/sphere.c	/^char *shorten_argv[MAX_SHORTEN_ARGC];$/;"	v
+shorten_compress	nist/src/lib/sp/sphere.c	/^int shorten_compress(FOB *fpin, FOB *fpout, char *status) {$/;"	f
+shorten_dump_flags	nist/src/lib/sp/sphere.c	/^void shorten_dump_flags(FILE *fpout) {$/;"	f
+shorten_init	nist/src/lib/sp/sphere.c	/^void shorten_init(void) {$/;"	f
+shorten_reset_flags	nist/src/lib/sp/sphere.c	/^void shorten_reset_flags(void) {$/;"	f
+shorten_set_channel_count	nist/src/lib/sp/sphere.c	/^int shorten_set_channel_count(int nchannel) {$/;"	f
+shorten_set_flag	nist/src/lib/sp/sphere.c	/^int shorten_set_flag(char *flag) {$/;"	f
+shorten_set_ftype	nist/src/lib/sp/sphere.c	/^int shorten_set_ftype(char *ftype) {$/;"	f
+shorten_uncompress	nist/src/lib/sp/sphere.c	/^int shorten_uncompress(FOB *fpin, FOB *fpout, char *status) {$/;"	f
+shortpack_compress	nist/src/lib/sp/shpack_s.c	/^int shortpack_compress(FOB *fpin, FOB *fpout, char *status) {$/;"	f
+shortpack_uncompress	nist/src/lib/sp/shpack_s.c	/^int shortpack_uncompress(FOB *fpin, FOB *fpout, struct header_t *header)$/;"	f
+sigBitsPerSample	src/fe/SphereInterface.h	/^	INT sigBitsPerSample;		\/\/0x22$/;"	m	struct:RIFFHeader
+size	src/fe/HashTable.h	/^        int size;$/;"	m	struct:hashTable
+sizeof_sample	nist/src/lib/sp/fixio.c	/^static int sizeof_sample[TYPE_EOF];$/;"	v	file:
+sizeof_uvar	nist/src/lib/sp/vario.c	/^int sizeof_uvar(val, nbin) ulong val; int nbin; {$/;"	f
+sizeof_var	nist/src/lib/sp/vario.c	/^int sizeof_var(val, nbin) long val; int nbin; {$/;"	f
+skip_white_space	nist/include/util/macros.h	18;"	d
+smooth_hist	nist/src/lib/util/hist.c	/^void smooth_hist(HIST **from, HIST **to, int num_bins, int window)$/;"	f
+sort_double_arr	nist/src/lib/util/order.c	/^void sort_double_arr(double *arr, int num, int *ptr_arr, int order)$/;"	f
+sort_int_arr	nist/src/lib/util/order.c	/^void sort_int_arr(int *arr, int num, int *ptr_arr, int order)$/;"	f
+sort_short_arr	nist/src/lib/util/order.c	/^void sort_short_arr(short int *arr, int num, int *ptr_arr, int order)$/;"	f
+sort_strings_in_place	nist/src/lib/util/order.c	/^void sort_strings_in_place(char **arr, int num, int order)$/;"	f
+sort_strings_using_index	nist/src/lib/util/order.c	/^void sort_strings_using_index(char **arr, int *ind, int num, int order)$/;"	f
+sp_add_checksum	nist/src/lib/sp/spchksum.c	/^SP_CHECKSUM sp_add_checksum(SP_CHECKSUM csum1, SP_CHECKSUM csum2)$/;"	f
+sp_add_field	nist/src/lib/sp/sp_utils.c	/^int sp_add_field(struct header_t *h, char *name, int type, char *p)$/;"	f
+sp_alloc_and_init_sphere_t	nist/src/lib/sp/spalloc.c	/^SP_FILE *sp_alloc_and_init_sphere_t(void)$/;"	f
+sp_change_field	nist/src/lib/sp/sp_utils.c	/^int sp_change_field(struct header_t *h, char *name, int type, char *p)$/;"	f
+sp_clear_fields	nist/src/lib/sp/sp_utils.c	/^int sp_clear_fields(register struct header_t *h)$/;"	f
+sp_close	nist/src/lib/sp/spclose.c	/^int sp_close(SP_FILE *sp)$/;"	f
+sp_close_header	nist/src/lib/sp/sp_utils.c	/^int sp_close_header(register struct header_t *h)$/;"	f
+sp_compute_char_checksum	nist/src/lib/sp/spchksum.c	/^SP_CHECKSUM sp_compute_char_checksum(char *wav, size_t len)$/;"	f
+sp_compute_checksum	nist/src/lib/sp/spchksum.c	/^int sp_compute_checksum(SP_FILE *sp, SP_CHECKSUM *comp_chksum){$/;"	f
+sp_compute_checksum_test	nist/src/bin/tsphere.c	/^void sp_compute_checksum_test(int test)$/;"	f
+sp_compute_short_checksum	nist/src/lib/sp/spchksum.c	/^SP_CHECKSUM sp_compute_short_checksum(short int *wav, size_t len,$/;"	f
+sp_copy_header	nist/src/lib/sp/sp_utils.c	/^int sp_copy_header(SP_FILE *spin, SP_FILE *spout)$/;"	f
+sp_create_header	nist/src/lib/sp/sp_utils.c	/^struct header_t *sp_create_header(void)$/;"	f
+sp_data_alloc	nist/src/lib/sp/sputils2.c	/^void *sp_data_alloc(SP_FILE *sp, int nsamp)$/;"	f
+sp_data_free	nist/src/lib/sp/sputils2.c	/^int sp_data_free(SP_FILE *sp, void *tptr)$/;"	f
+sp_delete_field	nist/src/lib/sp/sp_utils.c	/^int sp_delete_field(struct header_t *h, char *name)$/;"	f
+sp_dup_header	nist/src/lib/sp/sp_utils.c	/^struct header_t *sp_dup_header(struct header_t *h)$/;"	f
+sp_eof	nist/src/lib/sp/speof.c	/^int sp_eof(SP_FILE *sp)$/;"	f
+sp_error	nist/src/lib/sp/sperror.c	/^int sp_error(SP_FILE *sp)$/;"	f
+sp_file_dump	nist/src/lib/sp/spopen.c	/^void sp_file_dump(SP_FILE *sp, FILE *fp)$/;"	f
+sp_file_header_size	nist/src/lib/sp/sp_utils.c	/^SP_INTEGER sp_file_header_size(char *file)$/;"	f
+sp_fob	nist/include/sp/spfile.h	/^    FOB *sp_fob;$/;"	m	struct:waveform_t
+sp_format_lines	nist/src/lib/sp/spoutput.c	/^FUNCTION int sp_format_lines(struct header_t *h, register FILE *fp)$/;"	f
+sp_fp	nist/include/sp/spfile.h	/^    FILE *sp_fp;$/;"	m	struct:waveform_t
+sp_fpcopy	nist/src/lib/sp/spoutput.c	/^FUNCTION int sp_fpcopy(register FILE *fp, register FILE *outfp)$/;"	f
+sp_get_data	nist/src/lib/sp/sp_utils.c	/^int sp_get_data(struct header_t *h, char *name, char *buf, int *len)$/;"	f
+sp_get_field	nist/src/lib/sp/sp_utils.c	/^int sp_get_field(struct header_t *h, char *name, int *type, int *size)$/;"	f
+sp_get_fieldnames	nist/src/lib/sp/sp_utils.c	/^int sp_get_fieldnames(struct header_t *h, int n, char **v)$/;"	f
+sp_get_nfields	nist/src/lib/sp/sp_utils.c	/^int sp_get_nfields(struct header_t *h)$/;"	f
+sp_get_return_status	nist/src/lib/sp/sprstat.c	/^int sp_get_return_status(void)$/;"	f
+sp_get_return_type	nist/src/lib/sp/sprstat.c	/^int sp_get_return_type(void)$/;"	f
+sp_get_size	nist/src/lib/sp/sp_utils.c	/^int sp_get_size(struct header_t *h, char *name)$/;"	f
+sp_get_type	nist/src/lib/sp/sp_utils.c	/^int sp_get_type(struct header_t *h, char *name)$/;"	f
+sp_get_version	nist/src/lib/sp/spvers.c	/^char *sp_get_version(void){$/;"	f
+sp_h_delete_field	nist/src/lib/sp/sphio.c	/^int sp_h_delete_field(SP_FILE *sp_file, char *field)$/;"	f
+sp_h_get_field	nist/src/lib/sp/sphio.c	/^int sp_h_get_field(SP_FILE *sp_file, char *field, int ftype, void **value)$/;"	f
+sp_h_set_field	nist/src/lib/sp/sphio.c	/^int sp_h_set_field(SP_FILE *sp_file, char *field, int ftype, void *value)$/;"	f
+sp_header_size	nist/src/lib/sp/sp_utils.c	/^SP_INTEGER sp_header_size(struct header_t *h)$/;"	f
+sp_htons	nist/src/lib/sp/sp_ntoh.c	/^short sp_htons(short t){$/;"	f
+sp_is_std	nist/src/lib/sp/sp_utils.c	/^int sp_is_std(register char *name)$/;"	f
+sp_load_file	nist/src/lib/sp/sploadf.c	/^int sp_load_file(char *file, char *sdm, SP_INTEGER *nsamp, SP_INTEGER *nchan, SP_INTEGER *nsnb, void **data){$/;"	f
+sp_mc_read_data	nist/src/lib/sp/spread.c	/^int sp_mc_read_data(void *buffer, size_t num_sample, SP_FILE *sp)$/;"	f
+sp_mc_write_data	nist/src/lib/sp/spwrite.c	/^int sp_mc_write_data(void *buffer, size_t num_sample, SP_FILE *sp)$/;"	f
+sp_ntohl	nist/src/lib/sp/sp_ntoh.c	/^long sp_ntohl(long t){$/;"	f
+sp_open	nist/src/lib/sp/spopen.c	/^SP_FILE *sp_open(char *filename, char *mode)$/;"	f
+sp_open_header	nist/src/lib/sp/sp_utils.c	/^struct header_t *sp_open_header(register FILE *fp, int parse_flag,$/;"	f
+sp_overwrite_header	nist/src/lib/sp/spoutput.c	/^FUNCTION int sp_overwrite_header(char *src, char *dst, int s)$/;"	f
+sp_print_lines	nist/src/lib/sp/spoutput.c	/^FUNCTION int sp_print_lines(struct header_t *h, register FILE *fp)$/;"	f
+sp_print_return_status	nist/src/lib/sp/sprstat.c	/^int sp_print_return_status(FILE *fp)$/;"	f
+sp_read_data	nist/include/sp/sphere.h	53;"	d
+sp_read_data	nist/include/sp/sphere.h	56;"	d
+sp_rewind	nist/src/lib/sp/sprewind.c	/^int sp_rewind(SP_FILE *sp)$/;"	f
+sp_seek	nist/src/lib/sp/spseek.c	/^int sp_seek(SP_FILE *sp, int offset, int origin)$/;"	f
+sp_set_data_mode	nist/src/lib/sp/sdatamod.c	/^int sp_set_data_mode(SP_FILE *sp, char *mode)$/;"	f
+sp_set_default_operations	nist/src/lib/sp/spopen.c	/^int sp_set_default_operations(SP_FILE *sp)$/;"	f
+sp_set_verbose	nist/src/lib/sp/verbose.c	/^void sp_set_verbose(int n)$/;"	f
+sp_tell	nist/src/lib/sp/sptell.c	/^int sp_tell(SP_FILE *sp)$/;"	f
+sp_verbose	nist/src/lib/sp/verbose.c	/^int sp_verbose = 0;$/;"	v
+sp_version_str	nist/include/sp/version.h	/^char *sp_version_str = "SPHERE Lib " SPHERE_VERSION_STR;$/;"	v
+sp_write_data	nist/include/sp/sphere.h	54;"	d
+sp_write_data	nist/include/sp/sphere.h	57;"	d
+sp_write_header	nist/src/lib/sp/spoutput.c	/^FUNCTION int sp_write_header(register FILE *fp, struct header_t *h, $/;"	f
+spfile_status_t	nist/include/sp/spfile.h	/^typedef struct spfile_status_t {$/;"	s
+spfp	nist/include/sp/sphere.h	62;"	d
+sphere_internal_file_rep_t	nist/include/sp/spfile.h	/^typedef struct sphere_internal_file_rep_t {$/;"	s
+sphere_t	nist/include/sp/spfile.h	/^typedef struct sphere_t {$/;"	s
+spifr_dump	nist/src/lib/sp/spopen.c	/^void spifr_dump(SPIFR *spifr, FILE *fp)$/;"	f
+sptemp	nist/src/lib/sp/sptemp.c	/^char * sptemp(char *file)$/;"	f
+sptemp_dirfile	nist/src/lib/sp/sptemp.c	/^char * sptemp_dirfile(void)$/;"	f
+spw_file_init	nist/src/lib/sp/spwrite.c	/^static int spw_file_init(SP_FILE *sp, char *call_proc){$/;"	f	file:
+spw_process_data	nist/src/lib/sp/spwrite.c	/^static int spw_process_data(SP_FILE *sp, void *buffer, size_t num_sample, char *call_proc){$/;"	f	file:
+spx_allocate_field	nist/src/lib/sp/spinput.c	/^struct field_t *spx_allocate_field(int type, char *fieldname, char *v, int vlen)$/;"	f
+spx_allocate_field_str	nist/src/lib/sp/spinput.c	/^struct field_t *spx_allocate_field_str(int type, char *fieldname,$/;"	f
+spx_allocate_header	nist/src/lib/sp/spinput.c	/^struct header_t *spx_allocate_header(int fc, struct field_t **fv)$/;"	f
+spx_copy_field_vector	nist/src/lib/sp/spinput.c	/^int spx_copy_field_vector(struct field_t **src_fv, struct field_t **dst_fv, $/;"	f
+spx_deallocate_field	nist/src/lib/sp/spinput.c	/^int spx_deallocate_field(struct field_t *fv)$/;"	f
+spx_deallocate_header	nist/src/lib/sp/spinput.c	/^int spx_deallocate_header(struct header_t *h)$/;"	f
+spx_get_field_vector	nist/src/lib/sp/spinput.c	/^struct field_t **spx_get_field_vector(int elements)$/;"	f
+spx_read_header	nist/src/lib/sp/spinput.c	/^int spx_read_header(FILE *fp, int *header_size, int parse_flag, char **error)$/;"	f
+spx_tp	nist/src/lib/sp/spoutput.c	/^int spx_tp(register int ftype)$/;"	f
+spx_write_header	nist/src/lib/sp/spoutput.c	/^int spx_write_header(struct header_t *h, struct fileheader_fixed *fh, $/;"	f
+stGauss	src/fe/FrontEndTypes.h	/^   int stGauss;$/;"	m	struct:__anon3
+stGaussWnd	src/fe/FrontEndTypes.h	/^   int stGaussWnd;$/;"	m	struct:__anon3
+static_error_util_buffer	nist/src/lib/util/err_util.c	/^static char static_error_util_buffer[ERROR_UTIL_MESSAGE_LEN];$/;"	v	file:
+static_error_util_message	nist/src/lib/util/err_util.c	/^static char static_error_util_message[ERROR_UTIL_MESSAGE_LEN];$/;"	v	file:
+static_error_util_message1	nist/src/lib/util/err_util.c	/^static char static_error_util_message1[ERROR_UTIL_MESSAGE_LEN];$/;"	v	file:
+static_error_util_proc_name	nist/src/lib/util/err_util.c	/^static char static_error_util_proc_name[ERROR_UTIL_MESSAGE_LEN];$/;"	v	file:
+static_error_util_return_code	nist/src/lib/util/err_util.c	/^static static_error_util_return_code;$/;"	v	file:
+static_error_util_return_type	nist/src/lib/util/err_util.c	/^static static_error_util_return_type;$/;"	v	file:
+static_message_buffer	nist/src/lib/util/rsprintf.c	/^char static_message_buffer[200];$/;"	v
+status	nist/include/sp/spfile.h	/^    struct spfile_status_t *status;$/;"	m	struct:sphere_internal_file_rep_t	typeref:struct:sphere_internal_file_rep_t::spfile_status_t
+std_fields	nist/src/lib/sp/stdfield.c	/^char *std_fields[] = {$/;"	v
+str	nist/include/util/statdist.h	/^    char *str;$/;"	m	struct:X2_df
+str	nist/include/util/statdist.h	/^    char *str;$/;"	m	struct:Z_struct
+str2low	nist/src/lib/util/string.c	/^char *str2low(char *str)$/;"	f
+str2up	nist/src/lib/util/string.c	/^char *str2up(char *str)$/;"	f
+strat	nist/src/lib/sp/wavpack.c	/^static int strat[]=		\/* strategy info *\/$/;"	v	file:
+strat_eval	nist/src/lib/sp/wavpack.c	/^static struct strat_eval	\/* strat evaluation with sample hdrs *\/$/;"	s	file:
+strat_eval	nist/src/lib/sp/wavpack.c	/^} strat_eval[256];	\/* address microcoded through strat[] *\/$/;"	v	typeref:struct:strat_eval	file:
+strcmp_nhu	nist/src/lib/util/string.c	/^int strcmp_nhu(char *s, char *t)$/;"	f
+strcpy_lc	nist/src/lib/util/string.c	/^void strcpy_lc(char *to, char *from)$/;"	f
+strcpy_to_before_char	nist/src/lib/util/string.c	/^void strcpy_to_before_char(char *to, char *from, char chr)$/;"	f
+strcpy_to_char	nist/src/lib/util/string.c	/^void strcpy_to_char(char *to, char *from, char chr)$/;"	f
+strdiff	nist/src/lib/sp/sputils2.c	/^int strdiff(char *s1, char *s2)$/;"	f
+strdup	nist/include/util/mtrf.h	38;"	d
+strdup	nist/include/util/mtrf.h	40;"	d
+strings_search	nist/src/lib/util/str_srch.c	/^int strings_search(char **list, int count, char *goal)$/;"	f
+strip_newline	nist/include/util/macros.h	12;"	d
+strncpy_pad	nist/src/lib/util/string.c	/^void strncpy_pad(char *to, char *from, int len, char chr)$/;"	f
+strncpy_to_before_char	nist/src/lib/util/string.c	/^void strncpy_to_before_char(char *to, char *from, char chr, int len)$/;"	f
+strsame	nist/src/lib/sp/sputils2.c	/^int strsame(char *s1, char *s2)$/;"	f
+strstr1	nist/src/lib/util/string.c	/^ char *strstr1(char *ps1, char *ps2)$/;"	f
+strstr1_i	nist/src/lib/util/string.c	/^ char *strstr1_i(char *ps1, char *ps2)$/;"	f
+subtract_hist	nist/src/lib/util/hist.c	/^void subtract_hist(HIST **h1, HIST **h2, HIST **hs, int num_bins)$/;"	f
+swap	nist/src/lib/sp/shpack_s.c	/^    int swap;$/;"	v
+swap_bytes	nist/include/util/macros.h	54;"	d
+swap_short	nist/include/util/macros.h	52;"	d
+t_or_f	nist/src/lib/util/t_or_f.c	/^char *t_or_f(int val)$/;"	f
+temp_filename	nist/include/sp/spfile.h	/^    char *temp_filename;$/;"	m	struct:spfile_status_t
+the	nist/include/sp/spfile.h	8;"	d
+theta	nist/src/lib/util/ds.c	/^static double SS, Spsi, Sphi, theta, *DELTA, *delta, (*S)(int *), rho;$/;"	v	file:
+thresEnergy	src/fe/FrontEndTypes.h	/^  float thresEnergy;$/;"	m	struct:__anon3
+thresSpecFlatness	src/fe/FrontEndTypes.h	/^  float thresSpecFlatness;$/;"	m	struct:__anon3
+thresZero	src/fe/FrontEndTypes.h	/^  float thresZero;$/;"	m	struct:__anon3
+timeOrFreq	src/fe/FrontEndTypes.h	/^  int timeOrFreq;$/;"	m	struct:__anon3
+times	nist/src/lib/sp/dupfinfo.c	/^} times;$/;"	v	typeref:struct:utimbuf
+to	nist/include/util/hist.h	/^       double from, to;$/;"	m	struct:hist
+tonic	src/fe/FrontEndTypes.h	/^  float tonic;$/;"	m	struct:__anon3
+total_fields	nist/src/bin/h_read.c	/^int fieldno, total_fields;$/;"	v
+trapezoidalRatio	src/fe/FrontEndTypes.h	/^  float trapezoidalRatio;$/;"	m	struct:__anon3
+twiddleImag	src/DspLibrary.c	/^static     float *twiddleReal=NULL, *twiddleImag=NULL;$/;"	v	file:
+twiddleReal	src/DspLibrary.c	/^static     float *twiddleReal=NULL, *twiddleImag=NULL;$/;"	v	file:
+two_channel_test	nist/src/bin/tsphere.c	/^void two_channel_test(int test)$/;"	f
+type	nist/include/sp/header.h	/^	int type;$/;"	m	struct:field_t
+u	src/fe/FrontEndTypes.h	/^    } u;$/;"	t	typeref:union:__anon2
+uchar	nist/include/sp/shorten/shorten.h	112;"	d
+uchar	nist/include/sp/shorten/shorten.h	113;"	d
+uchar_bitreverse_lut	nist/include/sp/ulaw.h	/^static unsigned char uchar_bitreverse_lut[256] = { 0, 128, 64, 192, 32,$/;"	v
+ulaw2linear	nist/src/lib/sp/ulaw.c	/^int ulaw2linear(ulawbyte) unsigned char ulawbyte; {$/;"	f
+ulaw2linear_01_sbf_lut	nist/include/sp/ulaw.h	/^  static short int ulaw2linear_01_sbf_lut[256] = { -31614, -31610,$/;"	v
+ulaw2linear_10_sbf_lut	nist/include/sp/ulaw.h	/^  static short int ulaw2linear_10_sbf_lut[256] = {-32124, -31100, -30076, -29052, $/;"	v
+ulaw2pcm2	nist/src/lib/sp/spwrite.c	/^void ulaw2pcm2(unsigned char *ulaw_data, short *pcm_data, enum SP_sample_encoding pcm_sbf, SP_INTEGER samples){$/;"	f
+ulaw_inward	nist/src/lib/sp/bitshift.h	/^schar ulaw_inward[13][256] = {$/;"	v
+ulaw_maxshift	nist/src/lib/sp/bitshift.h	/^char ulaw_maxshift[256] = {12,8,7,9,7,8,7,10,7,8,7,9,7,8,7,11,6,7,6,8,6,7,6,9,6,7,6,8,6,7,6,10,5,6,5,7,5,6,5,8,5,6,5,7,5,6,5,9,5,4,6,4,5,4,7,4,5,4,6,4,5,4,8,4,3,5,3,4,3,6,3,4,3,5,3,4,3,7,3,4,2,3,2,5,2,3,2,4,2,3,2,6,2,3,2,4,1,2,1,3,1,2,1,5,1,2,1,3,1,2,1,4,0,1,0,2,0,1,0,3,0,1,0,2,0,1,0,0,7,8,7,9,7,8,7,10,7,8,7,9,7,8,7,11,6,7,6,8,6,7,6,9,6,7,6,8,6,7,6,10,5,6,5,7,5,6,5,8,5,6,5,7,5,6,5,9,5,4,6,4,5,4,7,4,5,4,6,4,5,4,8,4,3,5,3,4,3,6,3,4,3,5,3,4,3,7,3,4,2,3,2,5,2,3,2,4,2,3,2,6,2,3,2,4,1,2,1,3,1,2,1,5,1,2,1,3,1,2,1,4,0,1,0,2,0,1,0,3,0,1,0,2,0,1,0,12};$/;"	v
+ulaw_outward	nist/src/lib/sp/bitshift.h	/^uchar ulaw_outward[13][256] = {$/;"	v
+ulaw_test	nist/src/bin/tsphere.c	/^void ulaw_test(int test)$/;"	f
+ulong	nist/include/sp/shorten/shorten.h	116;"	d
+ulong	nist/include/sp/shorten/shorten.h	117;"	d
+ulong_get	nist/src/lib/sp/vario.c	/^ulong ulong_get(stream) FOB *stream; {$/;"	f
+ulong_put	nist/src/lib/sp/vario.c	/^void ulong_put(val, stream) ulong val; FOB *stream; {$/;"	f
+uniformCentFB	src/fe/FrontEndTypes.h	/^  int   uniformCentFB;$/;"	m	struct:__anon3
+unpack_short_array_into_buffer	nist/src/lib/sp/shpackio.c	/^int unpack_short_array_into_buffer(short int *buffer, int start, int max_elements, int bits, int mask, short int *compressed_data, int num)$/;"	f
+update_checksum_even_if_its_already_there	nist/src/lib/sp/shpacki2.c	/^update_checksum_even_if_its_already_there(short int *waveform, header_t *header)$/;"	f
+update_checksum_unless_its_already_there	nist/src/lib/sp/shpacki2.c	/^update_checksum_unless_its_already_there(short int *waveform, header_t *header)$/;"	f
+update_exit	nist/src/lib/sp/exit.c	/^void update_exit(int exitcode, char* fmt, ...) {$/;"	f
+update_test	nist/src/bin/tsphere.c	/^void update_test(int test)$/;"	f
+usage	nist/src/bin/h_read.c	/^void usage(void)$/;"	f
+usage	nist/src/bin/w_decode.c	/^char usage[] = "Usage:  %s [-vf] [ -oOUT ] { filein | - } { fileout | - }\\n\\$/;"	v
+usage	nist/src/bin/w_edit.c	/^char usage[] = "Usage:  %s [-v] -o [-[t|p]F:T]] [-c EXP] [-o OUT ] { filein | - } \\$/;"	v
+usage	nist/src/bin/w_encode.c	/^char usage[] = "Usage:  %s [-mvf] [ -t ENC ] { filein | - } { fileout | - }\\n\\$/;"	v
+usage_exit	nist/src/lib/sp/exit.c	/^void usage_exit(int exitcode, char* fmt, ...) {$/;"	f
+useLog	src/fe/FrontEndTypes.h	/^   int useLog;$/;"	m	struct:__anon3
+useMinGd	src/fe/FrontEndTypes.h	/^   int useMinGd;$/;"	m	struct:__anon3
+useTrain	src/fe/FrontEndTypes.h	/^   int useTrain;$/;"	m	struct:__anon3
+user_channel_count	nist/include/sp/spfile.h	/^    int user_channel_count, file_channel_count;$/;"	m	struct:spfile_status_t
+user_compress	nist/include/sp/spfile.h	/^    enum SP_waveform_comp      user_compress, file_compress;$/;"	m	struct:spfile_status_t	typeref:enum:spfile_status_t::SP_waveform_comp
+user_data_fmt	nist/include/sp/spfile.h	/^    enum SP_data_format        user_data_fmt;$/;"	m	struct:spfile_status_t	typeref:enum:spfile_status_t::SP_data_format
+user_encoding	nist/include/sp/spfile.h	/^    enum SP_sample_encoding    user_encoding, file_encoding;$/;"	m	struct:spfile_status_t	typeref:enum:spfile_status_t::SP_sample_encoding
+user_sample_count	nist/include/sp/spfile.h	/^    int user_sample_count, file_sample_count;$/;"	m	struct:spfile_status_t
+user_sample_n_bytes	nist/include/sp/spfile.h	/^    int user_sample_n_bytes, file_sample_n_bytes;$/;"	m	struct:spfile_status_t
+user_sample_rate	nist/include/sp/spfile.h	/^    int user_sample_rate, file_sample_rate;$/;"	m	struct:spfile_status_t
+user_sbf	nist/include/sp/spfile.h	/^    enum SP_sample_byte_fmt    user_sbf, file_sbf;$/;"	m	struct:spfile_status_t	typeref:enum:spfile_status_t::SP_sample_byte_fmt
+ushort	nist/include/sp/shorten/shorten.h	114;"	d
+ushort	nist/include/sp/shorten/shorten.h	115;"	d
+utimbuf	nist/src/lib/sp/dupfinfo.c	/^struct utimbuf {$/;"	s	file:
+uvar_get	nist/src/lib/sp/vario.c	/^long uvar_get(nbin, stream) int nbin; FOB *stream; {$/;"	f
+uvar_put	nist/src/lib/sp/vario.c	/^void uvar_put(val, nbin, stream) ulong val; int nbin; FOB *stream; {$/;"	f
+vU	src/fe/FrontEndTypes.h	/^  short *vU;$/;"	m	struct:__anon3
+vad	src/fe/FrontEndTypes.h	/^   int vad;$/;"	m	struct:__anon3
+value	nist/include/util/cfg.h	/^    char *value;$/;"	m	struct:config_record_struct
+value_type	nist/include/util/cfg.h	/^    int value_type;$/;"	m	struct:config_record_struct
+var_get	nist/src/lib/sp/vario.c	/^long var_get(nbin, stream) int nbin; FOB *stream; {$/;"	f
+var_get_init	nist/src/lib/sp/vario.c	/^void var_get_init() {$/;"	f
+var_get_quit	nist/src/lib/sp/vario.c	/^void var_get_quit() {$/;"	f
+var_put	nist/src/lib/sp/vario.c	/^void var_put(val, nbin, stream) long val; int nbin; FOB *stream; {$/;"	f
+var_put_init	nist/src/lib/sp/vario.c	/^void var_put_init() {$/;"	f
+var_put_quit	nist/src/lib/sp/vario.c	/^void var_put_quit(stream) FOB *stream; {$/;"	f
+varianceFloor	src/fe/FrontEndTypes.h	/^  float varianceFloor;$/;"	m	struct:__anon3
+varianceNormalize	src/fe/FrontEndTypes.h	/^   int varianceNormalize;$/;"	m	struct:__anon3
+verbose	nist/src/bin/h_read.c	/^int verbose = FALSE;$/;"	v
+verify_byte_count	nist/src/bin/h_read.c	/^int verify_byte_count = FALSE;$/;"	v
+verify_checksum_computations	nist/src/bin/tsphere.c	/^int verify_checksum_computations(int test){$/;"	f
+verify_file_checksum	nist/src/lib/sp/spclose.c	/^int verify_file_checksum(char *filename)$/;"	f
+vflg	nist/src/lib/sp/wavpack.c	/^static int vflg=0;		\/* verbosity *\/$/;"	v	file:
+warning	nist/src/bin/tsphere.c	/^int warning = 0;$/;"	v
+warpConst	src/fe/FrontEndTypes.h	/^  float warpConst;$/;"	m	struct:__anon3
+wav2lpc	nist/src/lib/sp/lpc.c	/^int wav2lpc(buf, nbuf, offset, qlpc, nlpc, version, psigbit, presbit) $/;"	f
+wav2lpc_init	nist/src/lib/sp/lpc.c	/^int wav2lpc_init(){ $/;"	f
+wav2poly	nist/src/lib/sp/poly.c	/^int wav2poly(buf, nbuf, offset, version, psigbit, presbit) long *buf; int nbuf;$/;"	f
+wav_edit	nist/src/lib/sp/wavedit.c	/^int wav_edit(int argc, char **argv, char *ops, char *opspec)$/;"	f
+wav_edit_headers	nist/src/lib/sp/wavedit.c	/^static int wav_edit_headers(char *f1, char *f2,$/;"	f	file:
+wav_edit_usage	nist/src/lib/sp/wavedit.c	/^static void wav_edit_usage(char *prog, char *ops)$/;"	f	file:
+waveFileName	src/fe/FrontEndTypes.h	/^  char  waveFileName[500];$/;"	m	struct:__anon3
+wavePthValues	src/fe/FrontEndTypes.h	/^  short *wavePthValues;$/;"	m	struct:__anon3
+waveType	src/fe/FrontEndTypes.h	/^   int waveType;$/;"	m	struct:__anon3
+waveform	nist/include/sp/spfile.h	/^    struct waveform_t *waveform;$/;"	m	struct:sphere_internal_file_rep_t	typeref:struct:sphere_internal_file_rep_t::waveform_t
+waveform	src/fe/FrontEndTypes.h	/^  short *waveform;$/;"	m	struct:__anon3
+waveform_setup	nist/include/sp/spfile.h	/^    int waveform_setup;$/;"	m	struct:waveform_t
+waveform_t	nist/include/sp/spfile.h	/^typedef struct waveform_t {$/;"	s
+waveform_update	nist/src/bin/tsphere.c	/^void waveform_update(char *base_file, char *sdm_mode, char *compare_file)$/;"	f
+wavpack_dump_interface	nist/src/lib/sp/wavpack.c	/^void wavpack_dump_interface(FILE *fp)$/;"	f
+wavpack_free_progname	nist/src/lib/sp/wavpack.c	/^int wavpack_free_progname(void)$/;"	f
+wavpack_get_byteflg	nist/src/lib/sp/wavpack.c	/^int wavpack_get_byteflg(void)$/;"	f
+wavpack_get_monoflg	nist/src/lib/sp/wavpack.c	/^int wavpack_get_monoflg(void)$/;"	f
+wavpack_get_nstrat	nist/src/lib/sp/wavpack.c	/^int wavpack_get_nstrat(void)$/;"	f
+wavpack_pack	nist/src/lib/sp/wavpack.c	/^int wavpack_pack(FILE *ifile, FILE *ofile)$/;"	f
+wavpack_set_byteflg	nist/src/lib/sp/wavpack.c	/^void wavpack_set_byteflg(int val)$/;"	f
+wavpack_set_monoflg	nist/src/lib/sp/wavpack.c	/^void wavpack_set_monoflg(int val)$/;"	f
+wavpack_set_oflg	nist/src/lib/sp/wavpack.c	/^void wavpack_set_oflg(int value)$/;"	f
+wavpack_set_oname	nist/src/lib/sp/wavpack.c	/^int wavpack_set_oname(char *s)$/;"	f
+wavpack_set_progname	nist/src/lib/sp/wavpack.c	/^int wavpack_set_progname(char *s)$/;"	f
+wavpack_set_vflg	nist/src/lib/sp/wavpack.c	/^int wavpack_set_vflg(int value)$/;"	f
+wavpack_unpack	nist/src/lib/sp/wavpack.c	/^int wavpack_unpack(FILE *ifile, FILE *ofile)$/;"	f
+winScaleFactor	src/fe/FrontEndTypes.h	/^  float winScaleFactor;$/;"	m	struct:__anon3
+windowShape	src/fe/FrontEndTypes.h	/^   int  windowShape;$/;"	m	struct:__anon3
+windowSize	src/fe/FrontEndTypes.h	/^   int windowSize;$/;"	m	struct:__anon3
+windowType	src/fe/FrontEndTypes.h	/^   int  windowType;$/;"	m	struct:__anon3
+word_get	nist/src/lib/sp/vario.c	/^ulong word_get(stream) FOB *stream; {$/;"	f
+word_put	nist/src/lib/sp/vario.c	/^void word_put(buffer, stream) ulong buffer; FOB *stream; {$/;"	f
+wrdcpy	nist/src/lib/util/word.c	/^void wrdcpy(char *to, char *from)$/;"	f
+wrdlen	nist/src/lib/util/word.c	/^int wrdlen(char *ptr)$/;"	f
+write_byte_swap	nist/include/util/fob.h	/^        int write_byte_swap;    \/* if true, swap after write *\/$/;"	m	struct:fob_t
+write_check_adding_fields	nist/src/bin/tsphere.c	/^void write_check_adding_fields(char *comp_file, char *conversion_str)$/;"	f
+write_check_adding_fields_test	nist/src/bin/tsphere.c	/^void write_check_adding_fields_test(int test)$/;"	f
+write_data	nist/src/lib/sp/wavpack.c	/^static write_data(struct hdr *hdr, short unsigned int (*sobuf)[257], int *nsobuf, FILE *ofile)$/;"	f	file:
+write_occured_flag	nist/include/sp/spfile.h	/^    int write_occured_flag;$/;"	m	struct:spfile_status_t
+write_required_field_test	nist/src/bin/tsphere.c	/^void write_required_field_test(int test)$/;"	f
+write_shortpack_reading_from_file	nist/src/lib/sp/shpackio.c	/^void write_shortpack_reading_from_file(FOB *ifp, FOB *ofp, int swap)$/;"	f
+write_shortpacked_data	nist/src/lib/sp/shpackio.c	/^int write_shortpacked_data(short int *array, int num_elements, FOB *fp)$/;"	f
+write_spifr	nist/include/sp/spfile.h	/^    SPIFR *write_spifr;$/;"	m	struct:sphere_t
+write_wav_data	nist/src/lib/sp/shpacki2.c	/^write_wav_data(FOB *fp, short int *waveform, header_t *header)$/;"	f
+write_with_array_access	nist/src/bin/tsphere.c	/^int write_with_array_access(char *filein, char *conversion,$/;"	f
+writebuf	nist/src/lib/sp/fixio.c	/^static char *writebuf, *writefub;$/;"	v	file:
+writefub	nist/src/lib/sp/fixio.c	/^static char *writebuf, *writefub;$/;"	v	file:
+writemode	nist/src/lib/sp/shorten.c	/^char *writemode = "w";$/;"	v
+writemode	nist/src/lib/sp/shorten.c	/^char *writemode = "wb";$/;"	v
+written	nist/src/lib/sp/shpack_s.c	/^    int pos, num_in_chunk, written;$/;"	v
+x	nist/src/lib/util/ds.c	/^static int debug, x;$/;"	v	file:
+z	nist/include/util/statdist.h	/^    double z;$/;"	m	struct:Z_struct
+zeroMean	src/fe/FrontEndTypes.h	/^   int zeroMean;$/;"	m	struct:__anon3
+zeroOrder	src/fe/FrontEndTypes.h	/^   int zeroOrder;$/;"	m	struct:__anon3
