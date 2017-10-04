@@ -1,0 +1,22 @@
+import scipy.io.wavfile as wv   
+#from scipy.io import wavfile as wv                                                                                              
+import numpy  as np
+import matplotlib.pyplot as plt
+import sys
+
+##to find local min and max values of f0##
+
+ls f0_txt_files/*.txt > list_for_minmax
+
+for val in `cat list_for_minmax`
+do
+   #echo $val
+   sort -n $val | sed -n '1p;$p' >> global_min_max   
+done
+
+###find global min and max values.....
+
+rm -rf global_min_max
+touch global_min_max
+
+sort -n global_min_max.txt | sed -n '1p;$p'

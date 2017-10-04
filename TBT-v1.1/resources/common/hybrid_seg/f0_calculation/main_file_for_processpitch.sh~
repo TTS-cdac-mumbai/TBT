@@ -1,0 +1,28 @@
+#!/bin/sh
+
+LNG=$2
+
+##List out wav files to generate .f0 frequency files
+ls ../wav_16KHz/*.wav > list.txt
+
+#Pass that list to generate -f0 files
+./pitchextract.sh list.txt
+
+#rm -rf f0_files
+#mkdir f0_files
+#mv ../wav_16KHz/*.f0 f0_files
+rm -rf ../wav_16KHz/*.f0
+
+#list out .f0 file's name in list_of_f0 which is created in source_hybrid_seg/for_f0_values
+ls f0_files/*.f0 > list_of_f0
+
+##to take first value from f0 file#####to remove only 0 from .txt value file####
+rm -rf f0_txt_files
+mkdir f0_txt_files
+
+
+cat f0_txt_files/*.txt >> global_f0_values
+
+sort | uniq -c global_f0_values  > ooo
+
+
