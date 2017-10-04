@@ -60,7 +60,7 @@ build_htsvoice:
 	@ (cd scripts; $(SHELL) process_htsvoice.sh $(LNG)) 2> error_log_htsvoice
 
 test_htsvoice:
-	@ (cd scripts; $(SHELL) load_testing.sh $(LNG) $(GENDER))
+	@ (cd scripts; $(SHELL) load_testing.sh $(LNG))
 
 .PHONY: clean
 
