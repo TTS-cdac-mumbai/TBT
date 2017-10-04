@@ -45,8 +45,8 @@ GAMMA      = 0      # pole/zero weight for mel-generalized cepstral (MGC) analys
 MGCORDER   = 34   # order of MGC analysis
 BAPORDER   = 24   # order of BAP analysis
 LNGAIN     = 1     # use logarithmic gain rather than linear gain
-LOWERF0    =     # lower limit for f0 extraction (Hz)
-UPPERF0    =     # upper limit for f0 extraction (Hz)
+LOWERF0    = 77    # lower limit for f0 extraction (Hz)
+UPPERF0    = 227    # upper limit for f0 extraction (Hz)
 
 # windows for calculating delta features
 MGCWIN  = win/mgc.win

@@ -1,0 +1,1 @@
+perl ./bin/parser.pl द्स्फ् .

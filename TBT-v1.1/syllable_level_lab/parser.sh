@@ -1,1 +1,0 @@
-perl ./bin/il_parser_train.pl होती .

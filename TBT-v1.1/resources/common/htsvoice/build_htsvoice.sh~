@@ -42,13 +42,15 @@ cp -r ../resources/languages/$LNG/htsvoice/questions data/
 cp -r ../temp/htsvoice/utts data/
 cp -r ../resources/common/htsvoice/call_make.sh data/
 
-cp -r ../source_htsvoice/$LNG/Makefile data/
-cp -r ../source_htsvoice/$LNG/scripts_of_htsvoice/Training.pl scripts/
-cp -r ../source_htsvoice/$LNG/scripts_of_htsvoice/build_train_scp_from_fal.sh scripts/ 
+cp -r ../resources/common/htsvoice/Makefile data/
+cp -r ../resources/common/htsvoice/scripts_of_htsvoice/Training.pl scripts/
+cp -r ../resources/common/htsvoice/scripts_of_htsvoice/build_train_scp_from_fal.sh scripts/ 
 
 make
 
-rm -rf  hts_engine_list list1 list2 sptk_list
+cp -r voices/qst001/ver1/*.htsvoice ../output
+
+#rm -rf  hts_engine_list list1 list2 sptk_list
 
 
 echo "%%%%%%%%%%%%%%%Voice Building Started%%%%%%%%%Wait for Some Time==============>>>>"

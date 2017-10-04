@@ -27,7 +27,7 @@ filelines = filenames.readlines()
 for name in filelines:
 	name = name[:-1]
 	w = wave.open(name)
-	(fs,fname) = wv.read(+name)
+	(fs,fname) = wv.read(name)
 	astr = w.readframes(w.getnframes())
         # convert binary chunks to short 
 	a = struct.unpack("%ih" % (w.getnframes()* w.getnchannels()), astr)
@@ -49,10 +49,11 @@ for name in filelines:
 	indexrev=indexrev-1
 
 	wav=name[22:]
+	#print wav
 	dst_path = dst + wav
 
-	if count1<3500 or count2<3500:
-   		dur = fs/7 #100ms
+	if count1<4800 or count2<4800:
+   		dur = fs/10 #100ms
    		temp1 = np.array([0]*dur)
    		temp2 = np.append(list(temp1),list(fname))
    		temp3 = np.append(list(temp2),([0]*dur))
@@ -60,4 +61,4 @@ for name in filelines:
         	wv.write(dst_path,fs,data)
 
 	else:
-		shutil.copy2(name, "SIL_added_wav_48KHz/")
+		shutil.copy2(fname, "SIL_added_wav_48KHz/")

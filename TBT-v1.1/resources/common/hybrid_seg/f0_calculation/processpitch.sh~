@@ -44,11 +44,7 @@ uniq -c sorted > sorted_with_count
    else
 	echo "Call us for any help..."
  fi
-#echo $a1
-#echo $a2
 
 sed -i "48s/.*/LOWERF0    = $a1    # lower limit for f0 extraction (Hz)/" ../../resources/common/htsvoice/Makefile
 
 sed -i "49s/.*/UPPERF0    = $a2    # upper limit for f0 extraction (Hz)/" ../../resources/common/htsvoice/Makefile
-
-#echo $a1

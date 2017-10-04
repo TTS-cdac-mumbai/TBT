@@ -1,0 +1,99 @@
+EST_File utterance
+DataType ascii
+version 2
+EST_Header_End
+Features max_id 38 ; type Text ; iform "\"  बुंदोल माबार  \"" ; filename prompt-utt/text_0470.utt ; fileid text_0470 ; 
+Stream_Items
+1 id _1 ; name बुंदोल ; whitespace "  " ; prepunctuation "" ; 
+2 id _2 ; name माबार ; whitespace " " ; prepunctuation "" ; 
+3 id _4 ; name माबार ; pbreak B ; pos nil ; 
+4 id _3 ; name बुंदोल ; pbreak NB ; pos nil ; 
+5 id _6 ; name syl ; stress 0 ; 
+6 id _10 ; name syl ; stress 0 ; 
+7 id _14 ; name syl ; stress 0 ; 
+8 id _17 ; name syl ; stress 0 ; 
+9 id _21 ; name SIL ; dur_factor 1 ; end 0.22 ; 
+10 id _7 ; name b ; dur_factor 1 ; end 0.232 ; 
+11 id _8 ; name u ; dur_factor 1 ; end 0.376 ; 
+12 id _9 ; name q ; dur_factor 1 ; end 0.5 ; 
+13 id _11 ; name d ; dur_factor 1 ; end 0.512 ; 
+14 id _12 ; name o ; dur_factor 1 ; end 0.54 ; 
+15 id _13 ; name l ; dur_factor 1 ; end 0.776 ; 
+16 id _15 ; name m ; dur_factor 1 ; end 0.852 ; 
+17 id _16 ; name aa ; dur_factor 1 ; end 0.94 ; 
+18 id _18 ; name b ; dur_factor 1.5 ; end 1.016 ; 
+19 id _19 ; name aa ; dur_factor 1.5 ; end 1.248 ; 
+20 id _20 ; name r ; dur_factor 1.5 ; end 1.376 ; 
+21 id _22 ; name SIL ; dur_factor 1 ; end 1.608 ; 
+22 id _24 ; f0 110 ; pos 1.485 ; 
+23 id _23 ; f0 130 ; pos 0.11 ; 
+24 id _38 ; name BB ; 
+End_of_Stream_Items
+Relations
+Relation Token ; "(" ")" ; 
+3 4 1 0 0 0
+1 1 0 3 2 0
+4 3 2 0 0 0
+2 2 0 4 0 1
+End_of_Relation
+Relation Word ; "(" ")" ; 
+1 4 0 0 2 0
+2 3 0 0 0 1
+End_of_Relation
+Relation Syllable ; "(" ")" ; 
+1 5 0 0 2 0
+2 6 0 0 3 1
+3 7 0 0 4 2
+4 8 0 0 0 3
+End_of_Relation
+Relation Segment ; "(" ")" ; 
+1 9 0 0 2 0
+2 10 0 0 3 1
+3 11 0 0 4 2
+4 12 0 0 5 3
+5 13 0 0 6 4
+6 14 0 0 7 5
+7 15 0 0 8 6
+8 16 0 0 9 7
+9 17 0 0 10 8
+10 18 0 0 11 9
+11 19 0 0 12 10
+12 20 0 0 13 11
+13 21 0 0 0 12
+End_of_Relation
+Relation SylStructure ; "(" ")" ; 
+5 10 3 0 6 0
+6 11 0 0 7 5
+7 12 0 0 0 6
+3 5 1 5 4 0
+8 13 4 0 9 0
+9 14 0 0 10 8
+10 15 0 0 0 9
+4 6 0 8 0 3
+1 4 0 3 2 0
+13 16 11 0 14 0
+14 17 0 0 0 13
+11 7 2 13 12 0
+15 18 12 0 16 0
+16 19 0 0 17 15
+17 20 0 0 0 16
+12 8 0 15 0 11
+2 3 0 11 0 1
+End_of_Relation
+Relation IntEvent ; "(" ")" ; 
+End_of_Relation
+Relation Intonation ; "(" ")" ; 
+End_of_Relation
+Relation Target ; "(" ")" ; 
+3 23 1 0 0 0
+1 9 0 3 2 0
+4 22 2 0 0 0
+2 20 0 4 0 1
+End_of_Relation
+Relation Phrase ; ()
+2 4 1 0 3 0
+3 3 0 0 0 2
+1 24 0 2 0 0
+End_of_Relation
+End_of_Relations
+End_of_Utterance
