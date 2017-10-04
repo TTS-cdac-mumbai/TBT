@@ -32,14 +32,9 @@
 ###########################################################################
 
 LNG=$1
-GENDER=$2
 
 tar -xvzf ../resources/languages/$LNG/htsvoice_synthesis.tar.gz -C ../
-cd output/
-mv cmu_us_arctic_slt.htsvoice indic_$LNG\_$GENDER.htsvoice      ##changing the name of htsvoice file in output dir.
-cd ..
-rm -rf ../htsvoice_synthesis/voices/*.htsvoice
-cp ../output/indic_$LNG\_$GENDER.htsvoice ../htsvoice_synthesis/voices
+cp ../output/cmu_us_arctic_slt.htsvoice ../htsvoice_synthesis/voices
 
 cp $FESTDIR/src/main/festival ../htsvoice_synthesis/resources/bin/
 
