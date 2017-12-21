@@ -84,4 +84,4 @@ for name in filelines:
         	wv.write(dst_path,fs,data)
 
 	else:
-		shutil.copy2(fname, "SIL_added_wav_48KHz/")
+		shutil.copy2(name, "SIL_added_wav_48KHz/")
